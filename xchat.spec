@@ -29,6 +29,7 @@ Source0:	http://xchat.org/files/source/2.0/%{name}-%{version}.tar.bz2
 # Source0-md5:	bd987cd3b49cc16e875cfd8cb9b77c29
 #Source1:	%{name}-pl.po
 #Patch0:		%{name}-po.patch
+Patch1:		%{name}-fixperlui.patch
 Icon:		xchat.xpm
 URL:		http://xchat.org/
 BuildRequires:	autoconf
@@ -125,6 +126,7 @@ X-Chat - ще один IRC кл╕╓нт для X Window System, який використову╓
 %prep
 %setup -q
 #%patch0 -p1
+%patch1 -p1
 
 #cp %{SOURCE1} po/pl.po
 
