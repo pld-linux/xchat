@@ -16,7 +16,7 @@ BuildRequires:	glib-devel >= 1.2.0
 BuildRequires:	imlib-devel
 BuildRoot:	/tmp/%{name}-%{version}-root
 
-%define _prefix	/usr/X11R6
+%define 	_prefix		/usr/X11R6
 
 %description
 X-Chat is yet another IRC client for the X Window System, using the Gtk+
