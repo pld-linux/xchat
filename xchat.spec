@@ -1,23 +1,23 @@
 Summary:	A GTK+ IRC (chat) client
-Summary(cs):	Gtk+ IRC (chat) klient
+Summary(cs):	GTK+ IRC (chat) klient
 Summary(da):	En GTK+ IRC (Tjat) klient
-Summary(de):	Gtk+ IRC-Client
-Summary(es):	Cliente Gtk+ IRC (chat)
+Summary(de):	GTK+ IRC-Client
+Summary(es):	Cliente GTK+ IRC (chat)
 Summary(fr):	Client IRC GTK+ (discussion)
 Summary(id):	Program GTK+ untuk chatting
 Summary(is):	IRC spjallforrit sem notar GTK+
-Summary(it):	Client Gtk+ IRC (chat)
+Summary(it):	Client GTK+ IRC (chat)
 Summary(ja):	GTK+ IRC (╔а╔Ц╔ц╔х) ╔╞╔И╔╓╔╒╔С╔х
 Summary(ko):	GTK+ IRC (ц╓фц) е╛╤Сюл╬Пф╝
 Summary(nb):	En GTK+-basert IRC-klient
-Summary(pl):	Oparty na Gtk+ klient IRC
+Summary(pl):	Oparty na GTK+ klient IRC
 Summary(pt):	Um cliente de IRC (chat) em GTK+
 Summary(pt_BR):	Cliente IRC GNOME
-Summary(ru):	Gtk+ IRC клиент (chat)
+Summary(ru):	GTK+ IRC клиент (chat)
 Summary(sk):	IRC klient zalo╬enЩ na GTK+
 Summary(sl):	Odjemnik v GTK+ za IRC (internetni klepet)
 Summary(sv):	En GTK+-IRC- (chatt-)klient
-Summary(uk):	Gtk+ IRC кл╕╓нт
+Summary(uk):	GTK+ IRC кл╕╓нт
 Summary(zh_CN):	GTK+ IRC (адлЛ) ©м╩╖║ё
 Name:		xchat
 Version:	2.4.0
@@ -46,12 +46,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 X-Chat is yet another IRC client for the X Window System, using the
-Gtk+ toolkit. It is pretty easy to use compared to the other Gtk+ IRC
+GTK+ toolkit. It is pretty easy to use compared to the other GTK+ IRC
 clients and the interface is quite nicely designed.
 
 %description -l cs
-Chat je IRC klient pro X Window System napsanЩ v Gtk+. Je snadno
-ovladatelnЩ a na rozdМl od jinЩch Gtk+ IRC klientЫ je jeho rozhranМ
+Chat je IRC klient pro X Window System napsanЩ v GTK+. Je snadno
+ovladatelnЩ a na rozdМl od jinЩch GTK+ IRC klientЫ je jeho rozhranМ
 velmi pЛknЛ navr╬enИ.
 
 %description -l da
@@ -65,13 +65,13 @@ gestaltet.
 
 %description -l es
 X-chat es otro cliente de IRC para X Window, que utiliza el toolkit
-Gtk+. Es sencillo de usar frente a otros clientes de hechos con Gtk+
+GTK+. Es sencillo de usar frente a otros clientes de hechos con GTK+
 y la interfaz esta bien diseЯada.
 
 %description -l fr
 X-Chat est encore un autre client IRC pour le SystХme X Window,
-utilisant le toolkit Gtk+. Il est plutot facile Ю utiliser comparИ aux
-autres clients IRC Gtk+ et son interface est assez bien conГue.
+utilisant le toolkit GTK+. Il est plutot facile Ю utiliser comparИ aux
+autres clients IRC GTK+ et son interface est assez bien conГue.
 
 %description -l id
 X-Chat adalah IRC client lain untuk X Window System dan GTK+.
@@ -84,7 +84,7 @@ X-Chat er frekar einfaldur М notkun miПaП viП Жnnur GTK+ IRC
 forrit, og hЖnnun notendaviПmСtsins er frekar smart.
 
 %description -l it
-X-Chat Х un client IRC per X Window, che usa il Toolkit Gtk+.
+X-Chat Х un client IRC per X Window, che usa il Toolkit GTK+.
 х semplice da usare e comprende un'interfaccia molto gradevole.
 
 %description -l ja
@@ -94,8 +94,8 @@ X-Chat ╓о X Window System ╓╙╓Х╓с GTK+ ╓н╓Б╓╕╓р╓х╓д╓н IRC
 
 %description -l pl
 X-Chat jest jeszcze jednym klientem IRC dla X Window System,
-wykorzystuj╠cym bibliotekЙ Gtk+. Jest caЁkiem prosty w u©yciu, w
-porСwnaniu do innych, opartych na Gtk+ klientСw IRC, a jego interfejs
+wykorzystuj╠cym bibliotekЙ GTK+. Jest caЁkiem prosty w u©yciu, w
+porСwnaniu do innych, opartych na GTK+ klientСw IRC, a jego interfejs
 jest dosyФ Ёadnie zaprojektowany.
 
 %description -l pt
@@ -104,13 +104,13 @@ O X-Chat И relativamente simples de usar e tem uma interface gira.
 
 %description -l ru
 X-Chat - еще один IRC клиент для X Window System, использующий
-инструментарий Gtk+. Он довольно легок в использовании в сравнении с
-другими Gtk+ IRC-клиентами и имеет довольно приятно разработанный
+инструментарий GTK+. Он довольно легок в использовании в сравнении с
+другими GTK+ IRC-клиентами и имеет довольно приятно разработанный
 интерфейс.
 
 %description -l sk
 X-Chat je Оal╧М z IRC klientov pre systИm X Window
-pou╬МvajЗci kni╬nicu Gtk+. V porovnanМ s inЩmi na Gtk+
+pou╬МvajЗci kni╬nicu GTK+. V porovnanМ s inЩmi na GTK+
 zalo╬enЩmi IRC klientami je pomerne ╣ahko pou╬ite╣nЩ
 a mА celkom pekne navrhnutИ rozhranie.
 Nain╧talujte xchat, ak potrebujete IRC klienta pre X.
@@ -121,8 +121,8 @@ anvДnda och har ett trevligt grДnssnitt.
 
 %description -l uk
 X-Chat - ще один IRC кл╕╓нт для X Window System, який використову╓
-╕нструментар╕й Gtk+. В╕н досить легкий у використанн╕ пор╕вняно з
-╕ншими Gtk+ IRC-кл╕╓нтами та ма╓ досить при╓мно розроблений ╕нтерфейс.
+╕нструментар╕й GTK+. В╕н досить легкий у використанн╕ пор╕вняно з
+╕ншими GTK+ IRC-кл╕╓нтами та ма╓ досить при╓мно розроблений ╕нтерфейс.
 
 %prep
 %setup -q
