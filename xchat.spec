@@ -21,7 +21,7 @@ Summary(uk):	GTK+ IRC ËÌ¦¤ÎÔ
 Summary(zh_CN):	GTK+ IRC (ÁÄÌì) ¿Í»§¡£
 Name:		xchat
 Version:	2.4.1
-Release:	1
+Release:	2
 Epoch:		1
 License:	GPL v2
 Group:		X11/Applications/Networking
@@ -33,7 +33,7 @@ Patch1:		%{name}-locale_names.patch
 Patch2:		%{name}-long-delimiter.patch
 Patch3:		%{name}-domains.patch
 Icon:		xchat.xpm
-URL:		http://xchat.org/
+URL:		http://www.xchat.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gettext-devel
