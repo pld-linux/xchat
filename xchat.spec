@@ -4,7 +4,7 @@ Summary(fr):	Client IRC Gtk+
 Summary(pl):	Oparty na Gtk+ klient IRC
 Name:		xchat
 Version:	1.5.2
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications/Networking
 Group(pl):	X11/Aplikacje/Sieciowe
@@ -60,7 +60,7 @@ install -d $RPM_BUILD_ROOT%{_datadir}/pixmaps
 
 make install \
 	DESTDIR=$RPM_BUILD_ROOT \
-	utildir=%{_applnkdir}/Networking/IRC
+	utildir=%{_applnkdir}/Network/IRC
 
 gzip -9nf README ChangeLog AUTHORS
 
@@ -73,5 +73,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc {README,ChangeLog,AUTHORS}.gz doc/*html
 %attr(755,root,root) %{_bindir}/*
-%{_applnkdir}/Networking/IRC/xchat.desktop
+%{_applnkdir}/Network/IRC/xchat.desktop
 %{_datadir}/pixmaps/xchat.png
