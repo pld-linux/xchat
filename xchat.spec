@@ -6,7 +6,7 @@ Summary(pl):	Oparty na Gtk+ klient IRC
 Summary(pt_BR):	Cliente IRC Gnome
 Name:		xchat
 Version:	1.8.6
-Release:	1
+Release:	2
 Epoch:		1
 License:	GPL
 Group:		X11/Applications/Networking
@@ -74,7 +74,6 @@ automake -a -c --foreign
 %configure \
 	--enable-perl \
 	--enable-openssl \
-	--enable-ipv6 \
 	--enable-japanese-conv
 
 %{__make} -C po update-po
