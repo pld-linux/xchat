@@ -25,7 +25,7 @@ Release:	1
 Epoch:		1
 License:	GPL
 Group:		X11/Applications/Networking
-Source0:	http://xchat.org/files/source/1.9/%{name}-%{version}.tar.bz2
+Source0:	http://xchat.org/files/source/2.0/%{name}-%{version}.tar.bz2
 #Source1:	%{name}-pl.po
 #Patch0:		%{name}-po.patch
 Icon:		xchat.xpm
