@@ -30,6 +30,7 @@ Source0:	http://xchat.org/files/source/2.4/%{name}-%{version}.tar.bz2
 Source1:	%{name}-pl.po
 Patch0:		%{name}-desktop.patch
 Patch1:		%{name}-locale_names.patch
+Patch2:		%{name}-long-delimiter.patch
 Icon:		xchat.xpm
 URL:		http://xchat.org/
 BuildRequires:	autoconf
@@ -128,6 +129,7 @@ X-Chat - ще один IRC кл╕╓нт для X Window System, який використову╓
 %setup -q
 %patch0 -p1
 %patch1 -p1
+%patch2 -p1
 
 mv -f po/{no,nb}.po
 cp %{SOURCE1} po/pl.po
