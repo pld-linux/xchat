@@ -1,0 +1,60 @@
+diff -urN xchat-1.7.3.org/po/ko.po xchat-1.7.3/po/ko.po
+--- xchat-1.7.3.org/po/ko.po	Mon Apr 30 20:09:46 2001
++++ xchat-1.7.3/po/ko.po	Mon Apr 30 20:11:13 2001
+@@ -5283,7 +5283,7 @@
+ 
+ #: src/fe-gtk/textgui.c:194
+ msgid "There was an error parsing the string"
+-msgstr "¹®¹ý¿¡¡¿À·ù°¡ ÀÖ½À´Ï´Ù"
++msgstr ""
+ 
+ #: src/fe-gtk/textgui.c:202
+ #, c-format
+@@ -5333,14 +5333,6 @@
+ #: src/fe-gtk/urlgrab.c:155
+ msgid "X-Chat: URL Grabber"
+ msgstr "X-Chat: URL Àâ±â"
+-
+-#, fuzzy
+-#~ msgid "Close Channel"
+-#~ msgstr "´ëÈ­¹æ ´Ý±âÅ"
+-
+-#, fuzzy
+-#~ msgid "Panelize"
+-#~ msgstr "ÆÇ³Ú"
+ 
+ #~ msgid "Move tab left"
+ #~ msgstr "¿ÞÂÊÀ¸·Î ÀÌµ¿"
+diff -urN xchat-1.7.3.org/po/sk.po xchat-1.7.3/po/sk.po
+--- xchat-1.7.3.org/po/sk.po	Mon Apr 30 20:09:47 2001
++++ xchat-1.7.3/po/sk.po	Mon Apr 30 20:12:56 2001
+@@ -10,7 +10,7 @@
+ "Last-Translator: Stanislav Visnovsky <visnovsky@nenya.ms.mff.cuni.cz>\n"
+ "Language-Team: Slovak <sk-i18n@rak.isternet.sk>\n"
+ "MIME-Version: 1.0\n"
+-"Content-Type: text/plain; charset=ISO 8859-2\n"
++"Content-Type: text/plain; charset=ISO8859-2\n"
+ "Content-Transfer-Encoding: 8bit\n"
+ "X-Generator: KBabel 0.6\n"
+ 
+diff -urN xchat-1.7.3.org/po/zh_TW.Big5.po xchat-1.7.3/po/zh_TW.Big5.po
+--- xchat-1.7.3.org/po/zh_TW.Big5.po	Mon Apr 30 20:09:47 2001
++++ xchat-1.7.3/po/zh_TW.Big5.po	Mon Apr 30 20:11:53 2001
+@@ -3801,7 +3801,7 @@
+ 
+ #: src/fe-gtk/menu.c:1655
+ msgid "S_cripts & Plugins"
+-msgstr "ÂX¥R¥\\¯à(_C)"
++msgstr "ÂX¥R¥\¯à(_C)"
+ 
+ #: src/fe-gtk/menu.c:1656
+ msgid "Use_r Menu"
+@@ -4909,7 +4909,7 @@
+ 
+ #: src/fe-gtk/settings.c:1562
+ msgid "Resume on Auto Accept"
+-msgstr "¦Û°Ê±µ¦¬ÀÉ®×®É¨Ï¥ÎÄò¶Ç¥\\¯à"
++msgstr "¦Û°Ê±µ¦¬ÀÉ®×®É¨Ï¥ÎÄò¶Ç¥\¯à"
+ 
+ #: src/fe-gtk/settings.c:1566
+ msgid "When Auto-Accepting DCC, try to resume."
