@@ -1,0 +1,10 @@
+--- xchat-1.8.5/configure.in.orig	Mon Nov 26 08:38:17 2001
++++ xchat-1.8.5/configure.in	Mon Nov 26 08:38:29 2001
+@@ -3,6 +3,7 @@
+ AC_INIT(src)
+ AM_CONFIG_HEADER(config.h)
+ AM_INIT_AUTOMAKE(xchat, 1.8.5)
++AM_PROG_AS
+ AC_PROG_CC
+ AC_PROG_RANLIB
+ AC_PROG_CPP
