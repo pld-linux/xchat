@@ -37,8 +37,8 @@ msgstr ""
 "* Uruchamianie klienta IRC z konta root jest g³upie!\n"
 "  Powiniene¶ za³o¿yæ sobie inne konto do tego celu.\n"
 "\n"
-"* Domy¶lny katalog, do którego s± ¶ciagane pliki to\n"
-"  Twój katalog domowy. Powiniene¶ to zmieniæ."
+"* Otrzymane pliki s± domy¶lnie zapisywane\n"
+"  w katalogu domowym. Powiniene¶ to zmieniæ."
 
 #: src/common/cfgfiles.c:653
 msgid "I'm busy"
@@ -46,7 +46,7 @@ msgstr "Jestem zajêty"
 
 #: src/common/cfgfiles.c:654
 msgid "Client Exiting"
-msgstr ""
+msgstr "Roz³±czanie klienta"
 
 #: src/common/dcc.c:53
 msgid "Waiting"
@@ -917,7 +917,7 @@ msgstr "Imiê i nazwisko"
 
 #: src/common/text.c:592
 msgid "Channel Membership/\"is an IRC operator\""
-msgstr ""
+msgstr "Cz³onkowsto kana³u/\"jest operatorem IRC\""
 
 #: src/common/text.c:597
 msgid "Server Information"
@@ -1072,27 +1072,27 @@ msgstr "Wzorzec adresu"
 
 #: src/common/text.c:786
 msgid "Priv Yes/No"
-msgstr ""
+msgstr "Wiad Tak/Nie"
 
 #: src/common/text.c:787
 msgid "Noti Yes/No"
-msgstr ""
+msgstr "Uwagi Tak/Nie"
 
 #: src/common/text.c:788
 msgid "Chan Yes/No"
-msgstr ""
+msgstr "Kana³ Tak/Nie"
 
 #: src/common/text.c:789
 msgid "Ctcp Yes/No"
-msgstr ""
+msgstr "Ctcp Tak/Nie"
 
 #: src/common/text.c:790
 msgid "Invi Yes/No"
-msgstr ""
+msgstr "Zapr Tak/Nie"
 
 #: src/common/text.c:791
 msgid "Unig Yes/No"
-msgstr ""
+msgstr "Odign Tak/Nie"
 
 #: src/common/text.c:800
 msgid "Hostname"
@@ -1564,15 +1564,15 @@ msgstr ""
 
 #: src/common/text.c:1097
 msgid "%C08,02 Hostmask             PRIV NOTI CHAN CTCP INVI UNIG %O"
-msgstr "%C08,02 Wzorzec adresu       PRIV NOTI CHAN CTCP INVI UNIG %0"
+msgstr "%C08,02 Wzorzec adresu       Prywatne Uwagi Kana³ CTCP Zaprosz Nieign%0"
 
 #: src/common/text.c:1098
 msgid " $1 $2  $3  $4  $5  $6  $7"
-msgstr ""
+msgstr " $1     $2  $4 $5    $7"
 
 #: src/common/text.c:1101
 msgid "%C08,02                                                    %O"
-msgstr ""
+msgstr "%C08,02                                                              %O"
 
 #: src/common/text.c:1103
 msgid "%O%C11$1%O added to ignore list."
@@ -1644,7 +1644,7 @@ msgid ""
 "%C8,2 Type  To/From    Status  Size    Pos     File    %O%010%B%"
 "C9--------------------------------------------------%O"
 msgstr ""
-"%C8,2 Rodzaj Od/do     Stan    Rozmiar Ile     Plik    %O%010%B%"
+"%C8,2 Typ    Od/do     Stan    Rozmiar Ile     Plik    %O%010%B%"
 "C9--------------------------------------------------%O"
 
 #. XP_IF_SEND
@@ -2743,7 +2743,7 @@ msgstr ""
 #: src/fe-gtk/about.c:132 src/fe-gtk/ignoregui.c:432 src/fe-gtk/palette.c:327
 #: src/fe-gtk/serverlist.c:696
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #. gdk_font_unref (style->font);
 #. if (menu_sess && menu_sess->type == SESS_DIALOG)
@@ -3086,12 +3086,17 @@ msgid ""
 "This command scrolls up and down through the list of nicks. If Data 1 is set "
 "to anything it will scroll up, else it scrolls down"
 msgstr ""
+"To polecenie przewija wzd³u¿ listy pseudonimów. Je¶li Dane 1 jest ustawione "
+"powoduje to przewijanie w górê, w przeciwnym wypadku w dó³"
 
 #: src/fe-gtk/fkeys.c:153
 msgid ""
 "This command checks the last work entered in the entry against the replace "
 "list and replaces it if it finds a match"
 msgstr ""
+"To polecenie sprawdza ostatnio wpisany tekst i porównuje jego fragmenty "
+"z list± zast±pieñ. Je¶li znajdzie pasuj±cy ci±g znaków, zamienia go na nowy "
+"z listy"
 
 #: src/fe-gtk/fkeys.c:155
 msgid "This command move the front tab left by one"
@@ -3103,7 +3108,7 @@ msgstr "To polecenie przesuwa zak³adkê w prawo o jedno miejsce"
 
 #: src/fe-gtk/fkeys.c:159
 msgid "Push input line into history but doesn't send to server"
-msgstr ""
+msgstr "Dodaje wpisan± liniê do historii, ale nie wysy³a jej na serwer"
 
 #: src/fe-gtk/fkeys.c:171
 msgid "There was an error loading key bindings configuration"
@@ -3238,7 +3243,7 @@ msgstr "Wzorzec"
 #: src/fe-gtk/ignoregui.c:331 src/fe-gtk/ignoregui.c:371
 #: src/fe-gtk/settings.c:1959
 msgid "CTCP"
-msgstr ""
+msgstr "CTCP"
 
 #: src/fe-gtk/ignoregui.c:331 src/fe-gtk/ignoregui.c:377
 #: src/fe-gtk/maingui.c:1866
@@ -3275,7 +3280,7 @@ msgstr "Statystyka ignorowania:"
 
 #: src/fe-gtk/ignoregui.c:419
 msgid "CTCP:"
-msgstr ""
+msgstr "CTCP:"
 
 #: src/fe-gtk/ignoregui.c:420
 msgid "Private:"
@@ -3323,7 +3328,7 @@ msgstr "Pipaj na wiadomo¶ciach"
 
 #: src/fe-gtk/maingui.c:1502
 msgid "Conf"
-msgstr ""
+msgstr "Konf"
 
 #: src/fe-gtk/maingui.c:1505
 msgid "Conference mode (no join/part msgs)"
@@ -3340,7 +3345,7 @@ msgstr "Wklejanie kolorów"
 
 #: src/fe-gtk/maingui.c:1514
 msgid "Ascii"
-msgstr ""
+msgstr "Ascii"
 
 #: src/fe-gtk/maingui.c:1514
 msgid "Open ASCII Chart"
@@ -3464,8 +3469,8 @@ msgstr ""
 "*OSTRZE¯ENIE*\n"
 "Ustawi³e¶ automatyczne odbieranie plików\n"
 "DCC do swojego katalogu domowego. Kto¶\n"
-"mo¿e to wykorzystaæ i np. wys³aæ Ci\n"
-"plik .bash_profile"
+"mo¿e to wykorzystaæ i np. wys³aæ spreparowany\n"
+"plik .bash_profile, który mo¿e narobiæ wiele z³ego."
 
 #: src/fe-gtk/menu.c:955
 msgid "Settings saved."
@@ -3497,7 +3502,7 @@ msgstr "X-Chat: Zast±p"
 
 #: src/fe-gtk/menu.c:1177
 msgid "X-Chat: User menu"
-msgstr "X-Chat: Polecenia u¿ytkownika"
+msgstr "X-Chat: Menu u¿ytkownika"
 
 #: src/fe-gtk/menu.c:1184
 msgid "X-Chat: URL Handlers"
@@ -4320,7 +4325,7 @@ msgstr "Lista u¿ytkowników sortowana wed³ug:"
 
 #: src/fe-gtk/settings.c:1092
 msgid "Input Box"
-msgstr "Pole wprowadzania"
+msgstr "Wprowadzanie"
 
 #: src/fe-gtk/settings.c:1096
 msgid "Nick Name Completion"
@@ -4336,7 +4341,8 @@ msgstr "Uzupe³nianie pseudonimów wed³ug starych zasad"
 
 #: src/fe-gtk/settings.c:1105
 msgid "Nickname completion is old-style (instead of GNU-style)"
-msgstr "Uzupe³nianie pseudonimów wed³ug starej metody (zamiast wed³ug stylu GNU)"
+msgstr "Uzupe³nianie pseudonimów wed³ug starej metody (zamiast wed³ug stylu "
+"GNU)"
 
 #: src/fe-gtk/settings.c:1107
 msgid "Give the Input Box style"
@@ -4368,7 +4374,7 @@ msgstr "Znak dodawany do uzupe³nianych pseudonimów"
 
 #: src/fe-gtk/settings.c:1129
 msgid "Output Box"
-msgstr "Wygl±d okien"
+msgstr "Wy¶wietlanie"
 
 #: src/fe-gtk/settings.c:1131
 msgid "Strip MIRC Color"
@@ -5036,7 +5042,7 @@ msgstr "Ustawienia wprowadzani i wy¶wietlania"
 
 #: src/fe-gtk/settings.c:1885
 msgid "IRC Input/Output"
-msgstr ""
+msgstr "Wy¶wietlanie/wprowadzanie"
 
 #: src/fe-gtk/settings.c:1889
 msgid "Window Layout Settings"
