@@ -81,7 +81,7 @@ cp %{SOURCE1} po/pl.po
 rm -f config.status missing
 gettextize --copy --force
 aclocal
-autoconf
+%{__autoconf}
 automake -a -c --foreign
 %configure \
 	--enable-perl \
