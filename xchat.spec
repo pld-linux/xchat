@@ -9,10 +9,10 @@ Summary(is):	IRC spjallforrit sem notar GTK+
 Summary(it):	Client Gtk+ IRC (chat)
 Summary(ja):	GTK+ IRC (¥Á¥ã¥Ã¥È) ¥¯¥é¥¤¥¢¥ó¥È
 Summary(ko):	GTK+ IRC (Ã¤ÆÃ) Å¬¶óÀÌ¾ðÆ®
-Summary(no):	En GTK+-basert IRC-klient
+Summary(nb):	En GTK+-basert IRC-klient
 Summary(pl):	Oparty na Gtk+ klient IRC
 Summary(pt):	Um cliente de IRC (chat) em GTK+
-Summary(pt_BR):	Cliente IRC Gnome
+Summary(pt_BR):	Cliente IRC GNOME
 Summary(ru):	Gtk+ IRC ËÌÉÅÎÔ (chat)
 Summary(sk):	IRC klient zalo¾ený na GTK+
 Summary(sl):	Odjemnik v GTK+ za IRC (internetni klepet)
@@ -20,30 +20,29 @@ Summary(sv):	En GTK+-IRC- (chatt-)klient
 Summary(uk):	Gtk+ IRC ËÌ¦¤ÎÔ
 Summary(zh_CN):	GTK+ IRC (ÁÄÌì) ¿Í»§¡£
 Name:		xchat
-Version:	1.9.2
-Release:	2
+Version:	2.1.0
+Release:	1
 Epoch:		1
-License:	GPL
+License:	GPL v2
 Group:		X11/Applications/Networking
-Source0:	http://xchat.org/files/source/1.9/%{name}-%{version}.tar.bz2
+Source0:	http://xchat.org/files/source/2.1/%{name}-%{version}.tar.bz2
+# Source0-md5:	3af79df1c1b95a7ee143fcbe938b7bda
 Source1:	%{name}-pl.po
-Patch0:		%{name}-ac.patch
-Patch1:		%{name}-UTF8_desktop.patch
-Patch2:		%{name}-zh.patch
+Patch0:		%{name}-desktop.patch
+Patch1:		%{name}-locale_names.patch
 Icon:		xchat.xpm
 URL:		http://xchat.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gettext-devel
-BuildRequires:	gtk+-devel >= 1.2.5
-BuildRequires:	gdk-pixbuf-devel
-BuildRequires:	openssl-devel >= 0.9.6a
+BuildRequires:	glib2-devel >= 2.0.3
+BuildRequires:	gtk+2-devel >= 2.0.3
+BuildRequires:	libtool
+BuildRequires:	openssl-devel >= 0.9.7d
 BuildRequires:	perl-devel
+BuildRequires:	pkgconfig
 BuildRequires:	python-devel >= 2.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
-%define 	_prefix		/usr/X11R6
-%define		_mandir		%{_prefix}/man
 
 %description
 X-Chat is yet another IRC client for the X Window System, using the
@@ -129,19 +128,20 @@ X-Chat - ÝÅ ÏÄÉÎ IRC ËÌ¦¤ÎÔ ÄÌÑ X Window System, ÑËÉÊ ×ÉËÏÒÉÓÔÏ×Õ¤
 %setup -q
 %patch0 -p1
 %patch1 -p1
-%patch2 -p1
 
+mv -f po/{no,nb}.po
 cp %{SOURCE1} po/pl.po
-rm -f po/zh_TW.Big5.gmo
-mv -f po/zh_TW.Big5.po po/zh_TW.po
 
 %build
 rm -f config.status missing
+%{__libtoolize}
 %{__gettextize}
-aclocal
+%{__aclocal} -I m4
 %{__autoconf}
-automake -a -c --foreign
+%{__automake}
 %configure \
+	--enable-gnome \
+	--enable-panel \
 	--enable-perl \
 	--enable-openssl \
 	--enable-japanese-conv \
@@ -156,9 +156,12 @@ install -d $RPM_BUILD_ROOT%{_pixmapsdir}
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT \
-	utildir=%{_applnkdir}/Network/Communications
+	utildir=%{_desktopdir}
 
-install xchat.desktop $RPM_BUILD_ROOT%{_applnkdir}/Network/Communications
+mv -f %{name}.desktop %{name}.desktop.orig
+sed -e 's/Network;/Network;InstantMessaging;/' %{name}.desktop.orig > %{name}.desktop
+
+install xchat.desktop $RPM_BUILD_ROOT%{_desktopdir}
 install xchat.png $RPM_BUILD_ROOT%{_pixmapsdir}
 
 %find_lang %{name}
@@ -168,7 +171,10 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f %{name}.lang
 %defattr(644,root,root,755)
-%doc README ChangeLog AUTHORS doc/*html
+%doc ChangeLog faq.html HACKING README
 %attr(755,root,root) %{_bindir}/*
-%{_applnkdir}/Network/Communications/xchat.desktop
-%{_pixmapsdir}/xchat.png
+%dir %{_libdir}/xchat
+%dir %{_libdir}/xchat/plugins
+%attr(755,root,root) %{_libdir}/xchat/plugins/*
+%{_desktopdir}/%{name}.desktop
+%{_pixmapsdir}/%{name}.png
