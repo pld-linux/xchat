@@ -145,7 +145,7 @@ rm -f config.status missing
 %{__gettextize}
 %{__aclocal}
 %{__autoconf}
-%{__automamke}
+%{__automake}
 %configure \
 	--enable-gnome \
 	--enable-panel \
