@@ -1,10 +1,12 @@
 Summary:	Gtk+ IRC client
 Summary(de):	Gtk+ IRC-Client
+Summary(es):	Cliente IRC Gnome
 Summary(fr):	Client IRC Gtk+
 Summary(pl):	Oparty na Gtk+ klient IRC
+Summary(pt_BR):	Cliente IRC Gnome
 Name:		xchat
-Version:	1.8.4
-Release:	2
+Version:	1.8.5
+Release:	1
 Epoch:		1
 License:	GPL
 Group:		X11/Applications/Networking
@@ -37,6 +39,9 @@ clients and the interface is quite nicely designed.
 %description -l de
 X-Chat ist ein IRC-Client für X-Windows, der Gtk+ benutzt.
 
+%description -l es
+Cliente IRC Gnome.
+
 %description -l fr
 X-Chat est encore un autre client IRC pour le Système X Window,
 utilisant le toolkit Gtk+. Il est plutot facile à utiliser comparé aux
@@ -47,6 +52,9 @@ X-Chat jest jeszcze jednym klientem IRC dla X Window System,
 wykorzystuj±cym bibliotekê Gtk+. Jest ca³kiem prosty w u¿yciu, w
 porównaniu do innych, opartych na Gtk+ klientów IRC, a jego interfejs
 jest dosyæ ³adnie zaprojektowany.
+
+%description -l pt_BR
+Cliente IRC Gnome.
 
 %prep
 %setup -q
