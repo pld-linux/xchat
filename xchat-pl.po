@@ -1499,7 +1499,7 @@ msgstr "-%C10-%C11-%O$tOferowanie $1 rozmowy DCC"
 
 #: src/common/text.c:1058
 msgid "-%C10-%C11-%O$tReceived a DCC CHAT offer from $1"
-msgstr "-%C10-%C11-%O$Otrzymano ofertê rozmowy DCC od $1"
+msgstr "-%C10-%C11-%O$tOtrzymano ofertê rozmowy DCC od $1"
 
 #: src/common/text.c:1060
 msgid "-%C10-%C11-%O$t%C11$1 %Chas requested to resume %C11$2 %Cfrom %C11$3%C."
@@ -5162,7 +5162,7 @@ msgstr "Ustawienia przesy³ania plików"
 
 #: src/fe-gtk/settings.c:1969
 msgid "File Transfer"
-msgstr "Przesy³ania plików"
+msgstr "Przesy³anie plików"
 
 #: src/fe-gtk/textgui.c:179
 msgid "There was an error parsing the string"
