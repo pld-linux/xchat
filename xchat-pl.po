@@ -633,15 +633,15 @@ msgstr "Zarejestrowane skrypty:\n"
 
 #: src/common/perl.c:210
 msgid "Inbound Handlers:\n"
-msgstr ""
+msgstr "Przetwarzanie wej¶cia:\n"
 
 #: src/common/perl.c:219
 msgid "Command Handlers:\n"
-msgstr ""
+msgstr "Przetwarzanie poleceñ:\n"
 
 #: src/common/perl.c:228
 msgid "Print Handlers:\n"
-msgstr ""
+msgstr "Przetwarzanie wy¶wietlania:\n"
 
 #: src/common/text.c:196
 #, c-format
@@ -1140,23 +1140,23 @@ msgstr "-%C10-%C11>%O$t%B$1%B %C14(%C10$3%C14)%C wszed³ na kana³ $2"
 
 #: src/common/text.c:876
 msgid "%C13*%O$t$1 $2%O"
-msgstr ""
+msgstr "%C13*%O$t$1 $2%O"
 
 #: src/common/text.c:877
 msgid "%C13*%O$t%C8%B$1%B%O $2%O"
-msgstr ""
+msgstr "%C13*%O$t%C8%B$1%B%O $2%O"
 
 #: src/common/text.c:878 src/common/text.c:906
 msgid "%C2<%O$1%C2>%O$t$2%O"
-msgstr ""
+msgstr "%C2<%O$1%C2>%O$t$2%O"
 
 #: src/common/text.c:879
 msgid "%C2<%C8%B$1%B%C2>%O$t$2%O"
-msgstr ""
+msgstr "%C2<%C8%B$1%B%C2>%O$t$2%O"
 
 #: src/common/text.c:880
 msgid "%C12*%C13$1%C12*$t%O$2%O"
-msgstr ""
+msgstr "%C12*%C13$1%C12*$t%O$2%O"
 
 #: src/common/text.c:882
 msgid "-%C10-%C11-%O$t$1 is now known as $2"
@@ -1184,7 +1184,8 @@ msgstr "-%C10-%C11-%O$tKana³ $1 stworzony $2"
 
 #: src/common/text.c:894
 msgid "-%C10-%C11-%O$tTopic for %C11$1%C set by %C11$2%C at %C11$3%O"
-msgstr "%C10-%C11-%O$tTemat dla kana³u %C11$1%C ustawiony %C11$3%C przez %C11$2%O"
+msgstr "%C10-%C11-%O$tTemat dla kana³u %C11$1%C ustawiony %C11$3%C przez "
+"%C11$2%O"
 
 #: src/common/text.c:895
 msgid "<%C10-%C11-%O$t$1 has quit %C14(%O$2%O%C14)%O"
@@ -1196,7 +1197,7 @@ msgstr "-%C10-%C11-%O$tCzas odpowiedz od $1 : $2 sekund"
 
 #: src/common/text.c:899
 msgid "%C12-%C13$1%C12-%O$t$2%O"
-msgstr ""
+msgstr "%C12-%C13$1%C12-%O$t$2%O"
 
 #: src/common/text.c:902
 msgid "-%C10-%C11>%O$t%BYou%B are now talking on %C11$2%O"
@@ -1204,7 +1205,7 @@ msgstr "-%C10-%C11>%O$tRozmawiasz w³a¶nie na kanale %C11$2%O"
 
 #: src/common/text.c:903
 msgid "%C6<%O$1%C6>%O$t$2%O"
-msgstr ""
+msgstr "%C6<%O$1%C6>%O$t$2%O"
 
 #: src/common/text.c:908
 msgid "-%C10-%C11-%O$tYou are now known as $2"
@@ -1300,15 +1301,15 @@ msgstr "-%C10-%C11-%C$t$1 ustawi³ tryb $2$3 $4"
 
 #: src/common/text.c:955
 msgid "-%C10-%C11-%O$t%C12[%O$1%C12] %C14(%O$2@$3%C14) %O: $4%O"
-msgstr ""
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12] %C14(%O$2@$3%C14) %O: $4%O"
 
 #: src/common/text.c:957
 msgid "-%C10-%C11-%O$t%C12[%O$1%C12]%C $2"
-msgstr ""
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12]%C $2"
 
 #: src/common/text.c:959
 msgid "-%C10-%C11-%O$t%C12[%O$1%C12]%O $2"
-msgstr ""
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12]%O $2"
 
 #: src/common/text.c:961
 msgid "-%C10-%C11-%O$t%C12[%O$1%C12]%O idle %C11$2%O"
@@ -1352,7 +1353,7 @@ msgstr "-%C10-%C11-%0$tWiadomo¶æ dnia pominiêta."
 #: src/common/text.c:980 src/common/text.c:1080 src/common/text.c:1082
 #: src/common/text.c:1126
 msgid "-%C10-%C11-%O$t$1%O"
-msgstr ""
+msgstr "-%C10-%C11-%O$t$1%O"
 
 #: src/common/text.c:983
 msgid "-%C10-%C11-%O$tYou have been invited to %C11$1%C by %C11$2%C (%C11$3%C)"
@@ -1421,11 +1422,13 @@ msgstr "-%C10-%C11-%O$tZosta³e¶ usuniêty z serwera przez $1 ($2%O)"
 
 #: src/common/text.c:1018
 msgid "-%C10-%C11-%O$tDCC $1 %C11$2 %Cto %C11$3 %Cstalled - aborting."
-msgstr ""
+msgstr "-%C10-%C11-%O$tPo³±czenie DCC $1 %C11$2 %Cdo %C11$3 %Cnie odpowiada "
+"- anulowanie"
 
 #: src/common/text.c:1021
 msgid "-%C10-%C11-%O$tDCC $1 %C11$2 %Cto %C11$3 %Ctimed out - aborting."
-msgstr ""
+msgstr "-%C10-%C11-%O$tUp³yn±³ limit czasu dla po³±czenia DCC $1 %C11$2 %C"
+"do %C11$3 %C- anulowanie."
 
 #: src/common/text.c:1024
 msgid ""
@@ -1500,7 +1503,8 @@ msgstr "-%C10-%C11-%O$Otrzymano ofertê rozmowy DCC od $1"
 
 #: src/common/text.c:1060
 msgid "-%C10-%C11-%O$t%C11$1 %Chas requested to resume %C11$2 %Cfrom %C11$3%C."
-msgstr ""
+msgstr "-%C10-%C11-%O$t%C11$1 %Czg³osi³ ¿±danie wzniowienia %C11$2 %Cod "
+"%C11$3%C."
 
 #: src/common/text.c:1063
 msgid "-%C10-%C11-%O$t%C11$1 %Chas offered %C11$2 %C(%C11$3 %Cbytes)"
@@ -1552,15 +1556,15 @@ msgstr ""
 
 #: src/common/text.c:1089
 msgid "%C3>%O$1%C3<%O$tCTCP $2%O"
-msgstr ""
+msgstr "%C3>%O$1%C3<%O$tCTCP $2%O"
 
 #: src/common/text.c:1090 src/common/text.c:1091
 msgid "%C3>%O$1%C3<%O$t$2%O"
-msgstr ""
+msgstr "%C3>%O$1%C3<%O$t$2%O"
 
 #: src/common/text.c:1094
 msgid "%C12-%C13$1/Wallops%C12-%O$t$2%O"
-msgstr ""
+msgstr "%C12-%C13$1/Wiadomo¶æ dla operatorów%C12-%O$t$2%O"
 
 #: src/common/text.c:1097
 msgid "%C08,02 Hostmask             PRIV NOTI CHAN CTCP INVI UNIG %O"
@@ -1651,7 +1655,7 @@ msgstr ""
 #. XP_IF_RECV
 #: src/common/text.c:1138
 msgid "%C12-%C13$1/$2%C12-%O$t$3%O"
-msgstr ""
+msgstr "%C12-%C13$1/$2%C12-%O$t$3%O"
 
 #: src/common/text.c:1184
 #, c-format
@@ -1708,11 +1712,11 @@ msgstr ""
 
 #: src/common/util.c:695
 msgid "Albania"
-msgstr ""
+msgstr "Albania"
 
 #: src/common/util.c:696
 msgid "Armenia"
-msgstr ""
+msgstr "Armenia"
 
 #: src/common/util.c:697
 msgid "Netherlands Antilles"
@@ -1736,11 +1740,11 @@ msgstr ""
 
 #: src/common/util.c:702
 msgid "Austria"
-msgstr ""
+msgstr "Austria"
 
 #: src/common/util.c:703
 msgid "Australia"
-msgstr ""
+msgstr "Australia"
 
 #: src/common/util.c:704
 msgid "Aruba"
@@ -1796,7 +1800,7 @@ msgstr ""
 
 #: src/common/util.c:717
 msgid "Bolivia"
-msgstr ""
+msgstr "Boliwia"
 
 #: src/common/util.c:718
 msgid "Brazil"
@@ -1836,7 +1840,7 @@ msgstr ""
 
 #: src/common/util.c:727
 msgid "Central African Republic"
-msgstr ""
+msgstr "Republika ¦rodkowej Afryki"
 
 #: src/common/util.c:728
 msgid "Congo"
@@ -1928,7 +1932,7 @@ msgstr "Ekwador"
 
 #: src/common/util.c:750
 msgid "Estonia"
-msgstr ""
+msgstr "Estonia"
 
 #: src/common/util.c:751
 msgid "Egypt"
@@ -1940,7 +1944,7 @@ msgstr "Zachodnia Sahara"
 
 #: src/common/util.c:753
 msgid "Eritrea"
-msgstr ""
+msgstr "Erytrea"
 
 #: src/common/util.c:754
 msgid "Spain"
@@ -1988,7 +1992,7 @@ msgstr "Wielka Brytania"
 
 #: src/common/util.c:765
 msgid "Grenada"
-msgstr ""
+msgstr "Grenada"
 
 #: src/common/util.c:766
 msgid "Georgia"
@@ -2008,7 +2012,7 @@ msgstr ""
 
 #: src/common/util.c:770
 msgid "Gibraltar"
-msgstr ""
+msgstr "Gibraltar"
 
 #: src/common/util.c:771
 msgid "Greenland"
@@ -2064,7 +2068,7 @@ msgstr ""
 
 #: src/common/util.c:784
 msgid "Honduras"
-msgstr ""
+msgstr "Honduras"
 
 #: src/common/util.c:785
 msgid "Croatia"
@@ -2072,7 +2076,7 @@ msgstr "Chorwacja"
 
 #: src/common/util.c:786
 msgid "Haiti"
-msgstr ""
+msgstr "Haiti"
 
 #: src/common/util.c:787
 msgid "Hungary"
@@ -2096,7 +2100,7 @@ msgstr "Indie"
 
 #: src/common/util.c:792
 msgid "British Indian Ocean Territory"
-msgstr ""
+msgstr "Brytyjskie Terytorium Oceanu Indyjskiego"
 
 #: src/common/util.c:793
 msgid "Iraq"
@@ -2104,7 +2108,7 @@ msgstr "Irak"
 
 #: src/common/util.c:794
 msgid "Iran"
-msgstr ""
+msgstr "Iran"
 
 #: src/common/util.c:795
 msgid "Iceland"
@@ -2248,7 +2252,7 @@ msgstr ""
 
 #: src/common/util.c:830
 msgid "Mongolia"
-msgstr ""
+msgstr "Mongolia"
 
 #: src/common/util.c:831
 msgid "Macau"
@@ -2272,11 +2276,11 @@ msgstr ""
 
 #: src/common/util.c:836
 msgid "Malta"
-msgstr ""
+msgstr "Malta"
 
 #: src/common/util.c:837
 msgid "Mauritius"
-msgstr ""
+msgstr "Mauritus"
 
 #: src/common/util.c:838
 msgid "Maldives"
@@ -2312,11 +2316,11 @@ msgstr ""
 
 #: src/common/util.c:846
 msgid "Norfolk Island"
-msgstr ""
+msgstr "Wyspa Norfolk"
 
 #: src/common/util.c:847
 msgid "Nigeria"
-msgstr ""
+msgstr "Nigeria"
 
 #: src/common/util.c:848
 msgid "Nicaragua"
@@ -2360,7 +2364,7 @@ msgstr ""
 
 #: src/common/util.c:858
 msgid "Peru"
-msgstr ""
+msgstr "Peru"
 
 #: src/common/util.c:859
 msgid "French Polynesia"
@@ -2432,7 +2436,7 @@ msgstr "Arabia Saudyjska"
 
 #: src/common/util.c:876
 msgid "Solomon Islands"
-msgstr ""
+msgstr "Wyspy Salomona"
 
 #: src/common/util.c:877
 msgid "Seychelles"
@@ -2440,7 +2444,7 @@ msgstr "Seszele"
 
 #: src/common/util.c:878
 msgid "Sudan"
-msgstr ""
+msgstr "Sudan"
 
 #: src/common/util.c:879
 msgid "Sweden"
@@ -2452,7 +2456,7 @@ msgstr "Singapur"
 
 #: src/common/util.c:881
 msgid "St. Helena"
-msgstr ""
+msgstr "¦w. Helena"
 
 #: src/common/util.c:882
 msgid "Slovenia"
@@ -2468,19 +2472,19 @@ msgstr "Republika S³owacka"
 
 #: src/common/util.c:885
 msgid "Sierra Leone"
-msgstr ""
+msgstr "Sierra Leone"
 
 #: src/common/util.c:886
 msgid "San Marino"
-msgstr ""
+msgstr "San Marino"
 
 #: src/common/util.c:887
 msgid "Senegal"
-msgstr ""
+msgstr "Senegal"
 
 #: src/common/util.c:888
 msgid "Somalia"
-msgstr ""
+msgstr "Somalia"
 
 #: src/common/util.c:889
 msgid "Suriname"
@@ -2500,7 +2504,7 @@ msgstr ""
 
 #: src/common/util.c:893
 msgid "Syria"
-msgstr ""
+msgstr "Syria"
 
 #: src/common/util.c:894
 msgid "Swaziland"
@@ -2548,7 +2552,7 @@ msgstr ""
 
 #: src/common/util.c:905
 msgid "East Timor"
-msgstr ""
+msgstr "Timor Wschodni"
 
 #: src/common/util.c:906
 msgid "Turkey"
@@ -2568,7 +2572,7 @@ msgstr "Tajwan"
 
 #: src/common/util.c:910
 msgid "Tanzania"
-msgstr ""
+msgstr "Tanzania"
 
 #: src/common/util.c:911
 msgid "Ukraine"
@@ -2576,7 +2580,7 @@ msgstr "Ukraina"
 
 #: src/common/util.c:912
 msgid "Uganda"
-msgstr ""
+msgstr "Uganda"
 
 #: src/common/util.c:913
 msgid "United Kingdom"
@@ -2596,7 +2600,7 @@ msgstr "Urugwaj"
 
 #: src/common/util.c:917
 msgid "Uzbekistan"
-msgstr ""
+msgstr "Uzbekistan"
 
 #: src/common/util.c:918
 msgid "Vatican City State"
@@ -2692,7 +2696,7 @@ msgstr ""
 
 #: src/common/util.c:941
 msgid "Old School ARPAnet"
-msgstr ""
+msgstr "Stary ARPAnet"
 
 #: src/common/util.c:942
 msgid "Nato Fiel"
@@ -4590,7 +4594,7 @@ msgstr "Wysoko¶æ:"
 
 #: src/fe-gtk/settings.c:1308
 msgid "Show Session Tree View"
-msgstr ""
+msgstr "Poka¿ podgl±d drzewiasty sesji"
 
 #: src/fe-gtk/settings.c:1366 src/fe-gtk/settings.c:1389
 #: src/fe-gtk/settings.c:1501 src/fe-gtk/settings.c:1522
@@ -5171,7 +5175,7 @@ msgstr ""
 
 #: src/fe-gtk/textgui.c:307 src/fe-gtk/textgui.c:330
 msgid "Print Texts File"
-msgstr ""
+msgstr "Wy¶wietl plik tekstowy"
 
 #: src/fe-gtk/textgui.c:386
 msgid "Event"
@@ -5179,7 +5183,7 @@ msgstr "Zdarzenie"
 
 #: src/fe-gtk/textgui.c:387
 msgid "$ Number"
-msgstr ""
+msgstr "$ Numer"
 
 #: src/fe-gtk/textgui.c:395
 msgid "Edit Events"
