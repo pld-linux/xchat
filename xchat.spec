@@ -16,7 +16,7 @@ BuildPrereq:	glib-devel >= 1.2.0
 BuildPrereq:	imlib-devel
 Buildroot:	/var/tmp/%{name}-%{version}-root
 
-%define _prefix		/usr/X11R6
+%define _prefix	/usr/X11R6
 
 %description
 X-Chat is yet another IRC client for the X Window
@@ -58,17 +58,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/pixmaps/%{name}.png
 
 %changelog
-* Sat May 13 1999 Piotr Czerwiñski <pius@pld.org.pl>
+* Thu May 20 1999 Piotr Czerwiñski <pius@pld.org.pl> 
   [0.9.4-4]
-- modified spec file for PLD use,
-- recompiled on rpm 3,
-- package is FHS 2.0 compliant.
-
-* Sun Mar 28 1999 Michael Fulbright <drmike@redhat.com>
-- version 0.9.4
-
-* Thu Mar 18 1999 Michael Fulbright <drmike@redhat.com>
-- version 0.9.3
-
-* Mon Mar 8 1999 Michael Fulbright <drmike@redhat.com>
-- version 0.9.2
+- package is FHS 2.0 compliant,
+- spec file based on RH version, rewritten for PLD use.
