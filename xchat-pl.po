@@ -1,6 +1,6 @@
 # Polskie t³umaczenie programu xchat
-# Copyright (C) 2001 Free Software Foundation, Inc.
-# Micha³ Margula <alchemyx@pld.org.pl>, 2001.
+# Copyright (C) 2002 Free Software Foundation, Inc.
+# Micha³ Margula <alchemyx@pld.org.pl>, 2002.
 #
 msgid ""
 msgstr ""
@@ -1128,7 +1128,7 @@ msgstr "Pseudonim osoby zaproszonej"
 
 #: src/common/text.c:824
 msgid "Banmask"
-msgstr "Maska bana"
+msgstr "Wzorzec bana"
 
 #: src/common/text.c:825
 msgid "Who set the ban"
@@ -1136,11 +1136,11 @@ msgstr "Kto ustawi³ bana"
 
 #: src/common/text.c:826
 msgid "Ban time"
-msgstr ""
+msgstr "Czas bana"
 
 #: src/common/text.c:830
 msgid "Error"
-msgstr ""
+msgstr "B³±d"
 
 #: src/common/text.c:875
 msgid "-%C10-%C11>%O$t%B$1%B %C14(%C10$3%C14)%C has joined $2"
@@ -1188,12 +1188,11 @@ msgstr "<%C10-%C11-%O$t$1 %C14(%O$2%C14)%C opu¶ci³ kana³ $3"
 
 #: src/common/text.c:892
 msgid "-%C10-%C11-%O$tChannel $1 created on $2"
-msgstr ""
+msgstr "-%C10-%C11-%O$tKana³ $1 stworzony $2"
 
 #: src/common/text.c:894
 msgid "-%C10-%C11-%O$tTopic for %C11$1%C set by %C11$2%C at %C11$3%O"
-msgstr ""
-"-%C10-%C11-%O$tTemat dla kana³u %C11$1%C ustawiony %C11$3%C przez %C11$2%O"
+msgstr "%C10-%C11-%O$tTemat dla kana³u %C11$1%C ustawiony %C11$3%C przez %C11$2%O"
 
 #: src/common/text.c:895
 msgid "<%C10-%C11-%O$t$1 has quit %C14(%O$2%O%C14)%O"
@@ -1217,7 +1216,7 @@ msgstr ""
 
 #: src/common/text.c:908
 msgid "-%C10-%C11-%O$tYou are now known as $2"
-msgstr "-%C10-%C11-%O$tZmieni³e¶ swój pseudonim na $2"
+msgstr "-%C10-%C11-%O$tTeraz Twój pseudonim to $2"
 
 #: src/common/text.c:910
 msgid "-%C10-%C11-%O$tYou have been kicked from $2 by $3 ($4%O)"
@@ -1249,15 +1248,15 @@ msgstr "-%C10-%C11-%C$t$1 ustawi³ limit kana³u na $2"
 
 #: src/common/text.c:924
 msgid "-%C10-%C11-%O$t$1 gives channel half-operator status to $2"
-msgstr "-%C10-%C11-%O$t$1 nada³ status pó³operatora dla $2"
+msgstr "-%C10-%C11-%O$t$1 udzieli³ statusu pó³operatora dla $2"
 
 #: src/common/text.c:926
 msgid "-%C10-%C11-%O$t$1 gives channel operator status to $2"
-msgstr "-%C10-%C11-%O$t$1 ustawi³ status operatora kana³u dla $2"
+msgstr "-%C10-%C11-%O$t$1 udzieli³ status operatora kana³u dla $2"
 
 #: src/common/text.c:928
 msgid "-%C10-%C11-%O$t$1 gives voice to $2"
-msgstr "-%C10-%C11-%O$t$1 udziela g³osu $2"
+msgstr "-%C10-%C11-%O$t$1 udziela prawa g³osu $2"
 
 #: src/common/text.c:929
 msgid "-%C10-%C11-%O$t$1 sets ban on $2"
@@ -1273,15 +1272,15 @@ msgstr "-%C10-%C11-%O$t$1 usun±³ limit kana³u"
 
 #: src/common/text.c:936
 msgid "-%C10-%C11-%O$t$1 removes channel half-operator status from $2"
-msgstr "-%C10-%C11-%O$t$1 usun±³ status pó³operatora z $2"
+msgstr "-%C10-%C11-%O$t$1 odebra³ $2 status pó³operatora"
 
 #: src/common/text.c:939
 msgid "-%C10-%C11-%O$t$1 removes channel operator status from $2"
-msgstr "-%C10-%C11-%O$t$1 usun±³ status operator z $2"
+msgstr "-%C10-%C11-%O$t$1 odebra³ $2 status operatora"
 
 #: src/common/text.c:941
 msgid "-%C10-%C11-%O$t$1 removes voice from $2"
-msgstr "-%C10-%C11-%O$t$1 usun±³ prawo g³osu z $2"
+msgstr "-%C10-%C11-%O$t$1 odebra³ $2 prawo g³osu"
 
 #: src/common/text.c:943
 msgid "-%C10-%C11-%O$t$1 removes ban on $2"
@@ -1293,7 +1292,7 @@ msgstr "-%C10-%C11-%O$t$1 ustawi³ wyj±tek od banów dla $2"
 
 #: src/common/text.c:947
 msgid "-%C10-%C11-%O$t$1 removes exempt on $2"
-msgstr "-%C10-%C11-%O$t$1 usun±³ wyj±tek od banó³ dla $2"
+msgstr "-%C10-%C11-%O$t$1 usun±³ wyj±tek od banów dla $2"
 
 #: src/common/text.c:949
 msgid "-%C10-%C11-%O$t$1 sets invite on $2"
@@ -1325,8 +1324,7 @@ msgstr "-%C10-%C11-%O$t%C12[%O$1%C12]%O nieaktywny %C11$2%O"
 
 #: src/common/text.c:963
 msgid "-%C10-%C11-%O$t%C12[%O$1%C12]%O idle %C11$2%O, signon: %C11$3%O"
-msgstr ""
-"-%C10-%C11-%O$t%C12[%O$1%C12]%O nieaktywny %C11$2%O, po³±czony od: %C11$3%O"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12]%O nieaktywny %C11$2%O, po³±czony od: %C11$3%O"
 
 #: src/common/text.c:966
 msgid "-%C10-%C11-%O$t%C12[%O$1%C12] %Cis away %C14(%O$2%O%C14)"
@@ -1338,8 +1336,7 @@ msgstr "-%C10-%C11-%O$t%C12[%O$1%C12] %CKoniec informacji o u¿ytkowniku."
 
 #: src/common/text.c:970
 msgid "-%C10-%C11-%O$tCannot join%C11 %B$1 %O(User limit reached)."
-msgstr ""
-"-%C10-%C11-%O$tNie mo¿na wej¶æ na kana³%C11 %B$1 %O(Osi±gniêty limit osób)."
+msgstr "-%C10-%C11-%O$tNie mo¿na wej¶æ na kana³%C11 %B$1 %O(Osi±gniêty limit osób)."
 
 #: src/common/text.c:972
 msgid "-%C10-%C11-%O$tCannot join%C11 %B$1 %O(You are banned)."
@@ -1347,8 +1344,7 @@ msgstr "-%C10-%C1-%O$tNie mo¿na wej¶æ na kana³%C11 %B$1 %O(Jeste¶ zbanowany)."
 
 #: src/common/text.c:974
 msgid "-%C10-%C11-%O$tCannot join%C11 %B$1 %O(Channel is invite only)."
-msgstr ""
-"-%C10-%C11-%O$tNie mo¿na wej¶c na kana³%C11 %B$1 %O(Kana³ tylko dla "
+msgstr "-%C10-%C11-%O$tNie mo¿na wej¶c na kana³%C11 %B$1 %O(Kana³ tylko dla "
 "zaproszonych)."
 
 #: src/common/text.c:977
@@ -1379,9 +1375,7 @@ msgstr "-%C10-%C11-%O$tPseudonim $1 jest ju¿ w u¿yciu. Próbujê $2.."
 
 #: src/common/text.c:990
 msgid "-%C10-%C11-%O$tNickname already in use. Use /NICK to try another."
-msgstr ""
-"-%C10-%C11-%O$tKto¶ ju¿ u¿ywa takiego pseudonimu. Wybierz inny za pomoc± "
-"polecenia /NICK."
+msgstr "-%C10-%C11-%O$tPseudonim ju¿ w u¿uciu. U¿yj /NICK aby spróbowaæ innego."
 
 #: src/common/text.c:993
 msgid "-%C10-%C11-%O$tUnknown host. Maybe you misspelled it?"
@@ -1551,6 +1545,8 @@ msgid ""
 "-%C10-%C11-%O$tThe file %C11$1%C already exists, saving it as %C11$2%O "
 "instead."
 msgstr ""
+"-%C10-%C11-%O$tPlik %C11$1%C ju¿ istnieje, nowy plik zostanie zapisany "
+"jako %C11$2%O."
 
 #: src/common/text.c:1089
 msgid "%C3>%O$1%C3<%O$tCTCP $2%O"
@@ -1590,11 +1586,11 @@ msgstr "-%C10-%C11-%O$tSprawdzam adres IP dla%C11 $1%O.."
 
 #: src/common/text.c:1108
 msgid "  Ignore list is empty."
-msgstr ""
+msgstr "  Lista ignorowania pusta."
 
 #: src/common/text.c:1111
 msgid "Ignore on %C11$1%O changed."
-msgstr ""
+msgstr "Ingorowanie dla %C11$1%O zmienione."
 
 #: src/common/text.c:1113
 msgid "-%C10-%C11-%O$tNotify: $1 is offline ($2)."
@@ -1622,8 +1618,7 @@ msgstr "-%C3-%C9-%O$tMasz now± pocztê ($1 wiadomo¶ci, $2 bajtów razem)."
 
 #: src/common/text.c:1128
 msgid "-%C10-%C11-%O$tNo ping reply for $1 seconds, disconnecting."
-msgstr ""
-"-%C10-%C11-%O$tBrak odpowiedzi od serwera w ci±gu $1 sekund, roz³±czanie."
+msgstr "-%C10-%C11-%O$tBrak odpowiedzi od serwera w ci±gu $1 sekund, roz³±czanie."
 
 #: src/common/text.c:1130
 msgid "-%C10-%C11-%O$tYou're inviting %C11$1%C to %C11$2%C (%C11$3%C)"
@@ -1659,6 +1654,8 @@ msgid ""
 "Error parsing event %s.\n"
 "Loading default"
 msgstr ""
+"B³±d przetwarzania zdarzenia %s.\n"
+"Wczytujê domy¶lne"
 
 #: src/common/util.c:278
 msgid "Remote host closed socket"
@@ -1818,7 +1815,7 @@ msgstr ""
 
 #: src/common/util.c:723
 msgid "Belarus"
-msgstr ""
+msgstr "Bia³oru¶"
 
 #: src/common/util.c:724
 msgid "Belize"
@@ -1838,7 +1835,7 @@ msgstr ""
 
 #: src/common/util.c:728
 msgid "Congo"
-msgstr ""
+msgstr "Kongo"
 
 #: src/common/util.c:729
 msgid "Switzerland"
@@ -1918,11 +1915,11 @@ msgstr ""
 
 #: src/common/util.c:748
 msgid "Algeria"
-msgstr ""
+msgstr "Algieria"
 
 #: src/common/util.c:749
 msgid "Ecuador"
-msgstr ""
+msgstr "Ekwador"
 
 #: src/common/util.c:750
 msgid "Estonia"
@@ -2010,7 +2007,7 @@ msgstr ""
 
 #: src/common/util.c:771
 msgid "Greenland"
-msgstr ""
+msgstr "Grenlandia"
 
 #: src/common/util.c:772
 msgid "Gambia"
@@ -2018,7 +2015,7 @@ msgstr ""
 
 #: src/common/util.c:773
 msgid "Guinea"
-msgstr ""
+msgstr "Gwinea"
 
 #: src/common/util.c:774
 msgid "Guadeloupe"
@@ -2066,7 +2063,7 @@ msgstr ""
 
 #: src/common/util.c:785
 msgid "Croatia"
-msgstr ""
+msgstr "Chorwacja"
 
 #: src/common/util.c:786
 msgid "Haiti"
@@ -2490,7 +2487,7 @@ msgstr ""
 
 #: src/common/util.c:891
 msgid "Former USSR"
-msgstr "By³e ZSRR"
+msgstr "By³y ZSRR"
 
 #: src/common/util.c:892
 msgid "El Salvador"
@@ -2606,7 +2603,7 @@ msgstr ""
 
 #: src/common/util.c:920
 msgid "Venezuela"
-msgstr ""
+msgstr "Wenezuela"
 
 #: src/common/util.c:921
 msgid "British Virgin Islands"
@@ -2662,7 +2659,7 @@ msgstr ""
 
 #: src/common/util.c:934
 msgid "Internic Commercial"
-msgstr ""
+msgstr "Komercyjny Internic"
 
 #: src/common/util.c:935
 msgid "Educational Institution"
@@ -2702,7 +2699,7 @@ msgstr ""
 
 #: src/common/util.c:944
 msgid "Reverse DNS"
-msgstr ""
+msgstr "Domena odwrotna"
 
 #: src/common/util.c:950 src/common/util.c:958 src/fe-gtk/menu.c:369
 #: src/fe-gtk/menu.c:373 src/fe-gtk/menu.c:377 src/fe-gtk/menu.c:381
@@ -2876,7 +2873,7 @@ msgstr "Otwórz"
 
 #: src/fe-gtk/dccgui.c:587
 msgid "Ack"
-msgstr ""
+msgstr "Potw"
 
 #: src/fe-gtk/dccgui.c:588
 msgid "To"
@@ -2958,7 +2955,7 @@ msgstr "Pomoc"
 
 #: src/fe-gtk/fe-gtk.c:114
 msgid "Config dir"
-msgstr ""
+msgstr "Katalog z konfiguracj±"
 
 #: src/fe-gtk/fe-gtk.c:115
 msgid "Don't Auto connect"
@@ -3097,11 +3094,11 @@ msgstr ""
 
 #: src/fe-gtk/fkeys.c:619 src/fe-gtk/fkeys.c:714
 msgid "Key"
-msgstr ""
+msgstr "Klawisz"
 
 #: src/fe-gtk/fkeys.c:619
 msgid "Action"
-msgstr ""
+msgstr "Akcja"
 
 #: src/fe-gtk/fkeys.c:629
 msgid "X-Chat: Edit Key Bindings"
@@ -3133,7 +3130,7 @@ msgstr ""
 
 #: src/fe-gtk/fkeys.c:762
 msgid "Error opening keys config file\n"
-msgstr "Nie mo¿na otworzyæ pliki konfiguracyjnego klawiszy\n"
+msgstr "Nie mo¿na otworzyæ pliku obs³ugi klawiszy\n"
 
 #: src/fe-gtk/fkeys.c:933
 #, c-format
@@ -3141,6 +3138,8 @@ msgid ""
 "Unknown keyname %s in key bindings config file\n"
 "Load aborted, please fix ~/.xchat/keybindings.conf\n"
 msgstr ""
+"Nieznana nazwa klawisza %s w pliku obs³ugi klawiszy\n"
+"Anulowano wczytywanie, popraw ~/.xchat/keybindings.conf\n"
 
 #: src/fe-gtk/fkeys.c:971
 #, c-format
@@ -3148,6 +3147,8 @@ msgid ""
 "Unknown action %s in key bindings config file\n"
 "Load aborted, Please fix ~/.xchat/keybindings\n"
 msgstr ""
+"Nieznana akcja %s w pliku obs³ugi klawiszy\n"
+"Anulowano wczytywanie, popraw ~/.xchat/keybindings.conf\n"
 
 #: src/fe-gtk/fkeys.c:992
 #, c-format
@@ -3196,11 +3197,11 @@ msgstr "Nie"
 #.
 #: src/fe-gtk/ignoregui.c:161
 msgid "new!new@new.com"
-msgstr ""
+msgstr "nowy!nowy@nowy.pl"
 
 #: src/fe-gtk/ignoregui.c:331
 msgid "Mask"
-msgstr "Maska"
+msgstr "Wzorzec"
 
 #: src/fe-gtk/ignoregui.c:331 src/fe-gtk/ignoregui.c:371
 #: src/fe-gtk/settings.c:1959
@@ -3218,7 +3219,7 @@ msgstr "Kana³"
 
 #: src/fe-gtk/ignoregui.c:331 src/fe-gtk/ignoregui.c:389
 msgid "Notice"
-msgstr ""
+msgstr "Uwaga (notice)"
 
 #: src/fe-gtk/ignoregui.c:331 src/fe-gtk/ignoregui.c:395
 msgid "Invite"
@@ -3226,15 +3227,15 @@ msgstr "Zapro¶"
 
 #: src/fe-gtk/ignoregui.c:331 src/fe-gtk/ignoregui.c:401
 msgid "Unignore"
-msgstr ""
+msgstr "Usuñ ignorowanie"
 
 #: src/fe-gtk/ignoregui.c:341
 msgid "X-Chat: Ignore list"
-msgstr "X-Chat: Lista ignorowanych"
+msgstr "X-Chat: Lista osób ignorowanych"
 
 #: src/fe-gtk/ignoregui.c:364
 msgid "Ignore Mask:"
-msgstr "Maska ignrowania:"
+msgstr "Wzorzec ignorowania:"
 
 #: src/fe-gtk/ignoregui.c:411
 msgid "Ignore Stats:"
@@ -3254,7 +3255,7 @@ msgstr "Kana³:"
 
 #: src/fe-gtk/ignoregui.c:422
 msgid "Notice:"
-msgstr ""
+msgstr "Uwaga (notice):"
 
 #: src/fe-gtk/ignoregui.c:423
 msgid "Invite:"
@@ -3294,8 +3295,7 @@ msgstr ""
 
 #: src/fe-gtk/maingui.c:1505
 msgid "Conference mode (no join/part msgs)"
-msgstr ""
-"Tryb konferencyjny (brak informacji o wchodz±cych i wychodz±cych osobach)"
+msgstr "Tryb konferencyjny (brak informacji o wchodz±cych i wychodz±cych osobach)"
 
 #: src/fe-gtk/maingui.c:1507
 msgid "CP"
@@ -3456,7 +3456,7 @@ msgstr "X-Chat: Polecenia zdefiniowane przez u¿ytkownika"
 
 #: src/fe-gtk/menu.c:1163
 msgid "X-Chat: Userlist Popup menu"
-msgstr "X-Chat: Podrêczne menu listy u¿ytkowników"
+msgstr "X-Chat: Podrêczne menu dla listy u¿ytkowników"
 
 #: src/fe-gtk/menu.c:1170
 msgid "X-Chat: Replace"
@@ -3468,11 +3468,11 @@ msgstr "X-Chat: Polecenia u¿ytkownika"
 
 #: src/fe-gtk/menu.c:1184
 msgid "X-Chat: URL Handlers"
-msgstr ""
+msgstr "X-Chat: Obs³uga adresów"
 
 #: src/fe-gtk/menu.c:1203
 msgid "X-Chat: Userlist buttons"
-msgstr "X-Chat: Przyciski listy u¿ytkownikó³"
+msgstr "X-Chat: Przyciski listy u¿ytkowników"
 
 #: src/fe-gtk/menu.c:1210
 msgid "X-Chat: Dialog buttons"
@@ -3627,7 +3627,7 @@ msgstr "Przyciski listy u¿ytkowników.."
 
 #: src/fe-gtk/menu.c:1516 src/fe-gtk/menu.c:1793
 msgid "Userlist Popup.."
-msgstr "Podrêczne menu listy u¿ytkowników.."
+msgstr "Podrêczne menu dla listy u¿ytkowników.."
 
 #: src/fe-gtk/menu.c:1522 src/fe-gtk/menu.c:1794
 msgid "Dialog Buttons.."
@@ -3867,11 +3867,11 @@ msgstr "Kolor t³a"
 
 #: src/fe-gtk/palette.c:282
 msgid "Mark Background"
-msgstr ""
+msgstr "Zaznaczone t³o"
 
 #: src/fe-gtk/palette.c:285
 msgid "Mark Foreground"
-msgstr ""
+msgstr "Zaznaczony pierwszy plan"
 
 #: src/fe-gtk/palette.c:288
 #, c-format
@@ -3941,7 +3941,7 @@ msgstr "X-Chat: Okno logowania (%s) [alt-s ¿eby zapisaæ]"
 
 #: src/fe-gtk/search.c:38
 msgid "The window you opened this Search for doesn't exist anymore."
-msgstr ""
+msgstr "Okno, dla którego w³±czy³e¶ Szukanie ju¿ nie istnieje."
 
 #: src/fe-gtk/search.c:84
 msgid "X-Chat: Search"
@@ -4032,6 +4032,8 @@ msgid ""
 "Cannot use \"root\" as a nickname,\n"
 "please change that first."
 msgstr ""
+"Nie mo¿na u¿yæ \"root\" jako pseudonim,\n"
+"musisz to zmieniæ."
 
 #: src/fe-gtk/serverlist.c:1184
 msgid "X-Chat: Server List"
@@ -4059,7 +4061,7 @@ msgstr "Nazwa u¿ytkownika:"
 
 #: src/fe-gtk/serverlist.c:1284
 msgid "Connect in a new window/tab"
-msgstr ""
+msgstr "Po³±cz w nowym oknie/zak³adce"
 
 #: src/fe-gtk/serverlist.c:1285
 msgid "Connect New"
@@ -4115,6 +4117,17 @@ msgid ""
 " - Layout for a vertical panel\n"
 " - Auto Indent"
 msgstr ""
+"Poni¿sze ustawienia nie zaczynaj±\n"
+"dzia³aæ od razu. Musisz zamkn±æ okno\n"
+"i otworzyæ je ponownie:\n"
+"\n"
+" - Zak³adki kana³ów\n"
+" - Przyciski trybu kana³u\n"
+" - Przyciski listy u¿ytkowników\n"
+" -\n"
+" - Kolor powiadomienia\n"
+" - Wygl±d pionowego panelu\n"
+" - Automatyczne wciêcia"
 
 #: src/fe-gtk/settings.c:956
 msgid "Appearance"
@@ -4126,7 +4139,7 @@ msgstr "Czcionka:"
 
 #: src/fe-gtk/settings.c:966
 msgid "Background Picture:"
-msgstr "Obraze w tle:"
+msgstr "Obrazek w tle:"
 
 #: src/fe-gtk/settings.c:972
 msgid "Indent Nicks"
@@ -4150,7 +4163,7 @@ msgstr "Widoczna linia separatora."
 
 #: src/fe-gtk/settings.c:982
 msgid "Make the separator an actual visible line."
-msgstr ""
+msgstr "Powoduje, ¿e linia separatora staje siê widoczna."
 
 #: src/fe-gtk/settings.c:984
 msgid "Word Wrap"
@@ -4166,7 +4179,7 @@ msgstr "Prze¼roczyste t³o"
 
 #: src/fe-gtk/settings.c:991
 msgid "Make the text box seem see-through"
-msgstr ""
+msgstr "Powoduje, ¿e okno tekstowe sprawia wra¿enie prze¼roczystego"
 
 #: src/fe-gtk/settings.c:993
 msgid "Tint Transparency"
@@ -4174,7 +4187,7 @@ msgstr "Przyciemnione t³o"
 
 #: src/fe-gtk/settings.c:995
 msgid "Tint the see-through text box to make it darker"
-msgstr ""
+msgstr "Przyciemnia prze¼roczyste t³o sprawiaj±c, ¿e wygl±da jak przydymione"
 
 #: src/fe-gtk/settings.c:996
 msgid "Use a font set"
@@ -4186,7 +4199,7 @@ msgstr "Ustawienia przyciemnienia"
 
 #: src/fe-gtk/settings.c:1009
 msgid "Change in realtime"
-msgstr ""
+msgstr "Zmieniaj w czasie rzeczywistym"
 
 #: src/fe-gtk/settings.c:1012
 msgid "Red:"
@@ -4238,12 +4251,11 @@ msgstr "Automatycznie zapisuj listê adresów URL"
 
 #: src/fe-gtk/settings.c:1054
 msgid "Auto save your URL list when exiting from X-Chat"
-msgstr ""
-"Automatycznie zapisuje listê adresów URL, kiedy koñczysz pracê programu"
+msgstr "Automatycznie zapisuje listê adresów URL, kiedy koñczysz pracê programu"
 
 #: src/fe-gtk/settings.c:1057
 msgid "Give the User List style"
-msgstr ""
+msgstr "Nadaj li¶cie u¿ytkowników wygl±d okien tekstowych"
 
 #: src/fe-gtk/settings.c:1060
 msgid "Show userhost"
@@ -4255,11 +4267,11 @@ msgstr "Pokazuj adres u¿ytkownika na li¶cie"
 
 #: src/fe-gtk/settings.c:1065
 msgid "Enable Paned Userlist"
-msgstr ""
+msgstr "Lista u¿ytkowników o zmiennej szeroko¶ci"
 
 #: src/fe-gtk/settings.c:1068
 msgid "Use paned user list instead of a fixed width one"
-msgstr ""
+msgstr "Pozwala zmieniaæ szeroko¶æ listy u¿ytkowników"
 
 #: src/fe-gtk/settings.c:1069
 msgid "Userlist icons"
