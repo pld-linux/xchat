@@ -38,7 +38,7 @@ BuildRequires:	gettext-devel
 BuildRequires:	glib2-devel >= 2.0.3
 BuildRequires:	gtk+2-devel >= 2.0.3
 BuildRequires:	libtool
-BuildRequires:	openssl-devel >= 0.9.7c
+BuildRequires:	openssl-devel >= 0.9.7cc
 BuildRequires:	perl-devel
 BuildRequires:	python-devel >= 2.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
