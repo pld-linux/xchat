@@ -20,26 +20,27 @@ Summary(sv):	En GTK+-IRC- (chatt-)klient
 Summary(uk):	Gtk+ IRC кл╕╓нт
 Summary(zh_CN):	GTK+ IRC (адлЛ) ©м╩╖║ё
 Name:		xchat
-Version:	1.8.10
-Release:	2
+Version:	1.9.7
+Release:	1
 Epoch:		1
 License:	GPL
 Group:		X11/Applications/Networking
 Source0:	http://xchat.org/files/source/1.8/%{name}-%{version}.tar.bz2
 Source1:	%{name}-pl.po
-Patch0:		%{name}-ac.patch
-Patch1:		%{name}-fix-USE_GNOME.patch
-Patch2:		%{name}-fix-default-replace.patch
-Patch3:		%{name}-UTF8_desktop.patch
-Patch4:		%{name}-zh.patch
+Patch0:		%{name}-po.patch
+#Patch1:		%{name}-fix-USE_GNOME.patch
+#Patch2:		%{name}-fix-default-replace.patch
+#Patch3:		%{name}-UTF8_desktop.patch
+#Patch4:		%{name}-zh.patch
 Icon:		xchat.xpm
 URL:		http://xchat.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gettext-devel
-BuildRequires:	gtk+-devel >= 1.2.5
-BuildRequires:	gdk-pixbuf-devel
-BuildRequires:	gnome-core-devel
+BuildRequires:	gtk+-devel >= 2.0.3
+BuildRequires:  glib-devel >= 2.0.3
+#BuildRequires:	gdk-pixbuf-devel
+#BuildRequires:	gnome-core-devel
 BuildRequires:	openssl-devel >= 0.9.6a
 BuildRequires:	perl-devel
 BuildRequires:	python-devel >= 2.2
@@ -131,14 +132,12 @@ X-Chat - ще один IRC кл╕╓нт для X Window System, який використову╓
 %prep
 %setup -q
 %patch0 -p1
-%patch1 -p1
-%patch2 -p1
-%patch3 -p1
-%patch4 -p1
+#%patch1 -p1
+#%patch2 -p1
+#%patch3 -p1
+#%patch4 -p1
 
 cp %{SOURCE1} po/pl.po
-rm -f po/zh_TW.Big5.gmo
-mv -f po/zh_TW.Big5.po po/zh_TW.po
 
 %build
 rm -f config.status missing
@@ -175,7 +174,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f %{name}.lang
 %defattr(644,root,root,755)
-%doc README ChangeLog AUTHORS doc/*html
+%doc README ChangeLog AUTHORS 
 %attr(755,root,root) %{_bindir}/*
 %{_applnkdir}/Network/Communications/xchat.desktop
 %{_pixmapsdir}/xchat.png
