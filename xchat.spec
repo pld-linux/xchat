@@ -1,4 +1,6 @@
 Summary:	Gtk+ IRC client
+Summary(de):	Gtk+ IRC-Client
+Summary(fr):	Client IRC Gtk+
 Summary(pl):	Oparty na Gtk+ klient IRC
 Name:		xchat
 Version:	1.2.0
@@ -10,6 +12,7 @@ URL:		http://xchat.org/
 Source0:	http://xchat.org/files/%{name}-%{version}.tar.gz
 Source1:	xchat.desktop
 Source2:	xchat.png
+Icon:		xchat.xpm
 BuildRequires:	XFree86-devel
 BuildRequires:	gtk+-devel >= 1.2.0
 BuildRequires:	glib-devel >= 1.2.0
@@ -22,6 +25,14 @@ BuildRoot:	/tmp/%{name}-%{version}-root
 X-Chat is yet another IRC client for the X Window System, using the Gtk+
 toolkit. It is pretty easy to use compared to the other Gtk+ IRC clients and
 the interface is quite nicely designed.
+
+%description -l de
+X-Chat ist ein IRC-Client für X-Windows, der Gtk+ benutzt.
+
+%description -l fr
+X-Chat est encore un autre client IRC pour le Système X Window, utilisant le
+toolkit Gtk+. Il est plutot facile à utiliser comparé aux autres clients IRC
+Gtk+ et son interface est assez bien conçue.
 
 %description -l pl
 X-Chat jest jeszcze jednym klientem IRC dla X Window System, wykorzystuj±cym
