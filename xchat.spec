@@ -17,9 +17,6 @@ BuildRequires:	gtk+-devel >= 1.2.5
 BuildRequires:	imlib-devel
 BuildRequires:	gnome-libs-devel
 BuildRequires:	gnome-core-devel
-BuildRequires:	esound-devel
-BuildRequires:	alsa-devel
-BuildRequires:	audiofile-devel
 BuildRoot:	/tmp/%{name}-%{version}-root
 
 %define 	_prefix		/usr/X11R6
