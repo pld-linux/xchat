@@ -153,6 +153,9 @@ install -d $RPM_BUILD_ROOT%{_pixmapsdir}
 	DESTDIR=$RPM_BUILD_ROOT \
 	utildir=%{_desktopdir}
 
+mv -f %{name}.desktop %{name}.desktop.orig
+sed -e 's/Network;/Network;InstantMessaging;/' %{name}.desktop.orig > %{name}.desktop
+
 install xchat.desktop $RPM_BUILD_ROOT%{_desktopdir}
 install xchat.png $RPM_BUILD_ROOT%{_pixmapsdir}
 
