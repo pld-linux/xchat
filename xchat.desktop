@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name=xchat IRC client
+Name[pl]=Klient IRC xchat
 Comment=IRC Client
 Comment[pl]=Klient IRC
 Exec=xchat
