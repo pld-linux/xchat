@@ -20,7 +20,7 @@ Summary(sv):	En GTK+-IRC- (chatt-)klient
 Summary(uk):	Gtk+ IRC кл╕╓нт
 Summary(zh_CN):	GTK+ IRC (адлЛ) ©м╩╖║ё
 Name:		xchat
-Version:	2.0.1
+Version:	2.0.2
 Release:	1
 Epoch:		1
 License:	GPL
