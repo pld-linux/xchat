@@ -34,8 +34,8 @@ URL:		http://xchat.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gettext-devel
+BuildRequires:	glib2-devel >= 2.0.3
 BuildRequires:	gtk+2-devel >= 2.0.3
-BuildRequires:  glib2-devel >= 2.0.3
 BuildRequires:	libtool
 BuildRequires:	openssl-devel >= 0.9.7b
 BuildRequires:	perl-devel
@@ -164,7 +164,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f %{name}.lang
 %defattr(644,root,root,755)
-%doc README ChangeLog AUTHORS 
+%doc ChangeLog faq.html HACKING README
 %attr(755,root,root) %{_bindir}/*
 %dir %{_libdir}/xchat
 %dir %{_libdir}/xchat/plugins
