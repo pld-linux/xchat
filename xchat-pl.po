@@ -1488,15 +1488,15 @@ msgstr "-%C10-%C11-%O$tNie by³o oferowane takie po³±czenie DCC."
 
 #: src/common/text.c:1054
 msgid "-%C10-%C11-%O$tAlready offering CHAT to $1"
-msgstr ""
+msgstr "-%C10-%C11-%O$tJu¿ oferujesz $1 rozmowê DCC"
 
 #: src/common/text.c:1056
 msgid "-%C10-%C11-%O$tOffering DCC CHAT to $1"
-msgstr ""
+msgstr "-%C10-%C11-%O$tOferowanie $1 rozmowy DCC"
 
 #: src/common/text.c:1058
 msgid "-%C10-%C11-%O$tReceived a DCC CHAT offer from $1"
-msgstr ""
+msgstr "-%C10-%C11-%O$Otrzymano ofertê rozmowy DCC od $1"
 
 #: src/common/text.c:1060
 msgid "-%C10-%C11-%O$t%C11$1 %Chas requested to resume %C11$2 %Cfrom %C11$3%C."
@@ -1504,31 +1504,31 @@ msgstr ""
 
 #: src/common/text.c:1063
 msgid "-%C10-%C11-%O$t%C11$1 %Chas offered %C11$2 %C(%C11$3 %Cbytes)"
-msgstr ""
+msgstr "-%C10-%C11-%O$t%C11$1 %Czaoferowa³ %C11$2 %C(%C11$3 %Cbajtów)"
 
 #: src/common/text.c:1065
 msgid "-%C10-%C11-%O$tReceived '$1%O' from $2"
-msgstr ""
+msgstr "-%C10-%C11-%O$tOtrzymano '$1%O' od $2"
 
 #: src/common/text.c:1067
 msgid "-%C10-%C11-%O$tNotify: $1 is online ($2)."
-msgstr ""
+msgstr "-%C10-%C11-%O$tPowiadomienie: $1 jest po³±czony ($2)."
 
 #: src/common/text.c:1069
 msgid "-%C10-%C11-%O$t$1 users in notify list."
-msgstr ""
+msgstr "-%C10-%C11-%O$t$1 u¿ytkowników na li¶cie powiadamiania."
 
 #: src/common/text.c:1071
 msgid "-%C10-%C11-%O$tNotify list is empty."
-msgstr ""
+msgstr "-%C10-%C11-%O$tLista powiadamiania jest pusta."
 
 #: src/common/text.c:1073
 msgid "-%C10-%C11-%O$tNo process is currently running"
-msgstr ""
+msgstr "-%C10-%C11-%O$t¯aden proces nie jest aktualnie uruchomiony"
 
 #: src/common/text.c:1075
 msgid "-%C10-%C11-%O$tA process is already running"
-msgstr ""
+msgstr "-%C10-%C11-%O$tProces ju¿ aktualnie dzia³a"
 
 #: src/common/text.c:1077
 msgid "-%C10-%C11-%O$tLooking up %C11$1%C.."
@@ -1564,7 +1564,7 @@ msgstr ""
 
 #: src/common/text.c:1097
 msgid "%C08,02 Hostmask             PRIV NOTI CHAN CTCP INVI UNIG %O"
-msgstr ""
+msgstr "%C08,02 Wzorzec adresu       PRIV NOTI CHAN CTCP INVI UNIG %0"
 
 #: src/common/text.c:1098
 msgid " $1 $2  $3  $4  $5  $6  $7"
@@ -1620,7 +1620,8 @@ msgstr "-%C3-%C9-%O$tMasz now± pocztê ($1 wiadomo¶ci, $2 bajtów razem)."
 
 #: src/common/text.c:1128
 msgid "-%C10-%C11-%O$tNo ping reply for $1 seconds, disconnecting."
-msgstr "-%C10-%C11-%O$tBrak odpowiedzi od serwera w ci±gu $1 sekund, roz³±czanie."
+msgstr "-%C10-%C11-%O$tBrak odpowiedzi od serwera w ci±gu $1 sekund, "
+"roz³±czanie."
 
 #: src/common/text.c:1130
 msgid "-%C10-%C11-%O$tYou're inviting %C11$1%C to %C11$2%C (%C11$3%C)"
@@ -1643,6 +1644,8 @@ msgid ""
 "%C8,2 Type  To/From    Status  Size    Pos     File    %O%010%B%"
 "C9--------------------------------------------------%O"
 msgstr ""
+"%C8,2 Rodzaj Od/do     Stan    Rozmiar Ile     Plik    %O%010%B%"
+"C9--------------------------------------------------%O"
 
 #. XP_IF_SEND
 #. XP_IF_RECV
@@ -2883,7 +2886,7 @@ msgstr "Do"
 
 #: src/fe-gtk/dccgui.c:598
 msgid "X-Chat: File Send List"
-msgstr "X-Chat: Lista wysy³anych plików"
+msgstr "X-Chat: Lista przesy³anych plików"
 
 #: src/fe-gtk/dccgui.c:718
 msgid "To/From"
@@ -2891,11 +2894,11 @@ msgstr "Od/do"
 
 #: src/fe-gtk/dccgui.c:718
 msgid "Recv"
-msgstr ""
+msgstr "Odebrane"
 
 #: src/fe-gtk/dccgui.c:718
 msgid "Sent"
-msgstr ""
+msgstr "Wys³ane"
 
 #: src/fe-gtk/dccgui.c:718
 msgid "StartTime"
@@ -2911,7 +2914,7 @@ msgstr "*NOWY*"
 
 #: src/fe-gtk/editlist.c:125
 msgid "EDIT ME"
-msgstr ""
+msgstr "ZMIEÑ"
 
 #: src/fe-gtk/editlist.c:287 src/fe-gtk/plugingui.c:86
 msgid "Name"
@@ -3011,6 +3014,12 @@ msgid ""
 "it is possible to run more than one command. If you want a \\ in the actual "
 "text run then enter \\\\"
 msgstr ""
+"Akcja Run Command uruchamia dane z pola Dane 1 tak jakby zosta³y"
+"wpisane w polu wprowadzania. Dzieje siê to zaraz po u¿yciu podanej sekwencji "
+"klawiszy. Akcja mo¿e zawieraæ tekst (wtedy zostanie wys³any na kana³/do osoby "
+"albo polecenia IRC lub u¿ytkownika. Znaki \\n s± u¿ywane jako separator "
+"kolejnych poleceñ, wiêc jest mo¿liwe uruchamianie kilku za jednym razem. "
+"Je¶li chcesz uzyskaæ w tek¶cie znak \\ musisz wpisaæ \\\\"
 
 #: src/fe-gtk/fkeys.c:137
 msgid ""
@@ -3018,36 +3027,52 @@ msgid ""
 "to the page you want to switch to. If Data 2 is set to anything then the "
 "switch will be relative to the current position"
 msgstr ""
+"Polecenie Change Page prze³±cza pomiêdzy stronami w notatniku. Ustaw "
+"pole Dane 1 na numer strony, do której chcesz siê prze³±czyæ. Je¶li pole "
+"Dane 2 zawiera cokolwiek, to prze³±czenie bêdzie wzglêdne do aktualnej "
+"pozycji."
 
 #: src/fe-gtk/fkeys.c:139
 msgid ""
 "The Insert in Buffer command will insert the contents of Data 1 into the "
 "entry where the key sequence was pressed at the current cursor position"
 msgstr ""
+"Polecenie Insert in Buffer powoduje zawarto¶ci pola Dane 1 w miejsce, "
+"gdzie znajdowa³ siê kursor podczas wciskania kombinacji klawiszy"
 
 #: src/fe-gtk/fkeys.c:141
 msgid ""
 "The Scroll Page command scrolls the text widget up or down one page. If Data "
 "1 is set to anything the page scrolls up, else it scrolls down"
 msgstr ""
+"Polecenie Scroll Page przewija element tekstowy w dól lub w górê o jedn± "
+"stronê. Je¶li pole Dane 1 nie jest puste, to przewijanie nast±pi w górê, "
+"w przeciwnym wypadku w dó³."
+
 
 #: src/fe-gtk/fkeys.c:143
 msgid ""
 "The Set Buffer command sets the entry where the key sequence was entered to "
 "the contents of Data 1"
 msgstr ""
+"Polecenie Set Buffer ustawia zawarto¶æ miejsca, gdzie by³ kursor podczas "
+"wciskania kombinacji klawiszy na zawarto¶æ pola Dane 1"
 
 #: src/fe-gtk/fkeys.c:145
 msgid ""
 "The Last Command command sets the entry to contain the last command entered "
 "- the same as pressing up in a shell"
 msgstr ""
+"Polecenie Last Command ustawia aktualny wpis aby zawiera³ ostatnio "
+"wpisan± komendê - tak samo jak wci¶niêcie klawisza strza³ki w górê w pow³oce."
 
 #: src/fe-gtk/fkeys.c:147
 msgid ""
 "The Next Command command sets the entry to contain the next command entered "
 "- the same as pressing down in a shell"
 msgstr ""
+"Polecenie Next Command ustawia aktualny wpis aby zawiera³ nastêpna "
+"wpisan± komendê - tak samo jak wci¶niêcie klawisza strza³ki w dó³ w pow³oce."
 
 #: src/fe-gtk/fkeys.c:149
 msgid ""
@@ -3070,11 +3095,11 @@ msgstr ""
 
 #: src/fe-gtk/fkeys.c:155
 msgid "This command move the front tab left by one"
-msgstr ""
+msgstr "To polecenie przesuwa zak³adkê w lewo o jedno miejsce"
 
 #: src/fe-gtk/fkeys.c:157
 msgid "This command move the front tab right by one"
-msgstr ""
+msgstr "To polecenie przesuwa zak³adkê w prawo o jedno miejsce"
 
 #: src/fe-gtk/fkeys.c:159
 msgid "Push input line into history but doesn't send to server"
@@ -3082,7 +3107,7 @@ msgstr ""
 
 #: src/fe-gtk/fkeys.c:171
 msgid "There was an error loading key bindings configuration"
-msgstr ""
+msgstr "Wyst±pi³ b³±d wczytywania przypisañ klawiszy"
 
 #: src/fe-gtk/fkeys.c:376 src/fe-gtk/fkeys.c:655 src/fe-gtk/fkeys.c:661
 #: src/fe-gtk/fkeys.c:666 src/fe-gtk/maingui.c:294 src/fe-gtk/maingui.c:1609
@@ -3124,11 +3149,11 @@ msgstr ""
 
 #: src/fe-gtk/fkeys.c:718
 msgid "Data 1"
-msgstr ""
+msgstr "Dane 1"
 
 #: src/fe-gtk/fkeys.c:721
 msgid "Data 2"
-msgstr ""
+msgstr "Dane 2"
 
 #: src/fe-gtk/fkeys.c:762
 msgid "Error opening keys config file\n"
@@ -3160,6 +3185,11 @@ msgid ""
 "\n"
 "Load aborted, Please fix ~/.xchat/keybindings\n"
 msgstr ""
+"Zamiast spodziewanej linii z danymi (rozpoczynaj±cej siê od Dx{:|!}) "
+"otrzymano:\n"
+"%s\n"
+"\n"
+"Wczytywanie anulowane, Popraw ~/.xchat/keybindings.conf\n"
 
 #: src/fe-gtk/gtkutil.c:114
 msgid "Cannot write to that file."
@@ -3249,7 +3279,7 @@ msgstr ""
 
 #: src/fe-gtk/ignoregui.c:420
 msgid "Private:"
-msgstr ""
+msgstr "Prywatny:"
 
 #: src/fe-gtk/ignoregui.c:421
 msgid "Channel:"
@@ -3261,7 +3291,7 @@ msgstr "Uwaga (notice):"
 
 #: src/fe-gtk/ignoregui.c:423
 msgid "Invite:"
-msgstr ""
+msgstr "Zaproszenie:"
 
 #: src/fe-gtk/ignoregui.c:434
 msgid "New"
@@ -3277,19 +3307,19 @@ msgstr "Limit u¿ytkowników musi byæ liczb±!\n"
 
 #: src/fe-gtk/maingui.c:1434 src/fe-gtk/maingui.c:1550
 msgid "Open Toolbox"
-msgstr ""
+msgstr "Otwórz narzêdzia"
 
 #: src/fe-gtk/maingui.c:1439
 msgid "Close Toolbox"
-msgstr ""
+msgstr "Zamknij narzedzia"
 
 #: src/fe-gtk/maingui.c:1497
 msgid "Beep"
-msgstr ""
+msgstr "Pipnij"
 
 #: src/fe-gtk/maingui.c:1500
 msgid "Beep on messages"
-msgstr ""
+msgstr "Pipaj na wiadomo¶ciach"
 
 #: src/fe-gtk/maingui.c:1502
 msgid "Conf"
@@ -3297,7 +3327,8 @@ msgstr ""
 
 #: src/fe-gtk/maingui.c:1505
 msgid "Conference mode (no join/part msgs)"
-msgstr "Tryb konferencyjny (brak informacji o wchodz±cych i wychodz±cych osobach)"
+msgstr "Tryb konferencyjny (brak informacji o wchodz±cych i wychodz±cych "
+"osobach)"
 
 #: src/fe-gtk/maingui.c:1507
 msgid "CP"
@@ -3305,7 +3336,7 @@ msgstr ""
 
 #: src/fe-gtk/maingui.c:1512
 msgid "Color Paste"
-msgstr ""
+msgstr "Wklejanie kolorów"
 
 #: src/fe-gtk/maingui.c:1514
 msgid "Ascii"
@@ -4126,7 +4157,7 @@ msgstr ""
 " - Zak³adki kana³ów\n"
 " - Przyciski trybu kana³u\n"
 " - Przyciski listy u¿ytkowników\n"
-" -\n"
+" - Wy³±czenie mo¿liwo¶ci zmiany rozmiaru listy u¿ytkowników\n"
 " - Kolor powiadomienia\n"
 " - Wygl±d pionowego panelu\n"
 " - Automatyczne wciêcia"
@@ -4485,11 +4516,11 @@ msgstr "U¿ywaj zak³adek dla kana³ów zamiast osobnych okien"
 
 #: src/fe-gtk/settings.c:1254
 msgid "Limited Tab Highlighting"
-msgstr "Ograniczone zaznaczanie zak³adek"
+msgstr "Ograniczone pod¶wietlanie zak³adek"
 
 #: src/fe-gtk/settings.c:1257
 msgid "Only highlight channel tabs for channel messages and actions"
-msgstr "Zaznacza innym kolorem tylko zak³adki, w których pojawi³y siê wiadomo¶ci lub akcje"
+msgstr "Pod¶wietla tylko zak³adki, w których pojawi³y siê wiadomo¶ci lub akcje"
 
 #: src/fe-gtk/settings.c:1258
 msgid "New Tabs to front"
@@ -4604,7 +4635,8 @@ msgstr "Odgrywaj d¼wiêk przy wiadomo¶ci na kanale"
 
 #: src/fe-gtk/settings.c:1402
 msgid "Beep when a channel message is received"
-msgstr "Odgrywa systemowy d¼wiêk zaraz po pojawieniu siê nowej wiadomo¶ci na kanale"
+msgstr "Odgrywa systemowy d¼wiêk zaraz po pojawieniu siê nowej wiadomo¶ci "
+"na kanale"
 
 #: src/fe-gtk/settings.c:1403
 msgid "Send /who #chan on join."
@@ -4624,11 +4656,11 @@ msgstr "Ustawienia IRCa"
 
 #: src/fe-gtk/settings.c:1414
 msgid "Quit Message:"
-msgstr ""
+msgstr "Wiadomo¶æ podczas roz³±czania:"
 
 #: src/fe-gtk/settings.c:1418
 msgid "Part Message:"
-msgstr ""
+msgstr "Wiadomo¶æ podczas opuszczania kana³u:"
 
 #: src/fe-gtk/settings.c:1422
 msgid ""
@@ -4648,7 +4680,7 @@ msgstr "Program do sprawdzania nazw domen:"
 
 #: src/fe-gtk/settings.c:1433
 msgid "Timing"
-msgstr ""
+msgstr "Odmierzanie czasu"
 
 #: src/fe-gtk/settings.c:1436
 msgid "Auto ReConnect Delay:"
@@ -4797,7 +4829,7 @@ msgstr "Format czasu w dziennikach:"
 
 #: src/fe-gtk/settings.c:1603
 msgid "Generic"
-msgstr ""
+msgstr "Ogólne"
 
 #: src/fe-gtk/settings.c:1604
 msgid "Show notifies in active window"
@@ -4809,19 +4841,20 @@ msgstr "Wy¶lij /whois"
 
 #: src/fe-gtk/settings.c:1615
 msgid "User List Notify Highlighting"
-msgstr ""
+msgstr "Pod¶wietlanie na li¶cie u¿ytkowników"
 
 #: src/fe-gtk/settings.c:1616
 msgid "Highlight Notifies"
-msgstr ""
+msgstr "Pod¶wietl powiadomienia"
 
 #: src/fe-gtk/settings.c:1619
 msgid "Highlight notified users in the user list"
-msgstr ""
+msgstr "Pod¶wietla na li¶cie u¿ytkowników pseudonimy osób, które znajduj± siê "
+" na li¶cie powiadamiania"
 
 #: src/fe-gtk/settings.c:1622
 msgid "Notified User Color:"
-msgstr ""
+msgstr "Kolor pod¶wietlenia:"
 
 #: src/fe-gtk/settings.c:1627
 msgid "Notification Timeouts"
@@ -4829,7 +4862,7 @@ msgstr ""
 
 #: src/fe-gtk/settings.c:1630
 msgid "Notify Check Interval:"
-msgstr ""
+msgstr "Czas pomiêdzy sprawdzaniem listy powiadamiania:"
 
 #: src/fe-gtk/settings.c:1631
 msgid "seconds (0=Disable)."
@@ -4873,19 +4906,19 @@ msgstr "Automatycznie otwórz okno rozmowy DCC"
 
 #: src/fe-gtk/settings.c:1680
 msgid "Resume on Auto Accept"
-msgstr ""
+msgstr "Wznawianie podczas automatycznej akceptacji"
 
 #: src/fe-gtk/settings.c:1684
 msgid "When Auto-Accepting DCC, try to resume."
-msgstr ""
+msgstr "Je¶li w³±czona automatyczna akceptacja DCC, próbuj wznowiæ."
 
 #: src/fe-gtk/settings.c:1697
 msgid "Timeouts"
-msgstr ""
+msgstr "Limity czasu"
 
 #: src/fe-gtk/settings.c:1702
 msgid "DCC Offers Timeout:"
-msgstr ""
+msgstr "Limit czasu oferty DCC:"
 
 #: src/fe-gtk/settings.c:1705
 msgid "DCC Stall Timeout:"
