@@ -10,10 +10,10 @@ URL:		http://xchat.org/
 Source0:	http://xchat.org/files/%{name}-%{version}.tar.gz
 Source1:	xchat.desktop
 Source2:	xchat.png
-BuildPrereq:	XFree86-devel
-BuildPrereq:	gtk+-devel >= 1.2.0
-BuildPrereq:	glib-devel >= 1.2.0
-BuildPrereq:	imlib-devel
+BuildRequires:	XFree86-devel
+BuildRequires:	gtk+-devel >= 1.2.0
+BuildRequires:	glib-devel >= 1.2.0
+BuildRequires:	imlib-devel
 BuildRoot:	/tmp/%{name}-%{version}-root
 
 %define _prefix	/usr/X11R6
