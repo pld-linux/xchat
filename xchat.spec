@@ -4,7 +4,7 @@ Summary(fr):	Client IRC Gtk+
 Summary(pl):	Oparty na Gtk+ klient IRC
 Name:		xchat
 Version:	1.6.1
-Release:	1
+Release:  1	
 License:	GPL
 Group:		X11/Applications/Networking
 Group(de):	X11/Applikationen/Netzwerkwesen
@@ -15,7 +15,8 @@ URL:		http://xchat.org/
 BuildRequires:	gtk+-devel >= 1.2.5
 BuildRequires:	gdk-pixbuf-devel
 BuildRequires:	gnome-libs-devel
-BuildRequires:	gnome-core-devel
+BuildRequires:	esound-devel
+BuildRequires:	audiofile-devel
 BuildRequires:	python-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
