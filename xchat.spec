@@ -40,8 +40,7 @@ do innych, opartych na Gtk+ klientów IRC, a jego interfejs jest dosyæ
 ³adnie zaprojektowany.
 
 %prep
-%setup  -q
-%patch0 -p1
+%setup -q
 
 %build
 rm -f config.status
