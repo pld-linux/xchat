@@ -42,6 +42,7 @@ BuildRequires:	gtk+2-devel >= 2.0.3
 BuildRequires:	libtool
 BuildRequires:	openssl-devel >= 0.9.7c
 BuildRequires:	perl-devel
+BuildRequires:	pkgconfig
 BuildRequires:	python-devel >= 2.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
