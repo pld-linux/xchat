@@ -3677,7 +3677,7 @@ msgstr "Przyciski rozmowy.."
 
 #: src/fe-gtk/menu.c:1528
 msgid "Replace Popup.."
-msgstr "Zast±p menu podrêczne.."
+msgstr "Tablica zastêpowania.."
 
 #: src/fe-gtk/menu.c:1534 src/fe-gtk/menu.c:1796
 msgid "URL Handlers.."
@@ -3901,7 +3901,7 @@ msgstr "X-Chat: Kolory"
 
 #: src/fe-gtk/palette.c:276
 msgid "Foreground"
-msgstr "Kolor pierwszego planu"
+msgstr "Kolor liter"
 
 #: src/fe-gtk/palette.c:279
 msgid "Background"
@@ -3909,11 +3909,11 @@ msgstr "Kolor t³a"
 
 #: src/fe-gtk/palette.c:282
 msgid "Mark Background"
-msgstr "Zaznaczone t³o"
+msgstr "Zaznaczenie t³a"
 
 #: src/fe-gtk/palette.c:285
 msgid "Mark Foreground"
-msgstr "Zaznaczony pierwszy plan"
+msgstr "Zaznaczenie liter"
 
 #: src/fe-gtk/palette.c:288
 #, c-format
@@ -4241,7 +4241,7 @@ msgstr "Ustawienia przyciemnienia"
 
 #: src/fe-gtk/settings.c:1009
 msgid "Change in realtime"
-msgstr "Zmieniaj w czasie rzeczywistym"
+msgstr "Pokazuj zmiany w czasie rzeczywistym"
 
 #: src/fe-gtk/settings.c:1012
 msgid "Red:"
@@ -4362,11 +4362,11 @@ msgstr "Pole wprowadzania zawsze aktywne"
 
 #: src/fe-gtk/settings.c:1117
 msgid "Show nickname"
-msgstr "Pokazuj pseudonim"
+msgstr "Pokazuj w³asny pseudonim"
 
 #: src/fe-gtk/settings.c:1120
 msgid "Show nickname and op/voice icon before the input box"
-msgstr "Pokazuj pseudonim oraz ikonê statusu przed polem wprowadzania"
+msgstr "Pokazuj w³asny pseudonim oraz ikonê statusu przed polem wprowadzania"
 
 #: src/fe-gtk/settings.c:1123
 msgid "Nickname Completion Character:"
@@ -4418,7 +4418,7 @@ msgstr "Usuwa sygna³y d¼wiêkowe (^G) z wy¶wietlanego tekstu"
 
 #: src/fe-gtk/settings.c:1154
 msgid "Time Stamp Format:"
-msgstr "Format czasu i daty:"
+msgstr "Format daty i czasu:"
 
 #: src/fe-gtk/settings.c:1159
 msgid "Buffer Settings"
@@ -4763,7 +4763,7 @@ msgstr ""
 
 #: src/fe-gtk/settings.c:1504
 msgid "Proxy Server Hostname:"
-msgstr "Nazwa serwera proxy:"
+msgstr "Adres serwera proxy:"
 
 #: src/fe-gtk/settings.c:1508
 msgid "Proxy Server Port:"
@@ -4782,7 +4782,7 @@ msgid "Only show away messages the first time they're seen"
 msgstr "Pokazuje informacje o niebecno¶ci tylko za pierwszym razem"
 
 #: src/fe-gtk/settings.c:1529
-msgid "Announce away messsages"
+msgid "Announce away messages"
 msgstr "Og³aszaj stan nieobecno¶ci"
 
 #: src/fe-gtk/settings.c:1532
@@ -4868,7 +4868,7 @@ msgstr "Kolor pod¶wietlenia:"
 
 #: src/fe-gtk/settings.c:1627
 msgid "Notification Timeouts"
-msgstr ""
+msgstr "Czêsto¶æ sprawdzania listy powiadomieñ"
 
 #: src/fe-gtk/settings.c:1630
 msgid "Notify Check Interval:"
@@ -4920,7 +4920,8 @@ msgstr "Wznawianie podczas automatycznej akceptacji"
 
 #: src/fe-gtk/settings.c:1684
 msgid "When Auto-Accepting DCC, try to resume."
-msgstr "Je¶li w³±czona automatyczna akceptacja DCC, próbuj wznowiæ."
+msgstr "Je¶li w³±czona automatyczna akceptacja DCC, próbuj wznowiæ transfer "
+"czê¶ciowo przes³anego pliku."
 
 #: src/fe-gtk/settings.c:1697
 msgid "Timeouts"
@@ -5042,11 +5043,11 @@ msgstr "Interfejs"
 
 #: src/fe-gtk/settings.c:1884
 msgid "IRC Input/Output Settings"
-msgstr "Ustawienia wprowadzani i wy¶wietlania"
+msgstr "Ustawienia wprowadzania i wy¶wietlania"
 
 #: src/fe-gtk/settings.c:1885
 msgid "IRC Input/Output"
-msgstr "Wy¶wietlanie/wprowadzanie"
+msgstr "Interakcja"
 
 #: src/fe-gtk/settings.c:1889
 msgid "Window Layout Settings"
@@ -5062,7 +5063,7 @@ msgstr "Ustawienia g³ównego okna"
 
 #: src/fe-gtk/settings.c:1895
 msgid "Main Window"
-msgstr "G³ówne okno"
+msgstr "Okno g³ówne"
 
 #: src/fe-gtk/settings.c:1899
 msgid "Channel Window Settings"
@@ -5199,7 +5200,7 @@ msgstr "Zapisz jako"
 
 #: src/fe-gtk/textgui.c:475
 msgid "Load From"
-msgstr "Za³aduj z"
+msgstr "Wczytaj"
 
 #: src/fe-gtk/textgui.c:480
 msgid "Test All"
