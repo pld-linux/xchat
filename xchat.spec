@@ -37,8 +37,8 @@ URL:		http://xchat.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gettext-devel
-BuildRequires:	gtk+-devel >= 2.0.3
-BuildRequires:  glib-devel >= 2.0.3
+BuildRequires:	gtk+2-devel >= 2.0.3
+BuildRequires:  glib2-devel >= 2.0.3
 #BuildRequires:	gdk-pixbuf-devel
 #BuildRequires:	gnome-core-devel
 BuildRequires:	openssl-devel >= 0.9.6a
