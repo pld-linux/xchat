@@ -1,0 +1,5 @@
+- updated to 1.8.9,
+- removed included in current pl patch but seems including pl translations is
+  incomplete so Source1 still is used (probably tar ball was generatrated\
+  without regenerating ac/am suit),
+- use new %%doc packing infrastructure.
