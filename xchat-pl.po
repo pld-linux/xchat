@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xchat 1.8.5\n"
 "POT-Creation-Date: 2002-01-18 15:56+1100\n"
-"PO-Revision-Date: 2001-11-26 15:25+02:00\n"
-"Last-Translator: Micha³ Margula <alchemyxz@pld.org.pl>\n"
+"PO-Revision-Date: 2002-04-28 15:38+02:00\n"
+"Last-Translator: Micha³ Margula <alchemyx@pld.org.pl>\n"
 "Language-Team: Polish <pl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
@@ -116,7 +116,7 @@ msgstr "Nie jeste¶ po³±czony. Spróbuj /server <adres> [<port>]\n"
 
 #: src/common/outbound.c:473
 msgid "/ADDBUTTON <name> <action>, adds a button under the user-list\n"
-msgstr "/ADDBUTTON <nazwa> <akcja>, dodaje przycisk pod list± u¿ytkowników\n"
+msgstr "/ADDBUTTON <nazwa> <akcja>, dodaje przycisk poni¿ej listy u¿ytkowników\n"
 
 #: src/common/outbound.c:475
 msgid "/ALLCHAN <cmd>, sends a command to all channels you're in\n"
@@ -127,12 +127,12 @@ msgstr ""
 #: src/common/outbound.c:477
 msgid "/ALLSERV <cmd>, sends a command to all servers you're in\n"
 msgstr ""
-"/ALLSERV <polecenie>, wysy³a polecenie do wszystkich serwerów, do któych "
+"/ALLSERV <polecenie>, wysy³a polecenie do wszystkich serwerów, do których "
 "jeste¶ pod³±czony\n"
 
 #: src/common/outbound.c:478
 msgid "/AWAY [<reason>], sets you away\n"
-msgstr "/AWAY [<powód>], ustawia Ciê w tryb nieobecny\n"
+msgstr "/AWAY [<powód>], ustawia tryb nieobecno¶ci\n"
 
 #: src/common/outbound.c:480
 msgid ""
@@ -140,12 +140,12 @@ msgid ""
 "channel. If they are already on the channel this doesn't kick them (needs "
 "chanop)\n"
 msgstr ""
-"/BAN <maska> [<rodzaj>], banuje ka¿dego na kanale, który pasuje do podanej "
-"maski. Je¶li te osoby s± ju¿ na kanale nie wykopuje ich (wymaga operatora)\n"
+"/BAN <wzorzec> [<rodzaj>], banuje ka¿dego na kanale, który pasuje do podanego "
+"wzorca. Je¶li te osoby s± ju¿ na kanale nie wyrzuca ich (wymaga operatora)\n"
 
 #: src/common/outbound.c:482
 msgid "/UNBAN <mask> [<mask>...], unbans the specified masks.\n"
-msgstr "/UNBAN <maska> [<maska>...], odbanowuje podane maski.\n"
+msgstr "/UNBAN <wzorzec> [<wzorzec>...], odbanowuje podane wzorce.\n"
 
 #: src/common/outbound.c:483
 msgid "/CLEAR, Clears the current text window\n"
@@ -188,7 +188,7 @@ msgstr ""
 "/DCC LIST                    - pokazuje listê aktualnych operacji DCC\n"
 "/DCC CHAT <pseudonim>        - uruchamia rozmowê DCC do podanej osoby\n"
 "/DCC CLOSE <rodzaj> <pseudonim> <plik> - zamyka podan± operacjê, np:\n"
-"                      /dcc close send jankowalski file.tar.gz\n"
+"                      /dcc close send jankowalski plik.tar.gz\n"
 
 #: src/common/outbound.c:504
 msgid "/DELBUTTON <name>, deletes a button from under the user-list\n"
@@ -199,7 +199,7 @@ msgid ""
 "/DEHOP <nick>, removes chanhalf-op status from the nick on the current "
 "channel (needs chanop)\n"
 msgstr ""
-"/DEHOP <pseudonim>, zabiera podanej osobie status pó³operatora aktualnego "
+"/DEHOP <pseudonim>, odbiera podanej osobie status pó³operatora aktualnego "
 "kana³u (wymaga operatora)\n"
 
 #: src/common/outbound.c:508
@@ -244,7 +244,7 @@ msgid ""
 "/EXECKILL [-9], kills a running exec in the current session. If -9 is given "
 "the process is SIGKILL'ed\n"
 msgstr ""
-"/EXECKILL [-9], zabija dzia³aj±cy proces w aktualnej sesji, Je¶li podano -9 "
+"/EXECKILL [-9], usuwa dzia³aj±cy proces w aktualnej sesji, Je¶li podano -9 "
 "proces otrzymuje sygna³ SIGKILL.\n"
 
 #: src/common/outbound.c:520
@@ -257,7 +257,7 @@ msgstr "/EXECONT, wysy³a sygna³ SIGCONT do uruchomionego procesu\n"
 
 #: src/common/outbound.c:522
 msgid "/EXECWRITE, sends data to the processes stdin\n"
-msgstr "/EXECWRITE, wysy³a dane na wej¶cie dzia³aj±cego procesu\n"
+msgstr "/EXECWRITE, wysy³a dane na standardowe wej¶cie dzia³aj±cego procesu\n"
 
 #: src/common/outbound.c:526
 msgid "/FLUSHQ, flushes the current server's send queue\n"
@@ -283,8 +283,8 @@ msgid ""
 "            PRIV, CHAN, NOTI, CTCP, INVI, ALL\n"
 "    options - NOSAVE, QUIET\n"
 msgstr ""
-"/IGNORE <maska> <rodzaje..> <opcje..>\n"
-"    maska - maska adresu, który ma byæ ignorowany, np: *!*@*.tpnet.pl\n"
+"/IGNORE <wzorzec> <rodzaje..> <opcje..>\n"
+"    wzorzec - wzorzec adresu, który ma byæ ignorowany, np: *!*@*.tpnet.pl\n"
 "    rodzaje - rodzaje danych, jakie maj± byæ ignorowane, jeden lub "
 "wszystkie:\n"
 "                   PRIV, CHAN, NOTI, CTCP, INVI, ALL\n"
@@ -295,7 +295,7 @@ msgid ""
 "/INVITE <nick> [<channel>], invites someone to a channel, by default the "
 "current channel (needs chanop)\n"
 msgstr ""
-"/INVITE <pseudonim> [<channel>], zaprasza podan± osobê na kana³. Domy¶lnie "
+"/INVITE <pseudonim> [<kana³>], zaprasza podan± osobê na kana³. Domy¶lnie "
 "jest to aktualny kana³ (wymaga operatora)\n"
 
 #: src/common/outbound.c:541
@@ -305,8 +305,8 @@ msgstr "/JOIN <kana³>, do³±cza do kana³u\n"
 #: src/common/outbound.c:543
 msgid "/KICK <nick>, kicks the nick from the current channel (needs chanop)\n"
 msgstr ""
-"/KICK <pseudonim>, wyrzuca podan± osobê z aktualnego kana³u (musisz byæ "
-"operatorem)\n"
+"/KICK <pseudonim>, wyrzuca podan± osobê z aktualnego kana³u (wymaga "
+"operatora)\n"
 
 #: src/common/outbound.c:545
 msgid ""
@@ -354,7 +354,7 @@ msgid ""
 "/MKICK, Mass kicks everyone except you in the current channel (needs "
 "chanop)\n"
 msgstr ""
-"/MKICK, wyrzuca wszystkich z kana³ów oprócz samego siebie (wymaga "
+"/MKICK, wyrzuca wszystkich z kana³u oprócz samego siebie (wymaga "
 "operatora)\n"
 
 #: src/common/outbound.c:567
@@ -362,8 +362,8 @@ msgid ""
 "/MKICKB, Sets a ban of *@* and mass kicks everyone except you in the current "
 "channel (needs chanop)\n"
 msgstr ""
-"/MKICKB, ustawia bana na *@* i nastêpnie wyrzuca wszystki z kana³u oprócz "
-"siebie (wymaga operatora)\n"
+"/MKICKB, ustawia bana na *@* i nastêpnie wyrzuca wszystkich z kana³u oprócz "
+"Ciebie (wymaga operatora)\n"
 
 #: src/common/outbound.c:569
 msgid ""
@@ -383,7 +383,7 @@ msgstr "/NAMES, pokazujê listê wszystkich osób na aktualnym kanale\n"
 
 #: src/common/outbound.c:575
 msgid "/NCTCP <nick> <message>, Sends a CTCP notice\n"
-msgstr ""
+msgstr "/NCTCP <pseudonim> <wiadomo¶æ>, Wysy³a uwagê (notice) CTCP\n"
 
 #: src/common/outbound.c:576
 msgid "/NEWSERVER <hostname> [<port>]\n"
@@ -391,13 +391,15 @@ msgstr "/NEWSERVER <adres> [<port>]\n"
 
 #: src/common/outbound.c:577
 msgid "/NICK <nickname>, sets your nick\n"
-msgstr "/NICK <pseudonim>, ustawia Twój pseudonim\n"
+msgstr "/NICK <pseudonim>, zmienia pseudonim\n"
 
 #: src/common/outbound.c:580
 msgid ""
 "/NOTICE <nick/channel> <message>, sends a notice. Notices are a type of "
 "message that should be auto reacted to\n"
 msgstr ""
+"/NOTICE <pseudonim/kana³> <wiadomo¶æ>, wysy³a uwagê (notice). Uwagi "
+"s± takim rodzajem wiadomo¶ci, na które powinno siê automatycznie reagowaæ\n"
 
 #: src/common/outbound.c:582
 msgid "/NOTIFY [<nick>], lists your notify list or adds someone to it\n"
@@ -456,7 +458,7 @@ msgid ""
 msgstr ""
 "/RECONNECT [-ssl] [<adres>] [<port>] [<has³o>], mo¿e byæ wywo³ane bez "
 "parametrów, wtedy ³±czy siê od nowa z aktualnym serwerem. Wywo³anie w "
-"postaci /RECONECT ALL ³±czy od ze wszystkimi serwerami\n"
+"postaci /RECONECT ALL ³±czy od nowa ze wszystkimi serwerami\n"
 
 #: src/common/outbound.c:608
 msgid ""
@@ -527,7 +529,7 @@ msgstr ""
 
 #: src/common/outbound.c:639
 msgid "/UNIGNORE <mask> [QUIET]\n"
-msgstr "/UNIGNORE <maska> [QUIET]\n"
+msgstr "/UNIGNORE <wzorzec> [QUIET]\n"
 
 #: src/common/outbound.c:641
 msgid "/UNLOADALL, Unloads all perl scripts\n"
@@ -665,11 +667,11 @@ msgstr "Pseudonim do³±czaj±cej osoby"
 
 #: src/common/text.c:377
 msgid "The channel being joined"
-msgstr "Kana³ do którego do³±czono"
+msgstr "Kana³, do którego do³±czono"
 
 #: src/common/text.c:378 src/common/text.c:422 src/common/text.c:478
 msgid "The host of the person"
-msgstr "Adres osoby"
+msgstr "Adres komputera danej osoby"
 
 #: src/common/text.c:382 src/common/text.c:387 src/common/text.c:393
 #: src/common/text.c:460 src/common/text.c:584 src/common/text.c:591
@@ -711,7 +713,7 @@ msgstr "Nowy pseudonim"
 
 #: src/common/text.c:403
 msgid "Nick of person who changed the topic"
-msgstr "Osoba, która zmieni³a temat"
+msgstr "Pseudonim osoby, która zmieni³a temat"
 
 #: src/common/text.c:404 src/common/text.c:410 src/fe-gtk/chanlist.c:563
 #: src/fe-gtk/chanlist.c:694
@@ -726,11 +728,11 @@ msgstr "Kana³"
 
 #: src/common/text.c:414 src/common/text.c:472
 msgid "The nickname of the kicker"
-msgstr "Osoba, która wyrzuci³a"
+msgstr "Pseudonim osoby wyrzucaj±cej"
 
 #: src/common/text.c:415 src/common/text.c:470
 msgid "The person being kicked"
-msgstr "Osoba wyrzucona"
+msgstr "Pseudonim osoby wyrzuconej"
 
 #: src/common/text.c:416 src/common/text.c:423 src/common/text.c:427
 #: src/common/text.c:432 src/common/text.c:471 src/common/text.c:479
@@ -743,7 +745,7 @@ msgstr "Powód"
 
 #: src/common/text.c:421 src/common/text.c:477
 msgid "The nick of the person leaving"
-msgstr "Osoba wychodz±ca"
+msgstr "Pseudonim osoby wychodz±cej"
 
 #: src/common/text.c:428 src/common/text.c:434
 msgid "The time"
@@ -791,7 +793,7 @@ msgstr "Zdarzenie CTCP"
 
 #: src/common/text.c:500
 msgid "The nick of the person who set the key"
-msgstr "Osoba, która ustawi³a klucz"
+msgstr "Pseudonim osoby, która ustawi³a klucz"
 
 #: src/common/text.c:501
 msgid "The key"
@@ -799,7 +801,7 @@ msgstr "Klucz"
 
 #: src/common/text.c:505
 msgid "The nick of the person who set the limit"
-msgstr "Osoba, która ustawi³a limit"
+msgstr "Pseudonim osoby, która ustawi³a limit"
 
 #: src/common/text.c:506
 msgid "The limit"
@@ -807,19 +809,19 @@ msgstr "Limit"
 
 #: src/common/text.c:510
 msgid "The nick of the person who has been op'ed"
-msgstr "Osoba, która otrzyma³a status operatora"
+msgstr "Pseudonim osoby, która otrzyma³a status operatora"
 
 #: src/common/text.c:511
 msgid "The nick of the person of did the op'ing"
-msgstr "Osoba, która da³a status operatora"
+msgstr "Pseudonim osoby, która da³a status operatora"
 
 #: src/common/text.c:515
 msgid "The nick of the person who has been halfop'ed"
-msgstr "Osoba, która otrzyma³a status pó³operatora"
+msgstr "Pseudonim osoby, która otrzyma³a status pó³operatora"
 
 #: src/common/text.c:516
 msgid "The nick of the person of did the halfop'ing"
-msgstr "Osoba, która da³a status pó³operatora"
+msgstr "Pseudonim osoby, która da³a status pó³operatora"
 
 #: src/common/text.c:520
 msgid "The nick of the person who has been voice'ed"
@@ -835,11 +837,11 @@ msgstr "Pseudonim osoby banuj±cej"
 
 #: src/common/text.c:526 src/common/text.c:553
 msgid "The ban mask"
-msgstr "Wzór bana"
+msgstr "Wzorzec bana"
 
 #: src/common/text.c:530
 msgid "The nick who removed the key"
-msgstr "Osoba, która usunê³a klucz"
+msgstr "Pseudonim osoby, która usunê³a klucz"
 
 #: src/common/text.c:534
 msgid "The nick who removed the limit"
