@@ -63,15 +63,3 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/%{name}
 /etc/X11/applnk/Networking/%{name}.desktop
 %{_datadir}/pixmaps/%{name}.png
-
-%changelog
-* Wed Jul 7 1999 Piotr Czerwiñski <pius@pld.org.pl> 
-  [1.0.0-1]
-- updated to 1.0.0,
-- added pl translation,
-- minor changes.
-
-* Thu May 20 1999 Piotr Czerwiñski <pius@pld.org.pl> 
-  [0.9.4-4]
-- package is FHS 2.0 compliant,
-- spec file based on RH version, rewritten for PLD use.
