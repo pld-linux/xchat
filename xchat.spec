@@ -7,17 +7,15 @@ Summary(pt_BR):	Cliente IRC Gnome
 Summary(ru):	Gtk+ IRC клиент
 Summary(uk):	Gtk+ IRC кл╕╓нт
 Name:		xchat
-Version:	1.8.9
-Release:	2
+Version:	1.9.2
+Release:	1
 Epoch:		1
 License:	GPL
 Group:		X11/Applications/Networking
-Source0:	http://xchat.org/files/source/1.8/%{name}-%{version}.tar.bz2
+Source0:	http://xchat.org/files/source/1.9/%{name}-%{version}.tar.bz2
 Source1:	%{name}-pl.po
 Patch0:		%{name}-ac.patch
-Patch1:		%{name}-fix-USE_GNOME.patch
-Patch2:		%{name}-fix-default-replace.patch
-Patch3:		%{name}-UTF8_desktop.patch
+Patch1:		%{name}-UTF8_desktop.patch
 Icon:		xchat.xpm
 URL:		http://xchat.org/
 BuildRequires:	autoconf
@@ -73,8 +71,6 @@ X-Chat - ще один IRC кл╕╓нт для X Window System, який використову╓
 %setup -q
 %patch0 -p1
 %patch1 -p1
-%patch2 -p1
-%patch3 -p0
 cp %{SOURCE1} po/pl.po
 
 %build
