@@ -18,6 +18,6 @@
  Terminal=false
  Type=Application
 -Categories=Application;Network;
-+Categories=GTK;Network;IRCClient;X-Communication;
++Categories=GTK;Network;IRCClient;
 +# vi: encoding=utf-8
 +
