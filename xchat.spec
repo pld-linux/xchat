@@ -26,7 +26,7 @@ Epoch:		1
 License:	GPL v2
 Group:		X11/Applications/Networking
 Source0:	http://xchat.org/files/source/2.4/%{name}-%{version}.tar.bz2
-# Source0-md5:	968bc5f074fd7c202a8d63758bd5b62d
+# Source0-md5:	084585b765509d5da355155189b16ecd
 Source1:	%{name}-pl.po
 Patch0:		%{name}-desktop.patch
 Patch1:		%{name}-locale_names.patch
