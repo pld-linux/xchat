@@ -23,8 +23,8 @@ msgid ""
 "The default download directory is your\n"
 "home dir, you should change this at some stage."
 msgstr ""
-"Domy¶lny katalog do ¶ci±gania plików to Twój\n"
-"katalog domowy. Powiniene¶ to zmieniæ."
+"Otrzymane pliki s± domy¶lnie zapisywane\n"
+"w katalogu domowym. Powiniene¶ to zmieniæ."
 
 #: src/common/cfgfiles.c:590
 msgid ""
@@ -120,15 +120,13 @@ msgstr "/ADDBUTTON <nazwa> <akcja>, dodaje przycisk poni¿ej listy u¿ytkowników\n
 
 #: src/common/outbound.c:475
 msgid "/ALLCHAN <cmd>, sends a command to all channels you're in\n"
-msgstr ""
-"/ALLCHAN <polecenie>, wysy³a polecenie do wszystkich kana³ów, na których "
-"jeste¶\n"
+msgstr "/ALLCHAN <polecenie>, wysy³a polecenie do wszystkich kana³ów, na "
+"których jeste¶\n"
 
 #: src/common/outbound.c:477
 msgid "/ALLSERV <cmd>, sends a command to all servers you're in\n"
-msgstr ""
-"/ALLSERV <polecenie>, wysy³a polecenie do wszystkich serwerów, do których "
-"jeste¶ pod³±czony\n"
+msgstr "/ALLSERV <polecenie>, wysy³a polecenie do wszystkich serwerów, do "
+"których jeste¶ pod³±czony\n"
 
 #: src/common/outbound.c:478
 msgid "/AWAY [<reason>], sets you away\n"
@@ -165,8 +163,8 @@ msgstr ""
 
 #: src/common/outbound.c:489
 msgid "/COUNTRY <code>, finds a country code, eg: au = australia\n"
-msgstr ""
-"/COUNTRY <kod>, odnajduje pañstwo wed³ug jego kodu, np: au = Australia\n"
+msgstr "/COUNTRY <kod>, odnajduje pañstwo wed³ug jego kodu, np: au = "
+"Australia\n"
 
 #: src/common/outbound.c:491
 msgid "/CYCLE, parts current channel and immediately rejoins\n"
@@ -207,7 +205,7 @@ msgid ""
 "/DEOP <nick>, removes chanop status from the nick on the current channel "
 "(needs chanop)\n"
 msgstr ""
-"/DEOP <pseudonim>, zabiera podanej osobie status operatora aktualnego kana³u "
+"/DEOP <pseudonim>, odbiera podanej osobie status operatora aktualnego kana³u "
 "(wymaga operatora)\n"
 
 #: src/common/outbound.c:510
@@ -215,7 +213,7 @@ msgid ""
 "/DEVOICE <nick>, removes voice status from the nick on the current channel "
 "(needs chanop)\n"
 msgstr ""
-"/DEVOICE <pseudonim>, zabiera prawo g³osu podanej osobie na aktualnym kanale "
+"/DEVOICE <pseudonim>, odbiera prawo g³osu podanej osobie na aktualnym kanale "
 "(wymaga operatora)\n"
 
 #: src/common/outbound.c:511
@@ -265,14 +263,12 @@ msgstr "/FLUSHQ, czy¶ci aktualn± kolejkê wysy³ki serwera\n"
 
 #: src/common/outbound.c:528
 msgid "/GATE <host> [<port>], proxies through a host, port defaults to 23\n"
-msgstr ""
-"/GATE <adres> [<port>], uruchamia po³±czenie za po¶rednictwem podanego "
+msgstr "/GATE <adres> [<port>], uruchamia po³±czenie za po¶rednictwem podanego "
 "adresu, domy¶lny port to 23\n"
 
 #: src/common/outbound.c:531
 msgid "/HOP <nick>, gives chanhalf-op status to the nick (needs chanop)\n"
-msgstr ""
-"/HOP <pseudonim>, daje status pó³operatora podanej osobie (wymaga "
+msgstr "/HOP <pseudonim>, daje status pó³operatora podanej osobie (wymaga "
 "operatora)\n"
 
 #: src/common/outbound.c:533
@@ -304,8 +300,7 @@ msgstr "/JOIN <kana³>, do³±cza do kana³u\n"
 
 #: src/common/outbound.c:543
 msgid "/KICK <nick>, kicks the nick from the current channel (needs chanop)\n"
-msgstr ""
-"/KICK <pseudonim>, wyrzuca podan± osobê z aktualnego kana³u (wymaga "
+msgstr "/KICK <pseudonim>, wyrzuca podan± osobê z aktualnego kana³u (wymaga "
 "operatora)\n"
 
 #: src/common/outbound.c:545
@@ -340,13 +335,12 @@ msgstr "/LOADLL <plik>, wczytuje wtyczkê\n"
 msgid ""
 "/MDEHOP, Mass deop's all chanhalf-ops in the current channel (needs chanop)\n"
 msgstr ""
-"/MDEHOP, zabiera status pó³operatora wszystkim z aktualnego kana³u (wymaga "
+"/MDEHOP, odbiera status pó³operatora wszystkim z aktualnego kana³u (wymaga "
 "operatora)\n"
 
 #: src/common/outbound.c:563
 msgid "/MDEOP, Mass deop's all chanops in the current channel (needs chanop)\n"
-msgstr ""
-"/MDEOP, zabiera status operatora wszystkim na aktualnym kanale (wymaga "
+msgstr "/MDEOP, odbiera status operatora wszystkim na aktualnym kanale (wymaga "
 "operatora)\n"
 
 #: src/common/outbound.c:565
@@ -399,18 +393,17 @@ msgid ""
 "message that should be auto reacted to\n"
 msgstr ""
 "/NOTICE <pseudonim/kana³> <wiadomo¶æ>, wysy³a uwagê (notice). Uwagi "
-"s± takim rodzajem wiadomo¶ci, na które powinno siê automatycznie reagowaæ\n"
+"s± takim rodzajem wiadomo¶ci, na które powinno siê reagowaæ automatycznie\n"
 
 #: src/common/outbound.c:582
 msgid "/NOTIFY [<nick>], lists your notify list or adds someone to it\n"
-msgstr ""
-"/NOTIFY [<pseudonim>], wy¶wietla listê powiadamiania lub dodaje do niej now± "
-"osobê\n"
+msgstr "/NOTIFY [<pseudonim>], wy¶wietla listê powiadamiania lub dodaje do "
+"niej now± osobê\n"
 
 #: src/common/outbound.c:584
 msgid "/OP <nick>, gives chanop status to the nick (needs chanop)\n"
-msgstr ""
-"/OP <pseudonim>, daje status operatora podanej osobie (wymaga operatora)\n"
+msgstr "/OP <pseudonim>, daje status operatora podanej osobie (wymaga "
+"operatora)\n"
 
 #: src/common/outbound.c:586
 msgid ""
@@ -422,9 +415,8 @@ msgstr ""
 
 #: src/common/outbound.c:588
 msgid "/PING <nick | channel>, CTCP pings nick or channel\n"
-msgstr ""
-"/PING <pseudonim | kana³>, sprawdza czas odpowiedzi dla danej osoby lub "
-"kana³u\n"
+msgstr "/PING <pseudonim | kana³>, sprawdza czas odpowiedzi dla danej osoby "
+"lub kana³u\n"
 
 #: src/common/outbound.c:592
 msgid "/PKILL <name>, kills the script of the given name\n"
@@ -476,8 +468,8 @@ msgstr "/RMDLL <nazwa>, wy³adowuje podan± wtyczkê\n"
 
 #: src/common/outbound.c:615
 msgid "/SAY <text>, sends the text to the object in the current window\n"
-msgstr ""
-"/SAY <tre¶æ>, wysy³a tekst o podanej tre¶ci do obiektu w aktualnym oknie\n"
+msgstr "/SAY <tre¶æ>, wysy³a tekst o podanej tre¶ci do obiektu w aktualnym "
+"oknie\n"
 
 #: src/common/outbound.c:618
 msgid "/SCPINFO, Lists some information about current Perl bindings\n"
@@ -496,8 +488,8 @@ msgstr ""
 
 #: src/common/outbound.c:627
 msgid "/SERVCHAN <host> <port> <channel>, connects and joins a channel\n"
-msgstr ""
-"/SERVCHAN <adres> <port> <kana³>, ³±czy a nastêpnie wchodzi na podany kana³\n"
+msgstr "/SERVCHAN <adres> <port> <kana³>, ³±czy a nastêpnie wchodzi na podany "
+"kana³\n"
 
 #: src/common/outbound.c:631
 msgid ""
@@ -524,8 +516,8 @@ msgid ""
 "/TOPIC [<topic>], sets the topic if one is given, else shows the current "
 "topic\n"
 msgstr ""
-"/TOPIC [<temat>], ustawia podany temat na aktualnym kanale. W przypadku nie "
-"podania parametrów, wy¶wietla aktualny temat.\n"
+"/TOPIC [<temat>], ustawia podany temat na aktualnym kanale. W przypadku "
+"opuszczenia parametrów, wy¶wietla aktualny temat.\n"
 
 #: src/common/outbound.c:639
 msgid "/UNIGNORE <mask> [QUIET]\n"
@@ -549,8 +541,8 @@ msgstr "/WALLCHAN <wiadomo¶æ>, wysy³a wiadomo¶æ na wszystkie kana³y\n"
 
 #: src/common/outbound.c:649
 msgid "/VOICE <nick>, gives voice status to someone (needs chanop)\n"
-msgstr ""
-"/VOICE <pseudonim>, udziela prawa g³osu podanej osobie (wymaga operatora)\n"
+msgstr "/VOICE <pseudonim>, udziela prawa g³osu podanej osobie (wymaga "
+"operatora)\n"
 
 #: src/common/outbound.c:665
 msgid "Usage:\n"
@@ -1048,11 +1040,11 @@ msgstr "Rozmiar"
 
 #: src/common/text.c:754
 msgid "DCC String"
-msgstr ""
+msgstr "Ci±g znaków DCC"
 
 #: src/common/text.c:759
 msgid "Number of notify items"
-msgstr ""
+msgstr "Ilo¶æ elementów w powiadamianiu"
 
 #: src/common/text.c:763
 msgid "Servername"
@@ -1076,7 +1068,7 @@ msgstr "Wiadomo¶æ"
 
 #: src/common/text.c:785 src/common/text.c:795
 msgid "Hostmask"
-msgstr ""
+msgstr "Wzorzec adresu"
 
 #: src/common/text.c:786
 msgid "Priv Yes/No"
@@ -1324,7 +1316,8 @@ msgstr "-%C10-%C11-%O$t%C12[%O$1%C12]%O nieaktywny %C11$2%O"
 
 #: src/common/text.c:963
 msgid "-%C10-%C11-%O$t%C12[%O$1%C12]%O idle %C11$2%O, signon: %C11$3%O"
-msgstr "-%C10-%C11-%O$t%C12[%O$1%C12]%O nieaktywny %C11$2%O, po³±czony od: %C11$3%O"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12]%O nieaktywny %C11$2%O, po³±czony od: "
+"%C11$3%O"
 
 #: src/common/text.c:966
 msgid "-%C10-%C11-%O$t%C12[%O$1%C12] %Cis away %C14(%O$2%O%C14)"
@@ -1336,7 +1329,8 @@ msgstr "-%C10-%C11-%O$t%C12[%O$1%C12] %CKoniec informacji o u¿ytkowniku."
 
 #: src/common/text.c:970
 msgid "-%C10-%C11-%O$tCannot join%C11 %B$1 %O(User limit reached)."
-msgstr "-%C10-%C11-%O$tNie mo¿na wej¶æ na kana³%C11 %B$1 %O(Osi±gniêty limit osób)."
+msgstr "-%C10-%C11-%O$tNie mo¿na wej¶æ na kana³%C11 %B$1 %O(Osi±gniêty limit "
+"osób)."
 
 #: src/common/text.c:972
 msgid "-%C10-%C11-%O$tCannot join%C11 %B$1 %O(You are banned)."
@@ -1362,8 +1356,8 @@ msgstr ""
 
 #: src/common/text.c:983
 msgid "-%C10-%C11-%O$tYou have been invited to %C11$1%C by %C11$2%C (%C11$3%C)"
-msgstr ""
-"-%C10-%C11-%O$tZosta³e¶ zaproszony na %C11$1%C przez %C11$2%C (%C11$3%C)"
+msgstr "-%C10-%C11-%O$tZosta³e¶ zaproszony na %C11$1%C przez %C11$2%C "
+"(%C11$3%C)"
 
 #: src/common/text.c:986
 msgid "-%C10-%C11-%O$t%C11Users on $1:%C $2"
@@ -1423,7 +1417,7 @@ msgstr "-%C10-%C11-%O$t$1 ustawi³ tryby %C14[%O$2%B%C14]%O"
 
 #: src/common/text.c:1016
 msgid "-%C10-%C11-%O$tYou have been killed by $1 ($2%O)"
-msgstr ""
+msgstr "-%C10-%C11-%O$tZosta³e¶ usuniêty z serwera przez $1 ($2%O)"
 
 #: src/common/text.c:1018
 msgid "-%C10-%C11-%O$tDCC $1 %C11$2 %Cto %C11$3 %Cstalled - aborting."
@@ -1442,47 +1436,55 @@ msgstr ""
 
 #: src/common/text.c:1027
 msgid "-%C10-%C11-%O$tDCC RECV: Cannot open $1 for writing - aborting."
-msgstr ""
+msgstr "-%C10-%C11-%O$tOdbiór DCC: Nie mo¿na otworzyæ $1 do zapisu - "
+"anulowanie."
 
 #: src/common/text.c:1030
 msgid "-%C10-%C11-%O$tDCC RECV $1 ($2) failed. Connection to $3 lost."
-msgstr ""
+msgstr "-%C10-%C11-%O$tOdbiór DCC $1 ($2) nie powiód³ siê. Po³±czenie "
+"z $3 utracone."
 
 #: src/common/text.c:1033
 msgid ""
 "-%C10-%C11-%O$tDCC RECV %C11$1%O from %C11$3%O complete %C14[%C11$4%O cps%"
 "C14]%O."
 msgstr ""
+"-%C10-%C11-%O$tOdbiór DCC %C11$1%O od %C11$3%O zakoñczony %C14[%C11$4%O cps%"
+"C14]%O."
 
 #: src/common/text.c:1036
 msgid "-%C10-%C11-%O$tDCC $1 connect attempt to %C11$2%O failed (err=$3)."
-msgstr ""
+msgstr "-%C10-%C11-%O$tPróba po³±czenia DCC $1 do %C11$2%O nie powiod³a siê "
+"(b³±d=$3)."
 
 #: src/common/text.c:1039
 msgid "-%C10-%C11-%O$tDCC $1 connection established $4 %C11$2 %C14[%O$3%C14]%O"
-msgstr ""
+msgstr "-%C10-%C11-%O$tPo³±czenie DCC $1 nawi±zane $4 %C11$2 %C14[%O$3%C14]%O"
 
 #: src/common/text.c:1042
 msgid "-%C10-%C11-%O$tDCC SEND %C11$1%O failed. Connection to %C11$2%O lost."
-msgstr ""
+msgstr "-%C10-%C11-%O$tDCC SEND %C11$1%O nie powiod³o siê. Po³±czenie z "
+"%C11$2%O utracone."
 
 #: src/common/text.c:1045
 msgid ""
 "-%C10-%C11-%O$tDCC SEND %C11$1%O to %C11$2%O complete %C14[%C11$3%O cps%C14]%"
 "O."
 msgstr ""
+"-%C10-%C11-%O$tDCC SEND %C11$1%O do %C11$2%O zakoñczone %C14[%C11$3%O "
+"cps%C14]%O."
 
 #: src/common/text.c:1048
 msgid "-%C10-%C11-%O$tOffering %C11$1 %Cto %C11$2%O"
-msgstr ""
+msgstr "-%C10-%C11-%O$tOferowanie %C11$1 %Cdla %C11$2%O"
 
 #: src/common/text.c:1050
 msgid "-%C10-%C11-%O$tDCC $1 %C11$2 %Cto %C11$3 %Caborted."
-msgstr ""
+msgstr "-%C10-%C11-%O$tPo³±czenie DCC $1 %C11$2 %Cdo %C11$3 %Canulowane."
 
 #: src/common/text.c:1052
 msgid "-%C10-%C11-%O$tNo such DCC offer."
-msgstr ""
+msgstr "-%C10-%C11-%O$tNie by³o oferowane takie po³±czenie DCC."
 
 #: src/common/text.c:1054
 msgid "-%C10-%C11-%O$tAlready offering CHAT to $1"
