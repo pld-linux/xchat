@@ -44,7 +44,7 @@ BuildRequires:	openssl-devel >= 0.9.7d
 BuildRequires:	perl-devel
 BuildRequires:	pkgconfig
 BuildRequires:	python-devel >= 2.2
-%requires_eq	perl-base
+Requires:	perl(DynaLoader) = %(%{__perl} -MDynaLoader -e 'print DynaLoader->VERSION')
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
