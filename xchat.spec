@@ -7,17 +7,16 @@ Summary(pt_BR):	Cliente IRC Gnome
 Summary(ru):	Gtk+ IRC клиент
 Summary(uk):	Gtk+ IRC кл╕╓нт
 Name:		xchat
-Version:	1.8.8
-Release:	7
+Version:	1.8.9
+Release:	1
 Epoch:		1
 License:	GPL
 Group:		X11/Applications/Networking
 Source0:	http://xchat.org/files/source/1.8/%{name}-%{version}.tar.bz2
 Source1:	%{name}-pl.po
 Patch0:		%{name}-ac.patch
-Patch1:		%{name}-pl.patch
-Patch2:		%{name}-fix-USE_GNOME.patch
-Patch3:		%{name}-fix-default-replace.patch
+Patch1:		%{name}-fix-USE_GNOME.patch
+Patch2:		%{name}-fix-default-replace.patch
 Icon:		xchat.xpm
 URL:		http://xchat.org/
 BuildRequires:	autoconf
@@ -74,7 +73,6 @@ X-Chat - ще один IRC кл╕╓нт для X Window System, який використову╓
 %patch0 -p1
 %patch1 -p1
 %patch2 -p1
-%patch3 -p1
 cp %{SOURCE1} po/pl.po
 
 %build
@@ -103,8 +101,6 @@ install -d $RPM_BUILD_ROOT%{_pixmapsdir}
 install xchat.desktop $RPM_BUILD_ROOT%{_applnkdir}/Network/Communications
 install xchat.png $RPM_BUILD_ROOT%{_pixmapsdir}
 
-gzip -9nf README ChangeLog AUTHORS
-
 %find_lang %{name}
 
 %clean
@@ -112,7 +108,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f %{name}.lang
 %defattr(644,root,root,755)
-%doc {README,ChangeLog,AUTHORS}.gz doc/*html
+%doc README ChangeLog AUTHORS doc/*html
 %attr(755,root,root) %{_bindir}/*
 %{_applnkdir}/Network/Communications/xchat.desktop
 %{_pixmapsdir}/xchat.png
