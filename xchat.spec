@@ -42,9 +42,6 @@ BuildRequires:	perl-devel
 BuildRequires:	python-devel >= 2.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define 	_prefix		/usr/X11R6
-%define		_mandir		%{_prefix}/man
-
 %description
 X-Chat is yet another IRC client for the X Window System, using the
 Gtk+ toolkit. It is pretty easy to use compared to the other Gtk+ IRC
