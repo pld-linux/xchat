@@ -11,8 +11,8 @@ Group:		X11/Applications/Networking
 Group(de):	X11/Applikationen/Netzwerkwesen
 Group(pl):	X11/Aplikacje/Sieciowe
 Source0:	http://xchat.org/files/source/1.8/%{name}-%{version}.tar.bz2
-Patch0:		xchat-kick.patch
-PAtch1:		xchat-kill.patch
+Patch0:		%{name}-kick.patch
+Patch1:		%{name}-kill.patch
 Icon:		xchat.xpm
 URL:		http://xchat.org/
 BuildRequires:	gtk+-devel >= 1.2.5
