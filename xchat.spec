@@ -35,8 +35,6 @@ BuildRequires:	automake
 BuildRequires:	gettext-devel
 BuildRequires:	gtk+2-devel >= 2.0.3
 BuildRequires:  glib2-devel >= 2.0.3
-#BuildRequires:	gdk-pixbuf-devel
-#BuildRequires:	gnome-core-devel
 BuildRequires:	openssl-devel >= 0.9.6a
 BuildRequires:	perl-devel
 BuildRequires:	python-devel >= 2.2
@@ -168,6 +166,8 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README ChangeLog AUTHORS 
 %attr(755,root,root) %{_bindir}/*
+%dir %{_libdir}/xchat
+%dir %{_libdir}/xchat/plugins
 %attr(755,root,root) %{_libdir}/xchat/plugins/*
 %{_applnkdir}/Network/Communications/xchat.desktop
 %{_pixmapsdir}/xchat.png
