@@ -5,8 +5,8 @@ Summary(fr):	Client IRC Gtk+
 Summary(pl):	Oparty na Gtk+ klient IRC
 Summary(pt_BR):	Cliente IRC Gnome
 Name:		xchat
-Version:	1.8.5
-Release:	2
+Version:	1.8.6
+Release:	1
 Epoch:		1
 License:	GPL
 Group:		X11/Applications/Networking
