@@ -1,5 +1,5 @@
---- xchat.desktop~	Sun Jul  7 21:08:44 2002
-+++ xchat.desktop	Sun Jul  7 21:15:55 2002
+--- 1.9.2/xchat.desktop~	Sun Jul  7 21:08:44 2002
++++ 1.9.2/xchat.desktop	Sun Jul  7 21:15:55 2002
 @@ -2,18 +2,20 @@
  Name=X-Chat
  Comment=IRC Client
