@@ -15,6 +15,7 @@ BuildRequires:	gtk+-devel >= 1.2.5
 BuildRequires:	imlib-devel
 BuildRequires:	gnome-libs-devel
 BuildRequires:	gnome-core-devel
+BuildRequires:	python-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define 	_prefix		/usr/X11R6
