@@ -1193,7 +1193,7 @@ msgstr "<%C10-%C11-%O$t$1 roz³±czy³ siê z serwerem %C14(%O$2%O%C14)%C"
 
 #: src/common/text.c:898
 msgid "-%C10-%C11-%O$tPing reply from $1 : $2 second(s)"
-msgstr "-%C10-%C11-%O$tCzas odpowiedz od $1 : $2 sekund"
+msgstr "-%C10-%C11-%O$tCzas odpowiedzi od $1 : $2 sekund"
 
 #: src/common/text.c:899
 msgid "%C12-%C13$1%C12-%O$t$2%O"
@@ -1201,7 +1201,7 @@ msgstr "%C12-%C13$1%C12-%O$t$2%O"
 
 #: src/common/text.c:902
 msgid "-%C10-%C11>%O$t%BYou%B are now talking on %C11$2%O"
-msgstr "-%C10-%C11>%O$tRozmawiasz w³a¶nie na kanale %C11$2%O"
+msgstr "-%C10-%C11>%O$tWszed³e¶ w³a¶nie na kana³ %C11$2%O"
 
 #: src/common/text.c:903
 msgid "%C6<%O$1%C6>%O$t$2%O"
@@ -1225,11 +1225,11 @@ msgstr "-%C10-%C11-%O$tOtrzyma³e¶ CTCP D¼wiêk $1 od $2"
 
 #: src/common/text.c:916
 msgid "-%C10-%C11-%O$tReceived a CTCP $1 from $2"
-msgstr "-%C10-%C11-%O$tOtrzyma³e¶ wywo³anie CTCP $1 od $2"
+msgstr "-%C10-%C11-%O$tOtrzyma³e¶ zapytanie CTCP $1 od $2"
 
 #: src/common/text.c:918
 msgid "-%C10-%C11-%O$tReceived a CTCP $1 from $2 (to $3)"
-msgstr "-%C10-%C11-%O$tOtrzyma³e¶ wywo³anie CTCP $1 od $2 (do $3)"
+msgstr "-%C10-%C11-%O$tOtrzyma³e¶ zapytanie CTCP $1 od $2 (do $3)"
 
 #: src/common/text.c:920
 msgid "-%C10-%C11-%O$t$1 sets channel keyword to $2"
@@ -1241,11 +1241,11 @@ msgstr "-%C10-%C11-%C$t$1 ustawi³ limit kana³u na $2"
 
 #: src/common/text.c:924
 msgid "-%C10-%C11-%O$t$1 gives channel half-operator status to $2"
-msgstr "-%C10-%C11-%O$t$1 udzieli³ statusu pó³operatora dla $2"
+msgstr "-%C10-%C11-%O$t$1 nada³ status pó³operatora dla $2"
 
 #: src/common/text.c:926
 msgid "-%C10-%C11-%O$t$1 gives channel operator status to $2"
-msgstr "-%C10-%C11-%O$t$1 udzieli³ status operatora kana³u dla $2"
+msgstr "-%C10-%C11-%O$t$1 nada³ status operatora kana³u dla $2"
 
 #: src/common/text.c:928
 msgid "-%C10-%C11-%O$t$1 gives voice to $2"
@@ -1536,7 +1536,7 @@ msgstr "-%C10-%C11-%O$tProces ju¿ aktualnie dzia³a"
 
 #: src/common/text.c:1077
 msgid "-%C10-%C11-%O$tLooking up %C11$1%C.."
-msgstr "-%C10-%C11-%O$tSprawdzam adres %C11$1%C.."
+msgstr "-%C10-%C11-%O$tSzukam adresu %C11$1%C.."
 
 #: src/common/text.c:1078
 msgid "-%C10-%C11-%O$tConnected."
@@ -1544,7 +1544,7 @@ msgstr "-%C10-%C11-%O$tPo³±czony."
 
 #: src/common/text.c:1084
 msgid "-%C10-%C11-%O$tFound your IP: [$1]"
-msgstr "-%C10-%C11-%O$tOdnaleziony Twój adres IP: [$1]"
+msgstr "-%C10-%C11-%O$tZnaleziono Twój adres IP: [$1]"
 
 #: src/common/text.c:1087
 msgid ""
