@@ -1,0 +1,4 @@
+- --disable-gnome because with gnome xchat not compiles,
+- added woraroud in %%install for installing png pixmap and desktop file when
+  --disable-gnome.
+TODO: separate xchat and xchat-text.
