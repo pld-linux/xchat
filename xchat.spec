@@ -3,7 +3,7 @@ Summary(de):	Gtk+ IRC-Client
 Summary(fr):	Client IRC Gtk+
 Summary(pl):	Oparty na Gtk+ klient IRC
 Name:		xchat
-Version:	1.3.5
+Version:	1.3.6
 Release:	1
 Group:		X11/Applications/Networking
 Group(pl):	X11/Aplikacje/Sieciowe
@@ -50,7 +50,7 @@ zaprojektowany.
 %build
 rm -f config.status
 gettextize --copy --force
-automake
+automake --copy -a
 LDFLAGS="-s"; export LDFLAGS
 %configure \
 	--enable-gnome \
