@@ -58,7 +58,6 @@ aclocal
 autoconf
 automake -a -c --foreign
 %configure \
-	--disable-gnome \
 	--disable-perl \
 	--enable-openssl \
 	--enable-ipv6 \
