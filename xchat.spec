@@ -35,6 +35,7 @@ BuildRequires:	automake
 BuildRequires:	gettext-devel
 BuildRequires:	gtk+2-devel >= 2.0.3
 BuildRequires:  glib2-devel >= 2.0.3
+BuildRequires:	libtool
 BuildRequires:	openssl-devel >= 0.9.7
 BuildRequires:	perl-devel
 BuildRequires:	python-devel >= 2.2
