@@ -77,7 +77,7 @@ cp %{SOURCE1} po/pl.po
 
 %build
 rm -f config.status missing
-gettextize --copy --force
+%{__gettextize}
 aclocal
 %{__autoconf}
 automake -a -c --foreign
