@@ -4303,20 +4303,19 @@ msgstr "Uzupe³nianie pseudonimów wed³ug starych zasad"
 
 #: src/fe-gtk/settings.c:1105
 msgid "Nickname completion is old-style (instead of GNU-style)"
-msgstr ""
-"Uzupe³nianie pseudonimów wed³ug starej metody (zamiast wed³ug stylu GNU)"
+msgstr "Uzupe³nianie pseudonimów wed³ug starej metody (zamiast wed³ug stylu GNU)"
 
 #: src/fe-gtk/settings.c:1107
 msgid "Give the Input Box style"
-msgstr ""
+msgstr "Nadaj polu wprowadzania wygl±d pozosta³ych okien tekstowych"
 
 #: src/fe-gtk/settings.c:1110
 msgid "Input box gets same style as main text area"
-msgstr ""
+msgstr "Pole wprowadzania zyskuje wygl±d taki jak maj± okna tekstowe"
 
 #: src/fe-gtk/settings.c:1112
 msgid "Input Box always in focus"
-msgstr ""
+msgstr "Pole wprowadzania zawsze aktywne"
 
 #: src/fe-gtk/settings.c:1117
 msgid "Show nickname"
@@ -4336,7 +4335,7 @@ msgstr "Znak dodawany do uzupe³nianych pseudonimów"
 
 #: src/fe-gtk/settings.c:1129
 msgid "Output Box"
-msgstr ""
+msgstr "Wygl±d okien"
 
 #: src/fe-gtk/settings.c:1131
 msgid "Strip MIRC Color"
@@ -4368,11 +4367,11 @@ msgstr "Dodaje do ka¿dej wy¶wietlanej linii datê oraz dok³adny czas"
 
 #: src/fe-gtk/settings.c:1148
 msgid "Filter out BEEPs"
-msgstr ""
+msgstr "Odfiltruj pipniêcia"
 
 #: src/fe-gtk/settings.c:1151
 msgid "Remove ^G BEEP codes from text before displaying"
-msgstr ""
+msgstr "Usuwa sygna³y d¼wiêkowe (^G) z wy¶wietlanego tekstu"
 
 #: src/fe-gtk/settings.c:1154
 msgid "Time Stamp Format:"
@@ -4396,7 +4395,7 @@ msgstr "Inne ustawienia"
 
 #: src/fe-gtk/settings.c:1166
 msgid "Kanji locale <=> JIS translation"
-msgstr ""
+msgstr "T³umaczenie locale Kanji <=> JIS"
 
 #: src/fe-gtk/settings.c:1203
 msgid "Bottom"
@@ -4464,7 +4463,7 @@ msgstr "Miernik opó¼nienia:"
 
 #: src/fe-gtk/settings.c:1238
 msgid "Throttle meter:"
-msgstr ""
+msgstr "Wspó³czynnik t³umienia:"
 
 #: src/fe-gtk/settings.c:1242
 msgid "Tabs"
@@ -4480,15 +4479,15 @@ msgstr "Zak³adki kana³ów"
 
 #: src/fe-gtk/settings.c:1253
 msgid "Use tabs for channels instead of separate windows"
-msgstr ""
+msgstr "U¿ywaj zak³adek dla kana³ów zamiast osobnych okien"
 
 #: src/fe-gtk/settings.c:1254
 msgid "Limited Tab Highlighting"
-msgstr ""
+msgstr "Ograniczone zaznaczanie zak³adek"
 
 #: src/fe-gtk/settings.c:1257
 msgid "Only highlight channel tabs for channel messages and actions"
-msgstr ""
+msgstr "Zaznacza innym kolorem tylko zak³adki, w których pojawi³y siê wiadomo¶ci lub akcje"
 
 #: src/fe-gtk/settings.c:1258
 msgid "New Tabs to front"
@@ -4504,37 +4503,39 @@ msgstr "Zak³adki prywatnych wiadomo¶ci"
 
 #: src/fe-gtk/settings.c:1265
 msgid "Use tabs for /query instead of separate windows"
-msgstr ""
+msgstr "U¿ywaj zak³adek dla /query zamiast osobnych okien"
 
 #: src/fe-gtk/settings.c:1268
 msgid "Use a separate tab/window for server messages"
-msgstr ""
+msgstr "U¿ywaj osobnej zak³adki/okna dla wiadomo¶ci serwera"
 
 #: src/fe-gtk/settings.c:1271
 msgid "Use a separate tab/window for notices and server notices"
-msgstr ""
+msgstr "U¿yj osobnej zak³adki/okna dla uwag (notice) od u¿ytkowników i serwera"
 
 #: src/fe-gtk/settings.c:1275
 msgid "Use tabs for DCC, Ignore, Notify etc windows."
-msgstr ""
+msgstr "U¿ywaj zak³adek zamiast okien DCC, Ignorowania, Powiadamiania, itp."
 
 #: src/fe-gtk/settings.c:1287
 msgid "Window Position"
-msgstr ""
+msgstr "Po³o¿enie okna"
 
 #: src/fe-gtk/settings.c:1288
 msgid ""
 "If Left and Top are set to zero, X-Chat will use\n"
 "your window manager defaults."
 msgstr ""
+"Je¶li Lewa i Góra s± ustawione na zero, zostan±\n"
+"u¿yte domy¶lne ustawienia mened¿era okien."
 
 #: src/fe-gtk/settings.c:1293
 msgid "Left:"
-msgstr ""
+msgstr "Lewa:"
 
 #: src/fe-gtk/settings.c:1296
 msgid "Top:"
-msgstr ""
+msgstr "Góra:"
 
 #: src/fe-gtk/settings.c:1299
 msgid "Window Size"
@@ -4557,7 +4558,7 @@ msgstr ""
 #: src/fe-gtk/settings.c:1555 src/fe-gtk/settings.c:1573
 #: src/fe-gtk/settings.c:1640 src/fe-gtk/settings.c:1661
 msgid "General"
-msgstr ""
+msgstr "Ogólne"
 
 #: src/fe-gtk/settings.c:1367
 msgid "Hide Session on Panelize"
@@ -4573,7 +4574,7 @@ msgstr "Aplet panelu GNOME"
 
 #: src/fe-gtk/settings.c:1373
 msgid "Layout For a Vertical Panel"
-msgstr ""
+msgstr "Wygl±d pionowego panelu"
 
 #: src/fe-gtk/settings.c:1376
 msgid "Layout the X-Chat panel applet for a vertical panel"
@@ -4581,11 +4582,11 @@ msgstr ""
 
 #: src/fe-gtk/settings.c:1391
 msgid "Raw Mode Display"
-msgstr ""
+msgstr "Poka¿ niesformatowane dane"
 
 #: src/fe-gtk/settings.c:1394
 msgid "Display raw mode changes instead of interpretations"
-msgstr ""
+msgstr "Pokazuje dane otrzymane od serwera nie interpretuj±c ich"
 
 #: src/fe-gtk/settings.c:1395
 msgid "Beep on Private Messages"
@@ -4593,27 +4594,27 @@ msgstr "Odgrywaj d¼wiêk po przyj¶ciu prywatnych wiadomo¶ci"
 
 #: src/fe-gtk/settings.c:1398
 msgid "Beep when a private message for you is received"
-msgstr ""
+msgstr "Odgrywa systemowy d¼wiêk zaraz po otrzymaniu prywatnej wiadomo¶ci"
 
 #: src/fe-gtk/settings.c:1399
 msgid "Beep on Channel Messages"
-msgstr ""
+msgstr "Odgrywaj d¼wiêk przy wiadomo¶ci na kanale"
 
 #: src/fe-gtk/settings.c:1402
 msgid "Beep when a channel message is received"
-msgstr ""
+msgstr "Odgrywa systemowy d¼wiêk zaraz po pojawieniu siê nowej wiadomo¶ci na kanale"
 
 #: src/fe-gtk/settings.c:1403
 msgid "Send /who #chan on join."
-msgstr ""
+msgstr "Wy¶lij /who #kana³ po wej¶ciu."
 
 #: src/fe-gtk/settings.c:1406
 msgid "Find user information when joining a channel."
-msgstr ""
+msgstr "Uzyskuje informacje o u¿ytkownikach zaraz po wej¶ciu na kana³."
 
 #: src/fe-gtk/settings.c:1407
 msgid "Perform a periodic mail check."
-msgstr ""
+msgstr "Sprawdzaj automatycznie pocztê."
 
 #: src/fe-gtk/settings.c:1410
 msgid "Your irc settings"
@@ -4641,7 +4642,7 @@ msgstr "Zewnêtrzne programy"
 
 #: src/fe-gtk/settings.c:1428
 msgid "DNS Lookup Program:"
-msgstr ""
+msgstr "Program do sprawdzania nazw domen:"
 
 #: src/fe-gtk/settings.c:1433
 msgid "Timing"
@@ -4649,7 +4650,7 @@ msgstr ""
 
 #: src/fe-gtk/settings.c:1436
 msgid "Auto ReConnect Delay:"
-msgstr ""
+msgstr "Opó¼nienie przed ponownym automatycznym po³±czeniem:"
 
 #: src/fe-gtk/settings.c:1437 src/fe-gtk/settings.c:1703
 #: src/fe-gtk/settings.c:1706
@@ -4669,6 +4670,8 @@ msgid ""
 "Most people should leave this blank, it's only\n"
 "usefull for machines with multiple addresses."
 msgstr ""
+"Wiêkszo¶æ osób nie powinna zmieniaæ tego ustawienia.\n"
+"Jest ono tylko przydatne na maszynach z wieloma adresami."
 
 #: src/fe-gtk/settings.c:1459
 msgid "Public IP Address"
@@ -4683,6 +4686,8 @@ msgid ""
 "You may need to set the DCC IP Address if\n"
 "you're behind a NAT router or proxy firewall."
 msgstr ""
+"Mo¿liwe, ¿e bêdziesz musia³ ustawiæ adres IP dla\n"
+"po³±czeñ DCC je¶li jeste¶ za maskarad± lub proxy."
 
 #: src/fe-gtk/settings.c:1472
 msgid "Get my IP from Server (for use in DCC Send only)"
@@ -4738,17 +4743,15 @@ msgstr "Og³aszaj stan nieobecno¶ci"
 
 #: src/fe-gtk/settings.c:1532
 msgid "Announce your away message to the channel(s) you are in"
-msgstr ""
-"Og³asza Twoj± wiadomo¶æ o nieobecno¶ci we wszystkich kana³ach, na których "
-"jeste¶"
+msgstr "Og³asza Twoj± wiadomo¶æ o nieobecno¶ci we wszystkich kana³ach, na których jeste¶"
 
 #: src/fe-gtk/settings.c:1534
 msgid "Automatic unmark away"
-msgstr ""
+msgstr "Automatycznie wy³±cza stan nieobecno¶ci"
 
 #: src/fe-gtk/settings.c:1537
 msgid "When typing is started, the away flag is unset"
-msgstr ""
+msgstr "Wy³±cza tryb nieobecno¶ci zaraz po rozpoczêciu pisania"
 
 #: src/fe-gtk/settings.c:1539
 msgid "Your away settings"
@@ -4776,19 +4779,19 @@ msgstr "Uruchamia logowanie rozmów na dysku"
 
 #: src/fe-gtk/settings.c:1579
 msgid "Always timestamp logs"
-msgstr ""
+msgstr "Zapisuj czas w dziennikach"
 
 #: src/fe-gtk/settings.c:1583
 msgid "Always apply timestamp to disk logs"
-msgstr ""
+msgstr "Zawsze do³±czaj czas do dzienników na dysku"
 
 #: src/fe-gtk/settings.c:1585
 msgid "Log name mask:"
-msgstr ""
+msgstr "Wzorzec nazw dzienników:"
 
 #: src/fe-gtk/settings.c:1589
 msgid "Log timestamp format:"
-msgstr ""
+msgstr "Format czasu w dziennikach:"
 
 #: src/fe-gtk/settings.c:1603
 msgid "Generic"
@@ -4796,11 +4799,11 @@ msgstr ""
 
 #: src/fe-gtk/settings.c:1604
 msgid "Show notifies in active window"
-msgstr ""
+msgstr "Pokazuj powiadomienia w aktywnym oknie"
 
 #: src/fe-gtk/settings.c:1610
 msgid "Send /whois"
-msgstr ""
+msgstr "Wy¶lij /whois"
 
 #: src/fe-gtk/settings.c:1615
 msgid "User List Notify Highlighting"
@@ -4832,15 +4835,15 @@ msgstr "sekund (0=wy³±cz)."
 
 #: src/fe-gtk/settings.c:1641
 msgid "Enable Character Translation"
-msgstr ""
+msgstr "W³±cz translacjê znaków"
 
 #: src/fe-gtk/settings.c:1646
 msgid "Translation File:"
-msgstr ""
+msgstr "Plik z tabel± translacji:"
 
 #: src/fe-gtk/settings.c:1651
 msgid "Use a ircII style translation file."
-msgstr ""
+msgstr "U¿ywaj tabeli translacji w formacie ircII."
 
 #: src/fe-gtk/settings.c:1662
 msgid "Auto Open DCC Send Window"
@@ -4852,19 +4855,19 @@ msgstr "Automatycznie otwiera okno wysy³ania DCC"
 
 #: src/fe-gtk/settings.c:1668
 msgid "Auto Open DCC Recv Window"
-msgstr ""
+msgstr "Automatycznie otwórz okno odbioru pliku DCC"
 
 #: src/fe-gtk/settings.c:1673
 msgid "Automatically open DCC Recv Window"
-msgstr ""
+msgstr "Automatycznie otwórz okno odbioru pliku DCC"
 
 #: src/fe-gtk/settings.c:1674
 msgid "Auto Open DCC Chat Window"
-msgstr ""
+msgstr "Automatycznie otwórz okno rozmowy DCC"
 
 #: src/fe-gtk/settings.c:1679
 msgid "Automatically open DCC Chat Window"
-msgstr ""
+msgstr "Automatycznie otwórz okno rozmowy DCC"
 
 #: src/fe-gtk/settings.c:1680
 msgid "Resume on Auto Accept"
@@ -4888,7 +4891,7 @@ msgstr ""
 
 #: src/fe-gtk/settings.c:1708
 msgid "Received files"
-msgstr ""
+msgstr "Odebrane pliki"
 
 #: src/fe-gtk/settings.c:1712
 msgid "File Permissions:"
@@ -4924,15 +4927,15 @@ msgstr "Nie czekaj na potwierdzenie aby wysy³aæ wiêcej danych"
 
 #: src/fe-gtk/settings.c:1734
 msgid "Fill Spaces"
-msgstr ""
+msgstr "Zamieñ odstêpy"
 
 #: src/fe-gtk/settings.c:1737
 msgid "File names with spaces will be filled with underscore"
-msgstr ""
+msgstr "Zamienia odstêpy w nazwach na podkre¶lenia"
 
 #: src/fe-gtk/settings.c:1740
 msgid "First DCC Send Port:"
-msgstr ""
+msgstr "Najni¿szy port DCC do wysy³ania:"
 
 #: src/fe-gtk/settings.c:1741
 msgid "(0=Disabled)"
@@ -4940,7 +4943,7 @@ msgstr "(0=wy³±czony)"
 
 #: src/fe-gtk/settings.c:1743
 msgid "Last DCC Send Port:"
-msgstr ""
+msgstr "Najwy¿szy port DCC do wysy³ania:"
 
 #: src/fe-gtk/settings.c:1747
 msgid "Send Block Size:"
@@ -4990,11 +4993,11 @@ msgstr "Ustawienia interfejsu"
 
 #: src/fe-gtk/settings.c:1879
 msgid "Interface"
-msgstr "Interfejst"
+msgstr "Interfejs"
 
 #: src/fe-gtk/settings.c:1884
 msgid "IRC Input/Output Settings"
-msgstr ""
+msgstr "Ustawienia wprowadzani i wy¶wietlania"
 
 #: src/fe-gtk/settings.c:1885
 msgid "IRC Input/Output"
@@ -5090,7 +5093,7 @@ msgstr "Powiadamianie"
 
 #: src/fe-gtk/settings.c:1952
 msgid "Character Set (Translation Tables)"
-msgstr "Zestaw znakó³ (Tablice translacji)"
+msgstr "Zestaw znaków (Tablice translacji)"
 
 #: src/fe-gtk/settings.c:1953
 msgid "Character Set"
