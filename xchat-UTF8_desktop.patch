@@ -1,0 +1,27 @@
+--- xchat.desktop~	Sun Jul  7 21:08:44 2002
++++ xchat.desktop	Sun Jul  7 21:15:55 2002
+@@ -2,18 +2,20 @@
+ Name=X-Chat
+ Comment=IRC Client
+ Comment[de]=IRC-Client
+-Comment[es]=Aplicación de IRC
++Comment[es]=AplicaciÃ³n de IRC
+ Comment[fi]=IRC-sovellus
+ Comment[fr]=Client IRC
+-Comment[ko]=IRC Å¬¶óÀÌ¾ğÆ®
++Comment[ko]=IRC í´ë¼ì´ì–¸íŠ¸
+ Comment[no]=IRC-klient
++Comment[pl]=Klient IRC
+ Comment[pt_BR]=Cliente de IRC
+ Comment[sl]=Odjemalec IRC
+ Comment[sv]=IRC-klient
+-Comment[uk]=ëÌ¦¤ÎÔ IRC
++Comment[uk]=ĞšĞ»Ñ–Ñ”Ğ½Ñ‚ IRC
+ Comment[ro]=Client de IRC
+-Comment[zh_TW]=IRC ¥Î¤áºİµ{¦¡
++Comment[zh_TW]=IRC ç”¨æˆ¶ç«¯ç¨‹å¼
+ Exec=xchat
+ Icon=xchat.png
+ Terminal=0
+ Type=Application
++# vi: encoding=utf-8
