@@ -8,7 +8,7 @@ Summary(ru):	Gtk+ IRC клиент
 Summary(uk):	Gtk+ IRC кл╕╓нт
 Name:		xchat
 Version:	1.8.8
-Release:	1
+Release:	6
 Epoch:		1
 License:	GPL
 Group:		X11/Applications/Networking
