@@ -52,7 +52,7 @@ LDFLAGS="-s"; export LDFLAGS
 
 (cd po; make update-po)
 
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
