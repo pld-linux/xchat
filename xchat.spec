@@ -78,4 +78,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc {README,ChangeLog,AUTHORS}.gz doc/*html
 %attr(755,root,root) %{_bindir}/*
 %{_applnkdir}/Network/IRC/xchat.desktop
-%{_datadir}/pixmaps/xchat.png
+%{_pixmapsdir}/xchat.png
