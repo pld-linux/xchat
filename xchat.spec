@@ -40,8 +40,11 @@ the interface is quite nicely designed.
 %setup
 
 %build
-CFLAGS="$RPM_OPT_FLAGS" ./configure --prefix=%{prefix} \
-			--enable-gnome --disable-perl
+CFLAGS="$RPM_OPT_FLAGS" \
+./configure %{_target} \
+	--prefix=%{prefix} \
+	--enable-gnome \
+	--disable-perl
 make
 
 %install
