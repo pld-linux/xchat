@@ -1348,7 +1348,7 @@ msgstr "-%C10-%C11-%O$tNie mo¿na wej¶æ na kana³%C11 %B$1 %O(Wymaga klucza)."
 
 #: src/common/text.c:978
 msgid "-%C10-%C11-%O$tMOTD Skipped."
-msgstr "-%C10-%C11-%0$tWiadomo¶æ dnia pominiêta."
+msgstr "-%C10-%C11-%O$tWiadomo¶æ dnia pominiêta."
 
 #: src/common/text.c:980 src/common/text.c:1080 src/common/text.c:1082
 #: src/common/text.c:1126
@@ -4932,7 +4932,7 @@ msgstr "Limit czasu oferty DCC:"
 
 #: src/fe-gtk/settings.c:1705
 msgid "DCC Stall Timeout:"
-msgstr ""
+msgstr "Limit oczekiwania na dane:"
 
 #: src/fe-gtk/settings.c:1708
 msgid "Received files"
@@ -5158,11 +5158,11 @@ msgstr "DCC"
 
 #: src/fe-gtk/settings.c:1968
 msgid "File Transfer Settings"
-msgstr "Ustawienia przesy³u plików"
+msgstr "Ustawienia przesy³ania plików"
 
 #: src/fe-gtk/settings.c:1969
 msgid "File Transfer"
-msgstr "Przesy³ plików"
+msgstr "Przesy³ania plików"
 
 #: src/fe-gtk/textgui.c:179
 msgid "There was an error parsing the string"
