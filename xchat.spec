@@ -10,12 +10,6 @@ Release:	5
 Epoch:		1
 License:	GPL
 Group:		X11/Applications/Networking
-Group(de):	X11/Applikationen/Netzwerkwesen
-Group(es):	X11/Aplicaciones/Red
-Group(fr):	X11/Applications/Réseau
-Group(pl):	X11/Aplikacje/Sieciowe
-Group(pt_BR):	X11/Aplicações/Rede
-Group(pt):	X11/Aplicações/Rede
 Source0:	http://xchat.org/files/source/1.8/%{name}-%{version}.tar.bz2
 Source1:	%{name}-pl.po
 Patch0:		%{name}-ac.patch
