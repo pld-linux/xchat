@@ -1721,11 +1721,11 @@ msgstr "Afganistan"
 
 #: src/common/util.c:693
 msgid "Antigua and Barbuda"
-msgstr ""
+msgstr "Antigua i Barbuda"
 
 #: src/common/util.c:694
 msgid "Anguilla"
-msgstr ""
+msgstr "Anguilla"
 
 #: src/common/util.c:695
 msgid "Albania"
@@ -1737,11 +1737,11 @@ msgstr "Armenia"
 
 #: src/common/util.c:697
 msgid "Netherlands Antilles"
-msgstr ""
+msgstr "Antyle Holenderskie"
 
 #: src/common/util.c:698
 msgid "Angola"
-msgstr ""
+msgstr "Angola"
 
 #: src/common/util.c:699
 msgid "Antarctica"
@@ -1753,7 +1753,7 @@ msgstr "Argentyna"
 
 #: src/common/util.c:701
 msgid "American Samoa"
-msgstr ""
+msgstr "Samoa Amerykañskie"
 
 #: src/common/util.c:702
 msgid "Austria"
@@ -1765,7 +1765,7 @@ msgstr "Australia"
 
 #: src/common/util.c:704
 msgid "Aruba"
-msgstr ""
+msgstr "Aruba"
 
 #: src/common/util.c:705
 msgid "Azerbaijan"
@@ -1777,7 +1777,7 @@ msgstr "Bo¶nia i Hercegowina"
 
 #: src/common/util.c:707
 msgid "Barbados"
-msgstr ""
+msgstr "Barbados"
 
 #: src/common/util.c:708
 msgid "Bangladesh"
@@ -1789,7 +1789,8 @@ msgstr "Belgia"
 
 #: src/common/util.c:710
 msgid "Burkina Faso"
-msgstr ""
+msgstr "Burkina Faso"
+# d. Górna Wolta
 
 #: src/common/util.c:711
 msgid "Bulgaria"
@@ -1797,15 +1798,15 @@ msgstr "Bu³garia"
 
 #: src/common/util.c:712
 msgid "Bahrain"
-msgstr ""
+msgstr "Bahrajn"
 
 #: src/common/util.c:713
 msgid "Burundi"
-msgstr ""
+msgstr "Burundi"
 
 #: src/common/util.c:714
 msgid "Benin"
-msgstr ""
+msgstr "Benin"
 
 #: src/common/util.c:715
 msgid "Bermuda"
@@ -1813,7 +1814,7 @@ msgstr "Bermudy"
 
 #: src/common/util.c:716
 msgid "Brunei Darussalam"
-msgstr ""
+msgstr "Brunei"
 
 #: src/common/util.c:717
 msgid "Bolivia"
@@ -1829,7 +1830,7 @@ msgstr "Bahamy"
 
 #: src/common/util.c:720
 msgid "Bhutan"
-msgstr ""
+msgstr "Bhutan"
 
 #: src/common/util.c:721
 msgid "Bouvet Island"
@@ -1837,7 +1838,7 @@ msgstr ""
 
 #: src/common/util.c:722
 msgid "Botswana"
-msgstr ""
+msgstr "Botswana"
 
 #: src/common/util.c:723
 msgid "Belarus"
@@ -1845,7 +1846,7 @@ msgstr "Bia³oru¶"
 
 #: src/common/util.c:724
 msgid "Belize"
-msgstr ""
+msgstr "Belize"
 
 #: src/common/util.c:725
 msgid "Canada"
@@ -1853,11 +1854,11 @@ msgstr "Kanada"
 
 #: src/common/util.c:726
 msgid "Cocos Islands"
-msgstr ""
+msgstr "Wyspy Kokosowe"
 
 #: src/common/util.c:727
 msgid "Central African Republic"
-msgstr "Republika ¦rodkowej Afryki"
+msgstr "Republika ¦rodkowoafrykañska"
 
 #: src/common/util.c:728
 msgid "Congo"
@@ -1869,19 +1870,19 @@ msgstr "Szwajcaria"
 
 #: src/common/util.c:730
 msgid "Cote D'ivoire"
-msgstr ""
+msgstr "Wybrze¿e Ko¶ci S³oniowej"
 
 #: src/common/util.c:731
 msgid "Cook Islands"
-msgstr ""
+msgstr "Wyspy Cooka"
 
 #: src/common/util.c:732
 msgid "Chile"
-msgstr ""
+msgstr "Chile"
 
 #: src/common/util.c:733
 msgid "Cameroon"
-msgstr ""
+msgstr "Kamerun"
 
 #: src/common/util.c:734
 msgid "China"
@@ -1893,7 +1894,7 @@ msgstr "Kolumbia"
 
 #: src/common/util.c:736
 msgid "Costa Rica"
-msgstr ""
+msgstr "Kostaryka"
 
 #: src/common/util.c:737
 msgid "Former Czechoslovakia"
@@ -1905,7 +1906,7 @@ msgstr "Kuba"
 
 #: src/common/util.c:739
 msgid "Cape Verde"
-msgstr ""
+msgstr "Wyspy Zielonego Przyl±dka"
 
 #: src/common/util.c:740
 msgid "Christmas Island"
@@ -1925,7 +1926,7 @@ msgstr "Niemcy"
 
 #: src/common/util.c:744
 msgid "Djibouti"
-msgstr ""
+msgstr "D¿ibuti"
 
 #: src/common/util.c:745
 msgid "Denmark"
@@ -1933,11 +1934,11 @@ msgstr "Dania"
 
 #: src/common/util.c:746
 msgid "Dominica"
-msgstr ""
+msgstr "Dominika"
 
 #: src/common/util.c:747
 msgid "Dominican Republic"
-msgstr ""
+msgstr "Republika Dominikany"
 
 #: src/common/util.c:748
 msgid "Algeria"
@@ -1977,15 +1978,15 @@ msgstr "Finlandia"
 
 #: src/common/util.c:757
 msgid "Fiji"
-msgstr ""
+msgstr "Fid¿i"
 
 #: src/common/util.c:758
 msgid "Falkland Islands"
-msgstr ""
+msgstr "Falklandy/Malwiny"
 
 #: src/common/util.c:759
 msgid "Micronesia"
-msgstr ""
+msgstr "Mikronezja"
 
 #: src/common/util.c:760
 msgid "Faroe Islands"
@@ -2001,7 +2002,7 @@ msgstr ""
 
 #: src/common/util.c:763
 msgid "Gabon"
-msgstr ""
+msgstr "Gabon"
 
 #: src/common/util.c:764
 msgid "Great Britain"
@@ -2013,11 +2014,11 @@ msgstr "Grenada"
 
 #: src/common/util.c:766
 msgid "Georgia"
-msgstr ""
+msgstr "Gruzja"
 
 #: src/common/util.c:767
 msgid "French Guiana"
-msgstr ""
+msgstr "Gujana Francuska"
 
 #: src/common/util.c:768
 msgid "British Channel Isles"
@@ -2025,7 +2026,7 @@ msgstr ""
 
 #: src/common/util.c:769
 msgid "Ghana"
-msgstr ""
+msgstr "Ghana"
 
 #: src/common/util.c:770
 msgid "Gibraltar"
@@ -2037,7 +2038,7 @@ msgstr "Grenlandia"
 
 #: src/common/util.c:772
 msgid "Gambia"
-msgstr ""
+msgstr "Gambia"
 
 #: src/common/util.c:773
 msgid "Guinea"
@@ -2049,7 +2050,7 @@ msgstr "Gwadelupa"
 
 #: src/common/util.c:775
 msgid "Equatorial Guinea"
-msgstr ""
+msgstr "Gwinea Równikowa"
 
 #: src/common/util.c:776
 msgid "Greece"
@@ -2065,19 +2066,19 @@ msgstr "Gwatemala"
 
 #: src/common/util.c:779
 msgid "Guam"
-msgstr ""
+msgstr "Guam"
 
 #: src/common/util.c:780
 msgid "Guinea-Bissau"
-msgstr ""
+msgstr "Gwinea-Bissau"
 
 #: src/common/util.c:781
 msgid "Guyana"
-msgstr ""
+msgstr "Gujana"
 
 #: src/common/util.c:782
 msgid "Hong Kong"
-msgstr ""
+msgstr "Hong Kong"
 
 #: src/common/util.c:783
 msgid "Heard and McDonald Islands"
@@ -2141,7 +2142,7 @@ msgstr "Jamajka"
 
 #: src/common/util.c:798
 msgid "Jordan"
-msgstr ""
+msgstr "Jordania"
 
 #: src/common/util.c:799
 msgid "Japan"
@@ -2149,11 +2150,11 @@ msgstr "Japonia"
 
 #: src/common/util.c:800
 msgid "Kenya"
-msgstr "Kenja"
+msgstr "Kenia"
 
 #: src/common/util.c:801
 msgid "Kyrgyzstan"
-msgstr ""
+msgstr "Kirgistan"
 
 #: src/common/util.c:802
 msgid "Cambodia"
@@ -2161,15 +2162,15 @@ msgstr "Kambod¿a"
 
 #: src/common/util.c:803
 msgid "Kiribati"
-msgstr ""
+msgstr "Kiribati"
 
 #: src/common/util.c:804
 msgid "Comoros"
-msgstr ""
+msgstr "Komory"
 
 #: src/common/util.c:805
 msgid "St. Kitts and Nevis"
-msgstr ""
+msgstr "St. Kitts i Nevis"
 
 #: src/common/util.c:806
 msgid "North Korea"
@@ -2185,7 +2186,7 @@ msgstr "Kuwejt"
 
 #: src/common/util.c:809
 msgid "Cayman Islands"
-msgstr ""
+msgstr "Kajmany"
 
 #: src/common/util.c:810
 msgid "Kazakhstan"
@@ -2193,35 +2194,35 @@ msgstr "Kazachstan"
 
 #: src/common/util.c:811
 msgid "Laos"
-msgstr ""
+msgstr "Laos"
 
 #: src/common/util.c:812
 msgid "Lebanon"
-msgstr ""
+msgstr "Liban"
 
 #: src/common/util.c:813
 msgid "Saint Lucia"
-msgstr ""
+msgstr "Saint Lucia"
 
 #: src/common/util.c:814
 msgid "Liechtenstein"
-msgstr ""
+msgstr "Liechtenstein"
 
 #: src/common/util.c:815
 msgid "Sri Lanka"
-msgstr ""
+msgstr "Sri Lanka"
 
 #: src/common/util.c:816
 msgid "Liberia"
-msgstr ""
+msgstr "Liberia"
 
 #: src/common/util.c:817
 msgid "Lesotho"
-msgstr ""
+msgstr "Lesotho"
 
 #: src/common/util.c:818
 msgid "Lithuania"
-msgstr ""
+msgstr "Litwa"
 
 #: src/common/util.c:819
 msgid "Luxembourg"
@@ -2229,7 +2230,7 @@ msgstr "Luksemburg"
 
 #: src/common/util.c:820
 msgid "Latvia"
-msgstr ""
+msgstr "£otwa"
 
 #: src/common/util.c:821
 msgid "Libya"
@@ -2257,15 +2258,16 @@ msgstr "Wyspy Marshalla"
 
 #: src/common/util.c:827
 msgid "Macedonia"
-msgstr ""
+msgstr "Macedonia"
 
 #: src/common/util.c:828
 msgid "Mali"
-msgstr ""
+msgstr "Mali"
 
 #: src/common/util.c:829
 msgid "Myanmar"
-msgstr ""
+msgstr "Myanmar"
+# d. Birma
 
 #: src/common/util.c:830
 msgid "Mongolia"
@@ -2273,15 +2275,15 @@ msgstr "Mongolia"
 
 #: src/common/util.c:831
 msgid "Macau"
-msgstr ""
+msgstr "Macau"
 
 #: src/common/util.c:832
 msgid "Northern Mariana Islands"
-msgstr ""
+msgstr "Mariany Pó³nocne"
 
 #: src/common/util.c:833
 msgid "Martinique"
-msgstr ""
+msgstr "Martynika"
 
 #: src/common/util.c:834
 msgid "Mauritania"
@@ -2289,7 +2291,7 @@ msgstr "Mauretania"
 
 #: src/common/util.c:835
 msgid "Montserrat"
-msgstr ""
+msgstr "Montserrat"
 
 #: src/common/util.c:836
 msgid "Malta"
@@ -2301,11 +2303,11 @@ msgstr "Mauritus"
 
 #: src/common/util.c:838
 msgid "Maldives"
-msgstr ""
+msgstr "Malediwy"
 
 #: src/common/util.c:839
 msgid "Malawi"
-msgstr ""
+msgstr "Malawi"
 
 #: src/common/util.c:840
 msgid "Mexico"
@@ -2321,7 +2323,7 @@ msgstr "Mozambik"
 
 #: src/common/util.c:843
 msgid "Namibia"
-msgstr ""
+msgstr "Namibia"
 
 #: src/common/util.c:844
 msgid "New Caledonia"
@@ -2329,7 +2331,7 @@ msgstr "Nowa Kaledonia"
 
 #: src/common/util.c:845
 msgid "Niger"
-msgstr ""
+msgstr "Niger"
 
 #: src/common/util.c:846
 msgid "Norfolk Island"
@@ -2341,11 +2343,11 @@ msgstr "Nigeria"
 
 #: src/common/util.c:848
 msgid "Nicaragua"
-msgstr ""
+msgstr "Nikaragua"
 
 #: src/common/util.c:849
 msgid "Netherlands"
-msgstr ""
+msgstr "Holandia"
 
 #: src/common/util.c:850
 msgid "Norway"
@@ -2353,19 +2355,19 @@ msgstr "Norwegia"
 
 #: src/common/util.c:851
 msgid "Nepal"
-msgstr ""
+msgstr "Nepal"
 
 #: src/common/util.c:852
 msgid "Nauru"
-msgstr ""
+msgstr "Nauru"
 
 #: src/common/util.c:853
 msgid "Neutral Zone"
-msgstr ""
+msgstr "Strefa Neutralna"
 
 #: src/common/util.c:854
 msgid "Niue"
-msgstr ""
+msgstr "Niue"
 
 #: src/common/util.c:855
 msgid "New Zealand"
@@ -2373,11 +2375,11 @@ msgstr "Nowa Zelandia"
 
 #: src/common/util.c:856
 msgid "Oman"
-msgstr ""
+msgstr "Oman"
 
 #: src/common/util.c:857
 msgid "Panama"
-msgstr ""
+msgstr "Panama"
 
 #: src/common/util.c:858
 msgid "Peru"
@@ -2397,7 +2399,7 @@ msgstr "Filipiny"
 
 #: src/common/util.c:862
 msgid "Pakistan"
-msgstr ""
+msgstr "Pakistan"
 
 #: src/common/util.c:863
 msgid "Poland"
@@ -2405,15 +2407,15 @@ msgstr "Polska"
 
 #: src/common/util.c:864
 msgid "St. Pierre and Miquelon"
-msgstr ""
+msgstr "St. Pierre i Miquelon"
 
 #: src/common/util.c:865
 msgid "Pitcairn"
-msgstr ""
+msgstr "Pitcairn"
 
 #: src/common/util.c:866
 msgid "Puerto Rico"
-msgstr ""
+msgstr "Puerto Rico"
 
 #: src/common/util.c:867
 msgid "Portugal"
@@ -2421,7 +2423,7 @@ msgstr "Portugalia"
 
 #: src/common/util.c:868
 msgid "Palau"
-msgstr ""
+msgstr "Palau"
 
 #: src/common/util.c:869
 msgid "Paraguay"
@@ -2429,11 +2431,11 @@ msgstr "Paragwaj"
 
 #: src/common/util.c:870
 msgid "Qatar"
-msgstr ""
+msgstr "Katar"
 
 #: src/common/util.c:871
 msgid "Reunion"
-msgstr ""
+msgstr "Reunion"
 
 #: src/common/util.c:872
 msgid "Romania"
@@ -2445,7 +2447,7 @@ msgstr "Federacja Rosyjska"
 
 #: src/common/util.c:874
 msgid "Rwanda"
-msgstr ""
+msgstr "Rwanda"
 
 #: src/common/util.c:875
 msgid "Saudi Arabia"
@@ -2482,6 +2484,7 @@ msgstr "S³owenia"
 #: src/common/util.c:883
 msgid "Svalbard and Jan Mayen Islands"
 msgstr ""
+# Spitsbergen ? Wyspy Svalbard i Jan Mayen ?
 
 #: src/common/util.c:884
 msgid "Slovak Republic"
@@ -2505,11 +2508,11 @@ msgstr "Somalia"
 
 #: src/common/util.c:889
 msgid "Suriname"
-msgstr ""
+msgstr "Surinam"
 
 #: src/common/util.c:890
 msgid "Sao Tome and Principe"
-msgstr ""
+msgstr "Wyspy ¦w. Tomasza i Ksi±¿êca"
 
 #: src/common/util.c:891
 msgid "Former USSR"
@@ -2517,7 +2520,7 @@ msgstr "By³y ZSRR"
 
 #: src/common/util.c:892
 msgid "El Salvador"
-msgstr ""
+msgstr "Salwador"
 
 #: src/common/util.c:893
 msgid "Syria"
@@ -2525,23 +2528,23 @@ msgstr "Syria"
 
 #: src/common/util.c:894
 msgid "Swaziland"
-msgstr ""
+msgstr "Suazi"
 
 #: src/common/util.c:895
 msgid "Turks and Caicos Islands"
-msgstr ""
+msgstr "Wyspy Turks i Caicos"
 
 #: src/common/util.c:896
 msgid "Chad"
-msgstr ""
+msgstr "Czad"
 
 #: src/common/util.c:897
 msgid "French Southern Territories"
-msgstr "Pó³nocne Terytoria Francuskie"
+msgstr "Po³udniowe Terytoria Francuskie"
 
 #: src/common/util.c:898
 msgid "Togo"
-msgstr ""
+msgstr "Togo"
 
 #: src/common/util.c:899
 msgid "Thailand"
@@ -2549,15 +2552,15 @@ msgstr "Tajlandia"
 
 #: src/common/util.c:900
 msgid "Tajikistan"
-msgstr ""
+msgstr "Tad¿ykistan"
 
 #: src/common/util.c:901
 msgid "Tokelau"
-msgstr ""
+msgstr "Tokelau"
 
 #: src/common/util.c:902
 msgid "Turkmenistan"
-msgstr ""
+msgstr "Turkmenistan"
 
 #: src/common/util.c:903
 msgid "Tunisia"
@@ -2565,7 +2568,7 @@ msgstr "Tunezja"
 
 #: src/common/util.c:904
 msgid "Tonga"
-msgstr ""
+msgstr "Tonga"
 
 #: src/common/util.c:905
 msgid "East Timor"
@@ -2577,11 +2580,11 @@ msgstr "Turcja"
 
 #: src/common/util.c:907
 msgid "Trinidad and Tobago"
-msgstr ""
+msgstr "Trynidad i Tobago"
 
 #: src/common/util.c:908
 msgid "Tuvalu"
-msgstr ""
+msgstr "Tuwalu"
 
 #: src/common/util.c:909
 msgid "Taiwan"
@@ -2601,7 +2604,7 @@ msgstr "Uganda"
 
 #: src/common/util.c:913
 msgid "United Kingdom"
-msgstr "Zjednoczone Królestwo"
+msgstr "Wielka Brytania"
 
 #: src/common/util.c:914
 msgid "US Minor Outlying Islands"
@@ -2625,7 +2628,7 @@ msgstr "Watykan"
 
 #: src/common/util.c:919
 msgid "St. Vincent and the grenadines"
-msgstr ""
+msgstr "St. Vincent i Grenadyny"
 
 #: src/common/util.c:920
 msgid "Venezuela"
@@ -2637,7 +2640,7 @@ msgstr "Brytyjskie Wyspy Dziewicze"
 
 #: src/common/util.c:922
 msgid "US Virgin Islands"
-msgstr "Wyspy Dziewicze Stanów Zjednoczonych Ameryki"
+msgstr "Wyspy Dziewicze Stanów Zjednoczonych"
 
 #: src/common/util.c:923
 msgid "Vietnam"
@@ -2645,23 +2648,23 @@ msgstr "Wietnam"
 
 #: src/common/util.c:924
 msgid "Vanuatu"
-msgstr ""
+msgstr "Vanuatu"
 
 #: src/common/util.c:925
 msgid "Wallis and Futuna Islands"
-msgstr ""
+msgstr "Wyspy Wallis i Futuna"
 
 #: src/common/util.c:926
 msgid "Samoa"
-msgstr ""
+msgstr "Samoa"
 
 #: src/common/util.c:927
 msgid "Yemen"
-msgstr ""
+msgstr "Jemen"
 
 #: src/common/util.c:928
 msgid "Mayotte"
-msgstr ""
+msgstr "Majotta"
 
 #: src/common/util.c:929
 msgid "Yugoslavia"
@@ -2669,11 +2672,11 @@ msgstr "Jugos³awia"
 
 #: src/common/util.c:930
 msgid "South Africa"
-msgstr "Afryka Po³udniowa"
+msgstr "Republika Po³udniowej Afryki"
 
 #: src/common/util.c:931
 msgid "Zambia"
-msgstr ""
+msgstr "Zambia"
 
 #: src/common/util.c:932
 msgid "Zaire"
