@@ -7,12 +7,12 @@ Version:	1.2.0
 Release:	1
 Group:		X11/Applications/Networking
 Group(pl):	X11/Aplikacje/Sieciowe
-Copyright:	Freely distributable
-URL:		http://xchat.org/
+Copyright:	GPL
 Source0:	http://xchat.org/files/%{name}-%{version}.tar.gz
 Source1:	xchat.desktop
 Source2:	xchat.png
 Icon:		xchat.xpm
+URL:		http://xchat.org/
 BuildRequires:	XFree86-devel
 BuildRequires:	gtk+-devel >= 1.2.0
 BuildRequires:	glib-devel >= 1.2.0
