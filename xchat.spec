@@ -3,7 +3,7 @@ Summary(de):	Gtk+ IRC-Client
 Summary(fr):	Client IRC Gtk+
 Summary(pl):	Oparty na Gtk+ klient IRC
 Name:		xchat
-Version:	1.3.7
+Version:	1.3.8
 Release:	1
 Group:		X11/Applications/Networking
 Group(pl):	X11/Aplikacje/Sieciowe
