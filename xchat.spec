@@ -14,7 +14,7 @@ BuildPrereq:	XFree86-devel
 BuildPrereq:	gtk+-devel >= 1.2.0
 BuildPrereq:	glib-devel >= 1.2.0
 BuildPrereq:	imlib-devel
-Buildroot:	/var/tmp/%{name}-%{version}-root
+BuildRoot:	/tmp/%{name}-%{version}-root
 
 %define _prefix	/usr/X11R6
 
