@@ -131,6 +131,7 @@ X-Chat - ще один IRC кл╕╓нт для X Window System, який використову╓
 
 %build
 rm -f config.status missing
+%{__libtoolize}
 %{__gettextize}
 %{__aclocal}
 %{__autoconf}
