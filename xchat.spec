@@ -3,7 +3,7 @@ Summary(de):	Gtk+ IRC-Client
 Summary(fr):	Client IRC Gtk+
 Summary(pl):	Oparty na Gtk+ klient IRC
 Name:		xchat
-Version:	1.7.4
+Version:	1.7.7
 Release:	1
 Epoch:		1
 License:	GPL
@@ -47,7 +47,7 @@ jest dosyæ ³adnie zaprojektowany.
 
 %prep
 %setup -q
-%patch0 -p1
+#%patch0 -p1
 
 %build
 rm -f config.status missing
