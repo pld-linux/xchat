@@ -3575,7 +3575,7 @@ msgstr "Rozmowy DCC.."
 
 #: src/fe-gtk/menu.c:1392 src/fe-gtk/menu.c:1762
 msgid "Raw Log Window.."
-msgstr "Okno logowania.."
+msgstr "Okno podgl±du transmisji.."
 
 #: src/fe-gtk/menu.c:1397 src/fe-gtk/menu.c:1763
 msgid "URL Grabber Window.."
@@ -3979,7 +3979,7 @@ msgstr "Zapisz log"
 #: src/fe-gtk/rawlog.c:92
 #, c-format
 msgid "X-Chat: Rawlog (%s) [alt-s to save]"
-msgstr "X-Chat: Okno logowania (%s) [alt-s ¿eby zapisaæ]"
+msgstr "X-Chat: Okno podgl±du transmisji (%s) [alt-s ¿eby zapisaæ]"
 
 #: src/fe-gtk/search.c:38
 msgid "The window you opened this Search for doesn't exist anymore."
