@@ -143,9 +143,9 @@ mv -f po/zh_TW.Big5.po po/zh_TW.po
 %build
 rm -f config.status missing
 %{__gettextize}
-aclocal
+%{__aclocal}
 %{__autoconf}
-automake -a -c --foreign
+%{__automamke}
 %configure \
 	--enable-gnome \
 	--enable-panel \
