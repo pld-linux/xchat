@@ -20,13 +20,13 @@ Summary(sv):	En GTK+-IRC- (chatt-)klient
 Summary(uk):	GTK+ IRC кл╕╓нт
 Summary(zh_CN):	GTK+ IRC (адлЛ) ©м╩╖║ё
 Name:		xchat
-Version:	2.4.1
-Release:	2
+Version:	2.4.2
+Release:	1
 Epoch:		1
 License:	GPL v2
 Group:		X11/Applications/Networking
 Source0:	http://xchat.org/files/source/2.4/%{name}-%{version}.tar.bz2
-# Source0-md5:	aeb2337cc36dd4a9ac0cd6e909f67227
+# Source0-md5:	2d1f30fb2f088449f5f8892194bd1b55
 Source1:	%{name}-pl.po
 Patch0:		%{name}-desktop.patch
 Patch1:		%{name}-locale_names.patch
@@ -130,11 +130,10 @@ X-Chat - ще один IRC кл╕╓нт для X Window System, який використову╓
 %prep
 %setup -q
 %patch0 -p1
-%patch1 -p1
+#%patch1 -p1
 %patch2 -p1
 %patch3 -p1
 
-rm -f po/no.po
 cp %{SOURCE1} po/pl.po
 
 %build
