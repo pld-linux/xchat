@@ -1,5 +1,5 @@
---- xchat-1.8.6/configure.in.orig	Fri Nov 23 05:26:23 2001
-+++ xchat-1.8.6/configure.in	Sat Dec  1 21:49:53 2001
+--- xchat-1.9.2/configure.in~	Wed Jul 10 03:55:40 2002
++++ xchat-1.9.2/configure.in	Wed Jul 10 03:55:40 2002
 @@ -4,6 +4,7 @@
  AM_CONFIG_HEADER(config.h)
  AM_INIT_AUTOMAKE(xchat, 1.8.6)
@@ -8,3 +8,13 @@
  AC_PROG_RANLIB
  AC_PROG_CPP
  
+@@ -487,9 +487,6 @@
+ 			CFLAGS="$CFLAGS -pipe"
+ 		fi
+ 	fi
+-	if test -z "`echo "$CFLAGS" | grep "\-g " 2> /dev/null`" ; then
+-		CFLAGS="$CFLAGS -g"
+-	fi
+ fi
+ 
+ dnl *********************************************************************
