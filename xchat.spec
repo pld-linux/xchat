@@ -43,11 +43,11 @@ make
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_datadir}/pixmaps \
-	$RPM_BUILD_ROOT/etc/X11/applnk/Networking
+	$RPM_BUILD_ROOT/usr/X11R6/share/applnk/Networking
 
 make DESTDIR=$RPM_BUILD_ROOT install-strip
 
-install %{SOURCE1} $RPM_BUILD_ROOT/etc/X11/applnk/Networking
+install %{SOURCE1} $RPM_BUILD_ROOT/usr/X11R6/share/applnk/Networking
 install %{SOURCE2} $RPM_BUILD_ROOT%{_datadir}/pixmaps
 
 gzip -9nf README ChangeLog AUTHORS
@@ -61,5 +61,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc {README,ChangeLog,AUTHORS}.gz doc/*.html
 %attr(755,root,root) %{_bindir}/%{name}
-/etc/X11/applnk/Networking/%{name}.desktop
+/usr/X11R6/share/applnk/Networking/%{name}.desktop
 %{_datadir}/pixmaps/%{name}.png
