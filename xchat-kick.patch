@@ -1,0 +1,11 @@
+--- xchat-1.8.1.orig/src/common/inbound.c
++++ xchat-1.8.1/src/common/inbound.c
+@@ -1570,7 +1570,7 @@
+ 	if (!strcmp ("KICK", cmd))
+ 	{
+ 		char *kicked = word[4];
+-		char *reason = word[5];
++		char *reason = word_eol[5];
+ 		if (*kicked)
+ 		{
+ 			if (*reason == ':')
