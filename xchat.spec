@@ -11,6 +11,7 @@ Copyright:	GPL
 Source0:	http://xchat.org/files/%{name}-%{version}.tar.gz
 Source1:	xchat.desktop
 Source2:	xchat.png
+Patch:		xchat-ko.po.patch
 Icon:		xchat.xpm
 URL:		http://xchat.org/
 BuildRequires:	XFree86-devel
@@ -42,6 +43,7 @@ zaprojektowany.
 
 %prep
 %setup -q
+%patch -p0
 
 %build
 rm -f config.status
