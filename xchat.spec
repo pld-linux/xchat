@@ -4,7 +4,7 @@ Summary(fr):	Client IRC Gtk+
 Summary(pl):	Oparty na Gtk+ klient IRC
 Name:		xchat
 Version:	1.8.4
-Release:	1
+Release:	2
 Epoch:		1
 License:	GPL
 Group:		X11/Applications/Networking
@@ -23,6 +23,7 @@ BuildRequires:	esound-devel
 BuildRequires:	audiofile-devel
 BuildRequires:	python-devel
 BuildRequires:	openssl-devel >= 0.9.6a
+BuildRequires:	perl-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define 	_prefix		/usr/X11R6
@@ -57,7 +58,7 @@ aclocal
 autoconf
 automake -a -c --foreign
 %configure \
-	--disable-perl \
+	--enable-perl \
 	--enable-openssl \
 	--enable-ipv6 \
 	--enable-japanese-conv
