@@ -13,6 +13,9 @@ Group(pl):	X11/Aplikacje/Sieciowe
 Source0:	http://xchat.org/files/source/1.8/%{name}-%{version}.tar.bz2
 Icon:		xchat.xpm
 URL:		http://xchat.org/
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	gettext-devel
 BuildRequires:	gtk+-devel >= 1.2.5
 BuildRequires:	gdk-pixbuf-devel
 BuildRequires:	gnome-libs-devel
