@@ -15,6 +15,7 @@ Source1:	%{name}-pl.po
 Patch0:		%{name}-ac.patch
 Patch1:		%{name}-pl.patch
 Patch2:		%{name}-fix-USE_GNOME.patch
+Patch3:		%{name}-fix-default_replace.patch
 Icon:		xchat.xpm
 URL:		http://xchat.org/
 BuildRequires:	autoconf
@@ -59,6 +60,7 @@ Cliente IRC Gnome.
 %patch0 -p1
 %patch1 -p1
 %patch2 -p1
+%patch3 -p0
 cp %{SOURCE1} po/pl.po
 
 %build
