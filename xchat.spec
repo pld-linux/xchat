@@ -21,7 +21,7 @@ Summary(uk):	Gtk+ IRC кл╕╓нт
 Summary(zh_CN):	GTK+ IRC (адлЛ) ©м╩╖║ё
 Name:		xchat
 Version:	2.0.3
-Release:	1
+Release:	2
 Epoch:		1
 License:	GPL
 Group:		X11/Applications/Networking
@@ -29,6 +29,7 @@ Source0:	http://xchat.org/files/source/2.0/%{name}-%{version}.tar.bz2
 # Source0-md5:	8a7a981bf2401e09efdfe278713a2c6c
 #Source1:	%{name}-pl.po
 #Patch0:		%{name}-po.patch
+Patch1:		%{name}-contrib.patch
 Icon:		xchat.xpm
 URL:		http://xchat.org/
 BuildRequires:	autoconf
@@ -125,6 +126,7 @@ X-Chat - ще один IRC кл╕╓нт для X Window System, який використову╓
 %prep
 %setup -q
 #%patch0 -p1
+%patch1 -p1
 
 #cp %{SOURCE1} po/pl.po
 
@@ -152,9 +154,9 @@ install -d $RPM_BUILD_ROOT%{_pixmapsdir}
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT \
-	utildir=%{_applnkdir}/Network/Communications
+	utildir=%{_desktopdir}
 
-install xchat.desktop $RPM_BUILD_ROOT%{_applnkdir}/Network/Communications
+install xchat.desktop $RPM_BUILD_ROOT%{_desktopdir}
 install xchat.png $RPM_BUILD_ROOT%{_pixmapsdir}
 
 %find_lang %{name}
@@ -169,5 +171,5 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{_libdir}/xchat
 %dir %{_libdir}/xchat/plugins
 %attr(755,root,root) %{_libdir}/xchat/plugins/*
-%{_applnkdir}/Network/Communications/xchat.desktop
-%{_pixmapsdir}/xchat.png
+%{_desktopdir}/%{name}.desktop
+%{_pixmapsdir}/%{name}.png
