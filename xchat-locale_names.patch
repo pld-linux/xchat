@@ -1,0 +1,11 @@
+--- xchat-2.0.10/configure.in~	Fri Jul 23 11:19:50 2004
++++ xchat-2.0.10/configure.in	Fri Jul 23 11:19:50 2004
+@@ -10,7 +10,7 @@
+ AM_DISABLE_STATIC
+ AM_PROG_LIBTOOL
+ 
+-ALL_LINGUAS="am az bg ca cs de el en_GB es et eu fi fr ja lt lv mk ms nl no pt ru sk sl sr sv uk wa zh_CN"
++ALL_LINGUAS="am az bg ca cs de el en_GB es et eu fi fr ja lt lv mk ms nb nl pt ru sk sl sr sv uk wa zh_CN"
+ AM_GNU_GETTEXT
+ 
+ dnl displaced from acconfig.h
