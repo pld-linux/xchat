@@ -3,7 +3,7 @@ Summary(de):	Gtk+ IRC-Client
 Summary(fr):	Client IRC Gtk+
 Summary(pl):	Oparty na Gtk+ klient IRC
 Name:		xchat
-Version:	1.8.3
+Version:	1.8.4
 Release:	1
 Epoch:		1
 License:	GPL
