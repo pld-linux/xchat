@@ -18,12 +18,15 @@ msgstr ""
 msgid "Cannot create ~/.xchat"
 msgstr "Nie mogê utworzyæ ~/.xchat"
 
+#. NOT WORK
 #. OS/2 uses UID 0 all the time
 #: src/common/cfgfiles.c:576
 msgid ""
 "The default download directory is your\n"
 "home dir, you should change this at some stage."
 msgstr ""
+"Domy¶lny katalog do ¶ci±gania plików to Twój\n"
+"katalog domowy. Powiniene¶ to zmieniæ."
 
 #: src/common/cfgfiles.c:580
 msgid ""
@@ -33,10 +36,15 @@ msgid ""
 "* The default download directory is your\n"
 "  home dir, you should change this at some stage."
 msgstr ""
+"* Uruchamianie klienta IRC z konta root jest g³upie!\n"
+"  Powiniene¶ za³o¿yæ sobie inne konto do tego celu.\n"
+"\n"
+"* Domy¶lny katalog, do którego s± ¶ciagane pliki to\n"
+"  Twój katalog domowy. Powiniene¶ to zmieniæ."
 
 #: src/common/cfgfiles.c:643
 msgid "I'm busy"
-msgstr ""
+msgstr "Jestem zajêty"
 
 #: src/common/cfgfiles.c:644
 msgid "Client Exiting"
@@ -44,7 +52,7 @@ msgstr ""
 
 #: src/common/dcc.c:53
 msgid "Waiting"
-msgstr "Oczekuje"
+msgstr "Oczekujê"
 
 #. black
 #: src/common/dcc.c:54
@@ -130,10 +138,12 @@ msgid ""
 "channel. If they are already on the channel this doesn't kick them (needs "
 "chanop)\n"
 msgstr ""
+"/BAN <maska> [<rodzaj>], banuje ka¿dego na kanale, który pasuje do podanej "
+"maski. Je¶li te osoby s± ju¿ na kanale nie wykopuje ich (wymaga operatora)\n"
 
 #: src/common/outbound.c:480
 msgid "/UNBAN <mask> [<mask>...], unbans the specified masks.\n"
-msgstr ""
+msgstr "/UNBAN <maska> [<maska>...], odbanowuje podane maski.\n"
 
 #: src/common/outbound.c:481
 msgid "/CLEAR, Clears the current text window\n"
@@ -148,6 +158,8 @@ msgid ""
 "/CTCP <nick> <message>, send the CTCP message to nick, common messages are "
 "VERSION and USERINFO\n"
 msgstr ""
+"/CTCP <pseudonim> <wiadomo¶æ>, wysy³a ¿±danie CTCP do podanej osoby. Najczê¶ciej "
+"u¿ywane to VERSION oraz USERINFO\n"
 
 #: src/common/outbound.c:487
 msgid "/COUNTRY <code>, finds a country code, eg: au = australia\n"
@@ -167,6 +179,13 @@ msgid ""
 "/DCC CLOSE <type> <nick> <file>         example:\n"
 "         /dcc close send johnsmith file.tar.gz\n"
 msgstr ""
+"\n"
+"/DCC GET <pseudonim>         - odbiera plik\n"
+"/DCC SEND <pseudonim> <plik> - wysy³a podany plik\n"
+"/DCC LIST                    - pokazuje listê aktualnych operacji DCC\n"
+"/DCC CHAT <pseudonim>        - uruchamia rozmowê DCC do podanej osoby\n"
+"/DCC CLOSE <rodzaj> <pseudonim> <plik> - zamyka podan± operacjê, np:\n"
+"                      /dcc close send jankowalski file.tar.gz\n"
 
 #: src/common/outbound.c:500
 msgid "/DELBUTTON <name>, deletes a button from under the user-list\n"
@@ -177,18 +196,24 @@ msgid ""
 "/DEHOP <nick>, removes chanhalf-op status from the nick on the current "
 "channel (needs chanop)\n"
 msgstr ""
+"/DEHOP <pseudonim>, zabiera podanej osobie status pó³operatora aktualnego "
+"kana³u (wymaga operatora)\n"
 
 #: src/common/outbound.c:504
 msgid ""
 "/DEOP <nick>, removes chanop status from the nick on the current channel "
 "(needs chanop)\n"
 msgstr ""
+"/DEOP <pseudonim>, zabiera podanej osobie status operatora aktualnego kana³u "
+"(wymaga operatora)\n"
 
 #: src/common/outbound.c:506
 msgid ""
 "/DEVOICE <nick>, removes voice status from the nick on the current channel "
 "(needs chanop)\n"
 msgstr ""
+"/DEVOICE <pseudonim>, zabiera prawo g³osu podanej osobie na aktualnym "
+"kanale (wymaga operatora)\n"
 
 #: src/common/outbound.c:507
 msgid "/DISCON, Disconnects from server\n"
@@ -196,11 +221,11 @@ msgstr "/DISCON, roz³±cza z serwerem\n"
 
 #: src/common/outbound.c:508
 msgid "/DNS <nick|host|ip>, Finds a users IP number\n"
-msgstr "/DNS <pseudonim|domena|ip>, Odnajduje adres IP podanego u¿ytkownika\n"
+msgstr "/DNS <pseudonim|domena|ip>, odnajduje adres IP podanej osoby\n"
 
 #: src/common/outbound.c:509
 msgid "/ECHO <text>, Prints text locally\n"
-msgstr "/ECHO <tre¶æ>, Wy¶wietla tekst lokalnie\n"
+msgstr "/ECHO <tre¶æ>, wy¶wietla tekst lokalnie\n"
 
 #: src/common/outbound.c:512
 msgid ""
@@ -250,12 +275,19 @@ msgid ""
 "            PRIV, CHAN, NOTI, CTCP, INVI, ALL\n"
 "    options - NOSAVE, QUIET\n"
 msgstr ""
+"/IGNORE <maska> <rodzaje..> <opcje..>\n"
+"    maska - maska adresu, który ma byæ ignorowany, np: *!*@*.tpnet.pl\n"
+"    rodzaje - rodzaje danych, jakie maj± byæ ignorowane, jeden lub wszystkie:\n"
+"                   PRIV, CHAN, NOTI, CTCP, INVI, ALL\n"
+"    opcje - NOSAVE, QUIET\n"
 
 #: src/common/outbound.c:536
 msgid ""
 "/INVITE <nick> [<channel>], invites someone to a channel, by default the "
 "current channel (needs chanop)\n"
 msgstr ""
+"/INVITE <pseudonim> [<channel>], zaprasza podan± osobê na kana³. Domy¶lnie jest "
+"to aktualny kana³ (wymaga operatora)\n"
 
 #: src/common/outbound.c:537
 msgid "/JOIN <channel>, joins the channel\n"
@@ -270,6 +302,8 @@ msgid ""
 "/KICKBAN <nick>, bans then kicks the nick from the current channel (needs "
 "chanop)\n"
 msgstr ""
+"/KICKBAN <pseudonim>, banuje i wyrzuca podan± osobê z aktualnego kana³u "
+"(wymaga operatora)\n"
 
 #: src/common/outbound.c:543
 msgid "/LAGCHECK, forces a new lag check\n"
@@ -295,28 +329,34 @@ msgstr "/LOADLL <plik>, wczytuje wtyczkê\n"
 msgid ""
 "/MDEHOP, Mass deop's all chanhalf-ops in the current channel (needs chanop)\n"
 msgstr ""
+"/MDEHOP, zabiera status pó³operatora wszystkim z aktualnego kana³u (wymaga operatora)\n"
 
 #: src/common/outbound.c:559
 msgid "/MDEOP, Mass deop's all chanops in the current channel (needs chanop)\n"
-msgstr ""
+msgstr "/MDEOP, zabiera status operatora wszystkim na aktualnym kanale (wymaga operatora)\n"
 
 #: src/common/outbound.c:561
 msgid ""
 "/MKICK, Mass kicks everyone except you in the current channel (needs "
 "chanop)\n"
 msgstr ""
+"/MKICK, wyrzuca wszystkich z kana³ów oprócz samego siebie (wymaga operatora)\n"
 
 #: src/common/outbound.c:563
 msgid ""
 "/MKICKB, Sets a ban of *@* and mass kicks everyone except you in the current "
 "channel (needs chanop)\n"
 msgstr ""
+"/MKICKB, ustawia bana na *@* i nastêpnie wyrzuca wszystki z kana³u oprócz siebie "
+"(wymaga operatora)\n"
 
 #: src/common/outbound.c:565
 msgid ""
 "/ME <action>, sends the action to the current channel (actions are written "
 "in the 3rd person, like /me jumps)\n"
 msgstr ""
+"/ME <akcja>, wysy³a podan± akcjê na aktualny kana³ (akcje powinny byæ pisane "
+"w trzeciej osobie, np. /me skacze)\n"
 
 #: src/common/outbound.c:566
 msgid "/MSG <nick> <message>, sends a private message\n"
@@ -357,6 +397,8 @@ msgid ""
 "/PART [<channel>] [<reason>], leaves the channel, by default the current "
 "one\n"
 msgstr ""
+"/PART [<kana³>] [<powód>], opuszcza podany kana³, domy¶lnie jest to aktywny "
+"kana³\n"
 
 #: src/common/outbound.c:584
 msgid "/PING <nick | channel>, CTCP pings nick or channel\n"
@@ -392,6 +434,9 @@ msgid ""
 "/RECONNECT to reconnect to the current server or with /RECONNECT ALL to "
 "reconnect to all the open servers\n"
 msgstr ""
+"/RECONNECT [-ssl] [<adres>] [<port>] [<has³o>], mo¿e byæ wywo³ane bez "
+"parametrów, wtedy ³±czy siê od nowa z aktualnym serwerem. Wywo³anie "
+"w postaci /RECONECT ALL ³±czy od ze wszystkimi serwerami\n"
 
 #: src/common/outbound.c:604
 msgid ""
@@ -399,6 +444,9 @@ msgid ""
 "to reconnect to the current server or with /RECONNECT ALL to reconnect to "
 "all the open servers\n"
 msgstr ""
+"/RECONNECT [<adres>] [<port>] [<has³o>], mo¿e byæ wywo³ane bez parametrów, "
+"wtedy ³±czy siê od nowa z aktualnym serwerem. Wpisanie /RECONNECT ALL "
+"powoduje siê po³±czenie od nowa ze wszystkimi serwerami\n"
 
 #: src/common/outbound.c:607
 msgid "/RMDLL <dll name>, unloads a plugin\n"
@@ -406,7 +454,7 @@ msgstr "/RMDLL <nazwa>, wy³adowuje podan± wtyczkê\n"
 
 #: src/common/outbound.c:611
 msgid "/SAY <text>, sends the text to the object in the current window\n"
-msgstr "/SAT <tre¶æ>, wysy³a tekst o podanej tre¶ci do obiektu w aktualnym oknie\n"
+msgstr "/SAY <tre¶æ>, wysy³a tekst o podanej tre¶ci do obiektu w aktualnym oknie\n"
 
 #: src/common/outbound.c:614
 msgid "/SCPINFO, Lists some information about current Perl bindings\n"
@@ -420,6 +468,7 @@ msgstr "/SET <zmienna> [<warto¶æ>]\n"
 msgid ""
 "/SERVCHAN [-ssl] <host> <port> <channel>, connects and joins a channel\n"
 msgstr ""
+"/SERVCHAN [-ssl] <adres> <port> <kana³>, ³±czy z serwerem i wchodzi na podany kana³\n"
 
 #: src/common/outbound.c:623
 msgid "/SERVCHAN <host> <port> <channel>, connects and joins a channel\n"
@@ -430,12 +479,16 @@ msgid ""
 "/SERVER [-ssl] <host> [<port>] [<password>], connects to a server, the "
 "default port is 6667 for normal connections, and 994 for ssl connections.\n"
 msgstr ""
+"/SERVER [-ssl] <adres> [<port>] [<has³o>], ³±czy z podanym serwerem. Domy¶lny "
+"port to 6667 dla normalnych po³±czeñ, a dla SSL to 994.\n"
 
 #: src/common/outbound.c:630
 msgid ""
 "/SERVER <host> [<port>] [<password>], connects to a server, the default port "
 "is 6667.\n"
 msgstr ""
+"/SERVER <adres> [<port>] [<has³o>], ³±czy z podanym serwerem. Domy¶lny port "
+"to 6667.\n"
 
 #: src/common/outbound.c:632
 msgid "/TIMER <seconds> <command>\n"
@@ -446,10 +499,12 @@ msgid ""
 "/TOPIC [<topic>], sets the topic if one is given, else shows the current "
 "topic\n"
 msgstr ""
+"/TOPIC [<temat>], ustawia podany temat na aktualnym kanale. W przypadku "
+"nie podania parametrów, wy¶wietla aktualny temat.\n"
 
 #: src/common/outbound.c:635
 msgid "/UNIGNORE <mask> [QUIET]\n"
-msgstr ""
+msgstr "/UNIGNORE <maska> [QUIET]\n"
 
 #: src/common/outbound.c:637
 msgid "/UNLOADALL, Unloads all perl scripts\n"
@@ -460,10 +515,12 @@ msgid ""
 "/WALLCHOP <message>, sends the message to all chanops on the current "
 "channel\n"
 msgstr ""
+"/WALLCHOP <wiadomo¶æ>, wysy³a wiadomo¶æ do wszystkich operatorów aktualnego "
+"kana³u\n"
 
 #: src/common/outbound.c:643
 msgid "/WALLCHAN <message>, writes the message to all channels\n"
-msgstr ""
+msgstr "/WALLCHAN <wiadomo¶æ>, wysy³a wiadomo¶æ na wszystkie kana³y\n"
 
 #: src/common/outbound.c:645
 msgid "/VOICE <nick>, gives voice status to someone (needs chanop)\n"
@@ -546,7 +603,7 @@ msgstr "Z³e argumenty dla polecenia u¿ytkownika.\n"
 
 #: src/common/outbound.c:3252
 msgid "Too many recursive usercommands, aborting."
-msgstr ""
+msgstr "Zbyt du¿o zagnie¿dzonych poleceñ u¿ytkownika, przerywam."
 
 #: src/common/outbound.c:3360
 msgid "Unknown Command. Try /help\n"
@@ -584,7 +641,7 @@ msgstr "Pseudonim do³±czaj±cej osoby"
 
 #: src/common/text.c:369
 msgid "The channel being joined"
-msgstr ""
+msgstr "Kana³ do którego do³±czono"
 
 #: src/common/text.c:370 src/common/text.c:422 src/common/text.c:488
 msgid "The host of the person"
@@ -630,7 +687,7 @@ msgstr "Nowy pseudonim"
 
 #: src/common/text.c:400
 msgid "Nick of person who changed the topic"
-msgstr "Pseudonim osoby, która zmieni³a temat"
+msgstr "Osoba, która zmieni³a temat"
 
 #: src/common/text.c:401 src/common/text.c:408 src/fe-gtk/chanlist.c:563
 #: src/fe-gtk/chanlist.c:694
@@ -645,11 +702,11 @@ msgstr "Kana³"
 
 #: src/common/text.c:413 src/common/text.c:481
 msgid "The nickname of the kicker"
-msgstr ""
+msgstr "Osoba, która wyrzuci³a"
 
 #: src/common/text.c:414 src/common/text.c:479
 msgid "The person being kicked"
-msgstr ""
+msgstr "Osoba wyrzucona"
 
 #: src/common/text.c:415 src/common/text.c:423 src/common/text.c:428
 #: src/common/text.c:434 src/common/text.c:480 src/common/text.c:489
@@ -662,7 +719,7 @@ msgstr "Powód"
 
 #: src/common/text.c:421 src/common/text.c:487
 msgid "The nick of the person leaving"
-msgstr "Pseudonim osoby wychodz±cej"
+msgstr "Osoba wychodz±ca"
 
 #: src/common/text.c:429 src/common/text.c:436
 msgid "The time"
@@ -710,7 +767,7 @@ msgstr "Zdarzenie CTCP"
 
 #: src/common/text.c:514
 msgid "The nick of the person who set the key"
-msgstr "Pseudonim osoby, która ustawi³a klucz"
+msgstr "Osoba, która ustawi³a klucz"
 
 #: src/common/text.c:515
 msgid "The key"
@@ -718,7 +775,7 @@ msgstr "Klucz"
 
 #: src/common/text.c:520
 msgid "The nick of the person who set the limit"
-msgstr "Pseudonim osoby, która ustawi³a limit"
+msgstr "Osoba, która ustawi³a limit"
 
 #: src/common/text.c:521
 msgid "The limit"
@@ -726,19 +783,19 @@ msgstr "Limit"
 
 #: src/common/text.c:526
 msgid "The nick of the person who has been op'ed"
-msgstr "Pseudonim osoby, która otrzyma³a status operatora"
+msgstr "Osoba, która otrzyma³a status operatora"
 
 #: src/common/text.c:527
 msgid "The nick of the person of did the op'ing"
-msgstr "Pseudonim osoby, która da³a status operatora"
+msgstr "Osoba, która da³a status operatora"
 
 #: src/common/text.c:532
 msgid "The nick of the person who has been halfop'ed"
-msgstr ""
+msgstr "Osoba, która otrzyma³a status pó³operatora"
 
 #: src/common/text.c:533
 msgid "The nick of the person of did the halfop'ing"
-msgstr ""
+msgstr "Osoba, która da³a status pó³operatora"
 
 #: src/common/text.c:538
 msgid "The nick of the person who has been voice'ed"
@@ -758,27 +815,27 @@ msgstr "Wzór bana"
 
 #: src/common/text.c:550
 msgid "The nick who removed the key"
-msgstr "Pseudonim osoby, która usunê³a klucz"
+msgstr "Osoba, która usunê³a klucz"
 
 #: src/common/text.c:555
 msgid "The nick who removed the limit"
-msgstr "Pseudonim osoby, która usunê³a limit"
+msgstr "Osoba, która usunê³a limit"
 
 #: src/common/text.c:560
 msgid "The nick of the person of did the deop'ing"
-msgstr "Pseudonim osoby, która zdjê³a status operatora"
+msgstr "Osoba, która zdjê³a status operatora"
 
 #: src/common/text.c:561
 msgid "The nick of the person who has been deop'ed"
-msgstr "Pseudonim osoby, której zabrano status operatora"
+msgstr "Osoba, której zabrano status operatora"
 
 #: src/common/text.c:565
 msgid "The nick of the person of did the dehalfop'ing"
-msgstr ""
+msgstr "Osoba, która zabra³a status pó³operatora"
 
 #: src/common/text.c:566
 msgid "The nick of the person who has been dehalfop'ed"
-msgstr ""
+msgstr "Osoba, która straci³a status pó³operatora"
 
 #: src/common/text.c:571
 msgid "The nick of the person of did the devoice'ing"
@@ -794,19 +851,19 @@ msgstr "Pseudonim osoby, która zdjê³a bana"
 
 #: src/common/text.c:583
 msgid "The nick of the person who did the exempt"
-msgstr ""
+msgstr "Osoba, która za³o¿y³a wyj±tek na bany"
 
 #: src/common/text.c:584 src/common/text.c:590
 msgid "The exempt mask"
-msgstr ""
+msgstr "Maska wyj±tku na bany"
 
 #: src/common/text.c:589
 msgid "The nick of the person removed the exempt"
-msgstr ""
+msgstr "Osoba, która usunê³a wyj±tek na bany"
 
 #: src/common/text.c:595
 msgid "The nick of the person who did the invite"
-msgstr "Pseudonim osoby, która dokona³a zaproszenia"
+msgstr "Osoba, która ustawi³a zaproszenie"
 
 #: src/common/text.c:596 src/common/text.c:602
 msgid "The invite mask"
@@ -814,11 +871,11 @@ msgstr "Maska zaproszenia"
 
 #: src/common/text.c:601
 msgid "The nick of the person removed the invite"
-msgstr "Pseudonim osoby, która usunê³a zaproszenie"
+msgstr "Osoba, która usunê³a zaproszenie"
 
 #: src/common/text.c:607
 msgid "The nick of the person setting the mode"
-msgstr "Pseudonim osoby ustawiaj±cej tryb"
+msgstr "Osoba, która ustawi³a tryb"
 
 #: src/common/text.c:608
 msgid "The mode's sign (+/-)"
@@ -867,11 +924,11 @@ msgstr "Nazwa kana³u"
 
 #: src/common/text.c:668 src/common/text.c:837 src/fe-gtk/textgui.c:389
 msgid "Text"
-msgstr ""
+msgstr "Tekst"
 
 #: src/common/text.c:674
 msgid "Nick of person who invited you"
-msgstr "Pseudonim osoby, która Ciê zaprosi³a"
+msgstr "Osoba, która Ciê zaprosi³a"
 
 #: src/common/text.c:675 src/common/text.c:905
 msgid "Server Name"
@@ -887,23 +944,23 @@ msgstr "Pseudonim w u¿yciu"
 
 #: src/common/text.c:687
 msgid "Nick being tried"
-msgstr ""
+msgstr "Próbowany pseudonim"
 
 #: src/common/text.c:692
 msgid "Error String"
-msgstr ""
+msgstr "Tre¶æ b³êdu"
 
 #: src/common/text.c:698 src/common/text.c:848
 msgid "IP"
-msgstr ""
+msgstr "IP"
 
 #: src/common/text.c:699
 msgid "Port"
-msgstr ""
+msgstr "Port"
 
 #: src/common/text.c:704
 msgid "PID"
-msgstr ""
+msgstr "PID"
 
 #: src/common/text.c:714
 msgid "Channel name"
@@ -911,7 +968,7 @@ msgstr "Nazwa kana³u"
 
 #: src/common/text.c:715 src/common/text.c:721
 msgid "Modes string"
-msgstr ""
+msgstr "Ci±g znaków trybu"
 
 #: src/common/text.c:733 src/common/text.c:775
 msgid "IP address"
@@ -919,11 +976,11 @@ msgstr "Adres IP"
 
 #: src/common/text.c:734
 msgid "port"
-msgstr ""
+msgstr "port"
 
 #: src/common/text.c:739 src/common/text.c:766 src/common/text.c:773
 msgid "DCC Type"
-msgstr ""
+msgstr "Rodzaj DCC"
 
 #: src/common/text.c:740 src/common/text.c:746 src/common/text.c:751
 #: src/common/text.c:758 src/common/text.c:781 src/common/text.c:787
@@ -939,11 +996,11 @@ msgstr "Plik docelowy"
 #: src/common/text.c:761 src/common/text.c:789 src/fe-gtk/dccgui.c:403
 #: src/fe-gtk/dccgui.c:407 src/fe-gtk/dccgui.c:587
 msgid "CPS"
-msgstr ""
+msgstr "CPS"
 
 #: src/common/text.c:768
 msgid "Error string"
-msgstr ""
+msgstr "Tre¶æ b³êdu"
 
 #: src/common/text.c:776
 msgid "{to|from}"
@@ -951,7 +1008,7 @@ msgstr "{od|do}"
 
 #: src/common/text.c:800
 msgid "DCC type"
-msgstr ""
+msgstr "Rodzaj DCC"
 
 #: src/common/text.c:809 src/fe-gtk/dccgui.c:403 src/fe-gtk/dccgui.c:407
 #: src/fe-gtk/dccgui.c:587
@@ -1197,23 +1254,23 @@ msgstr "-%C10-%C11-%O$t$1 usun±³ prawo g³osu z $2"
 
 #: src/common/text.c:1027
 msgid "-%C10-%C11-%O$t$1 removes ban on $2"
-msgstr ""
+msgstr "-%C10-%C11-%O$t$1 usun±³ bana dla $2"
 
 #: src/common/text.c:1029
 msgid "-%C10-%C11-%O$t$1 sets exempt on $2"
-msgstr ""
+msgstr "-%C10-%C11-%O$t$1 ustawi³ wyj±tek od banów dla $2"
 
 #: src/common/text.c:1031
 msgid "-%C10-%C11-%O$t$1 removes exempt on $2"
-msgstr ""
+msgstr "-%C10-%C11-%O$t$1 usun±³ wyj±tek od banó³ dla $2"
 
 #: src/common/text.c:1033
 msgid "-%C10-%C11-%O$t$1 sets invite on $2"
-msgstr ""
+msgstr "-%C10-%C11-%O$t$1 ustawi³ zaproszenie dla $2"
 
 #: src/common/text.c:1035
 msgid "-%C10-%C11-%O$t$1 removes invite on $2"
-msgstr ""
+msgstr "-%C10-%C11-%O$t$1 usun±³ zaproszenie dla $2"
 
 #: src/common/text.c:1037
 msgid "-%C10-%C11-%O$t$1 sets mode $2$3 $4"
@@ -1249,19 +1306,19 @@ msgstr "-%C10-%C11-%O$t%C12[%O$1%C12] %CKoniec informacji o u¿ytkowniku."
 
 #: src/common/text.c:1054
 msgid "-%C10-%C11-%O$tCannot join%C11 %B$1 %O(User limit reached)."
-msgstr ""
+msgstr "-%C10-%C11-%O$tNie mo¿na wej¶æ na kana³%C11 %B$1 %O(Osi±gniêty limit osób)."
 
 #: src/common/text.c:1056
 msgid "-%C10-%C11-%O$tCannot join%C11 %B$1 %O(You are banned)."
-msgstr ""
+msgstr "-%C10-%C1-%O$tNie mo¿na wej¶æ na kana³%C11 %B$1 %O(Jeste¶ zbanowany)."
 
 #: src/common/text.c:1058
 msgid "-%C10-%C11-%O$tCannot join%C11 %B$1 %O(Channel is invite only)."
-msgstr ""
+msgstr "-%C10-%C11-%O$tNie mo¿na wej¶c na kana³%C11 %B$1 %O(Kana³ tylko dla zaproszonych)."
 
 #: src/common/text.c:1061
 msgid "-%C10-%C11-%O$tCannot join%C11 %B$1 %O(Requires keyword)."
-msgstr ""
+msgstr "-%C10-%C11-%O$tNie mo¿na wej¶æ na kana³%C11 %B$1 %O(Wymaga klucza)."
 
 #: src/common/text.c:1062
 msgid "-%C10-%C11-%O$tMOTD Skipped."
@@ -1274,7 +1331,7 @@ msgstr ""
 
 #: src/common/text.c:1067
 msgid "-%C10-%C11-%O$tYou have been invited to %C11$1%C by %C11$2%C (%C11$3%C)"
-msgstr ""
+msgstr "-%C10-%C11-%O$tZosta³e¶ zaproszony na %C11$1%C przez %C11$2%C (%C11$3%C)"
 
 #: src/common/text.c:1070
 msgid "-%C10-%C11-%O$t%C11Users on $1:%C $2"
@@ -1348,6 +1405,7 @@ msgstr ""
 msgid ""
 "-%C10-%C11-%O$tDCC CHAT failed. Connection to $1 %C14[%O$2:$3%C14]%O lost."
 msgstr ""
+"-%C10-%C11-%O$tRozmowa DCC anulowana. Po³±czenie z $1 %C14[%O$2:$3%C14]%O zosta³o stracone."
 
 #: src/common/text.c:1111
 msgid "-%C10-%C11-%O$tDCC RECV: Cannot open $1 for writing - aborting."
@@ -4453,15 +4511,15 @@ msgstr ""
 
 #: src/fe-gtk/settings.c:1383
 msgid "Hide Session on Panelize"
-msgstr ""
+msgstr "Ukryj sesjê po przeniesieniu na panel"
 
 #: src/fe-gtk/settings.c:1386
 msgid "Hide X-Chat when window moved to the panel"
-msgstr ""
+msgstr "Ukryj okno X-Chata po przeniesieniu na panel"
 
 #: src/fe-gtk/settings.c:1388
 msgid "Panel Applet"
-msgstr ""
+msgstr "Aplet panelu GNOME"
 
 #: src/fe-gtk/settings.c:1389
 msgid "Layout For a Vertical Panel"
@@ -4510,7 +4568,7 @@ msgstr ""
 
 #: src/fe-gtk/settings.c:1426
 msgid "Your irc settings"
-msgstr ""
+msgstr "Ustawienia IRCa"
 
 #: src/fe-gtk/settings.c:1430
 msgid "Quit Message:"
@@ -4525,10 +4583,12 @@ msgid ""
 "These can be a filename relative to ~/.xchat/ to be\n"
 "used as a list of random quit or part reasons."
 msgstr ""
+"Mog± to byæ nazwy plików wzglêdem ~/.xchat/ w których\n"
+"zostan± umieszczone losowe powody roz³±czenia oraz wyj¶cia z kana³u."
 
 #: src/fe-gtk/settings.c:1441
 msgid "External Programs"
-msgstr ""
+msgstr "Zewnêtrzne programy"
 
 #: src/fe-gtk/settings.c:1444
 msgid "DNS Lookup Program:"
@@ -4545,15 +4605,15 @@ msgstr ""
 #: src/fe-gtk/settings.c:1453 src/fe-gtk/settings.c:1714
 #: src/fe-gtk/settings.c:1717
 msgid "seconds."
-msgstr ""
+msgstr "sekund."
 
 #: src/fe-gtk/settings.c:1464
 msgid "Address"
-msgstr ""
+msgstr "Adres"
 
 #: src/fe-gtk/settings.c:1467
 msgid "Hostname / IP Number:"
-msgstr ""
+msgstr "Nazwa / Adres IP"
 
 #: src/fe-gtk/settings.c:1471
 msgid ""
@@ -4567,7 +4627,7 @@ msgstr "Publiczny adres IP"
 
 #: src/fe-gtk/settings.c:1479
 msgid "DCC IP Address:"
-msgstr ""
+msgstr "Adres IP dla DCC:"
 
 #: src/fe-gtk/settings.c:1483
 msgid ""
@@ -4577,15 +4637,15 @@ msgstr ""
 
 #: src/fe-gtk/settings.c:1488
 msgid "Get my IP from Server (for use in DCC Send only)"
-msgstr ""
+msgstr "Uzyskaj mój adres IP od serwera (u¿ywane przy wysy³aniu poprzez DCC)"
 
 #: src/fe-gtk/settings.c:1491
 msgid "For people using a 10.* or 192.168.* IP number."
-msgstr ""
+msgstr "Dla ludzi u¿ywaj±cych adresów IP 10.* oraz 192.168.*"
 
 #: src/fe-gtk/settings.c:1509
 msgid "(Disabled)"
-msgstr ""
+msgstr "(Wy³±czone)"
 
 #: src/fe-gtk/settings.c:1510
 msgid "Wingate"
@@ -4617,43 +4677,43 @@ msgstr "Rodzaj proxy:"
 
 #: src/fe-gtk/settings.c:1539
 msgid "Show away once"
-msgstr ""
+msgstr "Poka¿ powiadomienie o nieobecno¶ci tylko raz"
 
 #: src/fe-gtk/settings.c:1542
 msgid "Only show away messages the first time they're seen"
-msgstr ""
+msgstr "Pokazuje informacje o niebecno¶ci tylko za pierwszym razem"
 
 #: src/fe-gtk/settings.c:1543
 msgid "Announce away messsages"
-msgstr ""
+msgstr "Og³aszaj stan nieobecno¶ci"
 
 #: src/fe-gtk/settings.c:1548
 msgid "Announce your away message to the channel(s) you are in"
-msgstr ""
+msgstr "Og³asza Twoj± wiadomo¶æ o nieobecno¶ci we wszystkich kana³ach, na których jeste¶"
 
 #: src/fe-gtk/settings.c:1550
 msgid "Your away settings"
-msgstr ""
+msgstr "Twoje ustawienia nieobecno¶ci"
 
 #: src/fe-gtk/settings.c:1553
 msgid "Away Reason:"
-msgstr ""
+msgstr "Powód nieobecno¶ci:"
 
 #: src/fe-gtk/settings.c:1569
 msgid "Words to Highlight:"
-msgstr ""
+msgstr "S³owa do pod¶wietlenia:"
 
 #: src/fe-gtk/settings.c:1573
 msgid "(separate with commas)"
-msgstr ""
+msgstr "(oddzielone przecinkami)"
 
 #: src/fe-gtk/settings.c:1586 src/fe-gtk/settings.c:1965
 msgid "Logging"
-msgstr ""
+msgstr "Logowanie"
 
 #: src/fe-gtk/settings.c:1589
 msgid "Enable logging conversations to disk"
-msgstr ""
+msgstr "Uruchamia logowanie rozmów na dysku"
 
 #: src/fe-gtk/settings.c:1590
 msgid "Always timestamp logs"
@@ -4709,7 +4769,7 @@ msgstr ""
 
 #: src/fe-gtk/settings.c:1642
 msgid "seconds (0=Disable)."
-msgstr ""
+msgstr "sekund (0=wy³±cz)."
 
 #: src/fe-gtk/settings.c:1652
 msgid "Enable Character Translation"
@@ -4725,11 +4785,11 @@ msgstr ""
 
 #: src/fe-gtk/settings.c:1673
 msgid "Auto Open DCC Send Window"
-msgstr ""
+msgstr "Automatycznie otwieraj okno wysy³ania DCC"
 
 #: src/fe-gtk/settings.c:1678
 msgid "Automatically open DCC Send Window"
-msgstr ""
+msgstr "Automatycznie otwiera okno wysy³ania DCC"
 
 #: src/fe-gtk/settings.c:1679
 msgid "Auto Open DCC Recv Window"
@@ -4781,27 +4841,27 @@ msgstr "(ósemkowo)"
 
 #: src/fe-gtk/settings.c:1727
 msgid "Directory to save to:"
-msgstr ""
+msgstr "Katalog, do którego zapisywaæ:"
 
 #: src/fe-gtk/settings.c:1730
 msgid "Save file with Nickname"
-msgstr ""
+msgstr "Zapisuj plik wraz z pseudonimem"
 
 #: src/fe-gtk/settings.c:1733
 msgid "Put the sender's nickname in incoming filenames"
-msgstr ""
+msgstr "Zapisuje pseudonim osoby wysy³aj±cej w nazwie odbieranych plików"
 
 #: src/fe-gtk/settings.c:1735
 msgid "DCC Send Options"
-msgstr ""
+msgstr "Opcje wysy³ania DCC"
 
 #: src/fe-gtk/settings.c:1740
 msgid "Fast DCC Send"
-msgstr ""
+msgstr "Szybkie wysy³anie"
 
 #: src/fe-gtk/settings.c:1743
 msgid "Don't wait for ACKs to send more data"
-msgstr ""
+msgstr "Nie czekaj na potwierdzenie aby wysy³aæ wiêcej danych"
 
 #: src/fe-gtk/settings.c:1745
 msgid "Fill Spaces"
@@ -4817,7 +4877,7 @@ msgstr ""
 
 #: src/fe-gtk/settings.c:1752
 msgid "(0=Disabled)"
-msgstr ""
+msgstr "(0=wy³±czony)"
 
 #: src/fe-gtk/settings.c:1754
 msgid "Last DCC Send Port:"
@@ -4825,15 +4885,15 @@ msgstr ""
 
 #: src/fe-gtk/settings.c:1758
 msgid "Send Block Size:"
-msgstr ""
+msgstr "Rozmiar wysy³anych bloków:"
 
 #: src/fe-gtk/settings.c:1759
 msgid "(1024=Normal)"
-msgstr ""
+msgstr "(1024=normalny)"
 
 #: src/fe-gtk/settings.c:1770
 msgid "Built-in Replies"
-msgstr ""
+msgstr "Wbudowane odpowiedzi"
 
 #: src/fe-gtk/settings.c:1771
 msgid "Hide Version"
@@ -4841,41 +4901,41 @@ msgstr "Ukryj wersjê"
 
 #: src/fe-gtk/settings.c:1774
 msgid "Do not reply to CTCP version"
-msgstr ""
+msgstr "Nie odpowiadaj na zapytanie CTCP o wersjê"
 
 #: src/fe-gtk/settings.c:1776 src/fe-gtk/textgui.c:389
 msgid "Sound"
-msgstr ""
+msgstr "D¼wiêk"
 
 #: src/fe-gtk/settings.c:1779
 msgid "Sound Dir:"
-msgstr ""
+msgstr "Katalog d¼wiêków:"
 
 #: src/fe-gtk/settings.c:1783
 msgid "Play Command:"
-msgstr ""
+msgstr "Polecenie odgrywania:"
 
 #. prepare the dialog
 #: src/fe-gtk/settings.c:1819
 msgid "X-Chat: Preferences"
-msgstr ""
+msgstr "X-Chat: Ustawienia"
 
 #: src/fe-gtk/settings.c:1850
 msgid "Apply"
-msgstr ""
+msgstr "Zastosuj"
 
 #. the tree
 #: src/fe-gtk/settings.c:1877
 msgid "Categories"
-msgstr ""
+msgstr "Kategorie"
 
 #: src/fe-gtk/settings.c:1901
 msgid "Interface Settings"
-msgstr ""
+msgstr "Ustawienia interfejsu"
 
 #: src/fe-gtk/settings.c:1902
 msgid "Interface"
-msgstr ""
+msgstr "Interfejst"
 
 #: src/fe-gtk/settings.c:1907
 msgid "IRC Input/Output Settings"
@@ -4887,51 +4947,51 @@ msgstr ""
 
 #: src/fe-gtk/settings.c:1912
 msgid "Window Layout Settings"
-msgstr ""
+msgstr "Ustawienia wygl±du okna"
 
 #: src/fe-gtk/settings.c:1913
 msgid "Window Layout"
-msgstr ""
+msgstr "Wygl±d okna"
 
 #: src/fe-gtk/settings.c:1917
 msgid "Main Window Settings"
-msgstr ""
+msgstr "Ustawienia g³ównego okna"
 
 #: src/fe-gtk/settings.c:1918
 msgid "Main Window"
-msgstr ""
+msgstr "G³ówne okno"
 
 #: src/fe-gtk/settings.c:1922
 msgid "Channel Window Settings"
-msgstr ""
+msgstr "Ustawienia okna kana³u"
 
 #: src/fe-gtk/settings.c:1923
 msgid "Channel Windows"
-msgstr ""
+msgstr "Okno kana³u"
 
 #: src/fe-gtk/settings.c:1927
 msgid "Dialog Window Settings"
-msgstr ""
+msgstr "Ustawienia okna rozmowy"
 
 #: src/fe-gtk/settings.c:1928
 msgid "Dialog Windows"
-msgstr ""
+msgstr "Okno rozmowy"
 
 #: src/fe-gtk/settings.c:1933
 msgid "Panel Settings"
-msgstr ""
+msgstr "Ustawienia panelu"
 
 #: src/fe-gtk/settings.c:1934
 msgid "Panel"
-msgstr ""
+msgstr "Panel"
 
 #: src/fe-gtk/settings.c:1939
 msgid "IRC Settings"
-msgstr ""
+msgstr "Ustawienia IRCa"
 
 #: src/fe-gtk/settings.c:1940
 msgid "IRC"
-msgstr ""
+msgstr "IRC"
 
 #: src/fe-gtk/settings.c:1944
 msgid "IP Address Settings"
@@ -4947,15 +5007,15 @@ msgstr "Serwer proxy"
 
 #: src/fe-gtk/settings.c:1954
 msgid "Away Settings"
-msgstr ""
+msgstr "Ustawienia nieobecno¶ci"
 
 #: src/fe-gtk/settings.c:1955
 msgid "Away"
-msgstr ""
+msgstr "Nieobecno¶æ"
 
 #: src/fe-gtk/settings.c:1959
 msgid "Highlighting Settings"
-msgstr ""
+msgstr "Ustawienia pod¶wietlania"
 
 #: src/fe-gtk/settings.c:1960
 msgid "Highlighting"
@@ -4963,19 +5023,19 @@ msgstr "Pod¶wietlanie"
 
 #: src/fe-gtk/settings.c:1964
 msgid "Logging Settings"
-msgstr ""
+msgstr "Ustawienia logowania"
 
 #: src/fe-gtk/settings.c:1969
 msgid "Notification Settings"
-msgstr ""
+msgstr "Ustawienia powiadamiania"
 
 #: src/fe-gtk/settings.c:1970
 msgid "Notification"
-msgstr ""
+msgstr "Powiadamianie"
 
 #: src/fe-gtk/settings.c:1975
 msgid "Character Set (Translation Tables)"
-msgstr ""
+msgstr "Zestaw znakó³ (Tablice translacji)"
 
 #: src/fe-gtk/settings.c:1976
 msgid "Character Set"
@@ -4991,19 +5051,19 @@ msgstr "Ustawienia DCC"
 
 #: src/fe-gtk/settings.c:1987
 msgid "DCC"
-msgstr ""
+msgstr "DCC"
 
 #: src/fe-gtk/settings.c:1991
 msgid "File Transfer Settings"
-msgstr ""
+msgstr "Ustawienia przesy³u plików"
 
 #: src/fe-gtk/settings.c:1992
 msgid "File Transfer"
-msgstr ""
+msgstr "Przesy³ plików"
 
 #: src/fe-gtk/textgui.c:179
 msgid "There was an error parsing the string"
-msgstr ""
+msgstr "Wyst±pi³ b³±d podczas analizowania ci±gu znaków"
 
 #: src/fe-gtk/textgui.c:187
 #, c-format
@@ -5016,7 +5076,7 @@ msgstr ""
 
 #: src/fe-gtk/textgui.c:389
 msgid "Event"
-msgstr ""
+msgstr "Zdarzenie"
 
 #: src/fe-gtk/textgui.c:390
 msgid "$ Number"
@@ -5024,11 +5084,11 @@ msgstr ""
 
 #: src/fe-gtk/textgui.c:398
 msgid "Edit Events"
-msgstr ""
+msgstr "Modyfikuj zdarzenia"
 
 #: src/fe-gtk/textgui.c:439
 msgid "Sound file: "
-msgstr ""
+msgstr "Plik d¼wiêkowy: "
 
 #: src/fe-gtk/textgui.c:473
 msgid "Save As"
@@ -5036,16 +5096,16 @@ msgstr "Zapisz jako"
 
 #: src/fe-gtk/textgui.c:478
 msgid "Load From"
-msgstr ""
+msgstr "Za³aduj z"
 
 #: src/fe-gtk/textgui.c:483
 msgid "Test All"
-msgstr ""
+msgstr "Przetestuj wszystkie"
 
 #: src/fe-gtk/urlgrab.c:113
 msgid "Select a file to save to"
-msgstr ""
+msgstr "Wybierz plik, do którego zapisaæ"
 
 #: src/fe-gtk/urlgrab.c:153
 msgid "X-Chat: URL Grabber"
-msgstr ""
+msgstr "X-Chat: Przechwytywanie adresów URL"
