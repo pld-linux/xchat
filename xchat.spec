@@ -9,7 +9,7 @@ Summary(is):	IRC spjallforrit sem notar GTK+
 Summary(it):	Client Gtk+ IRC (chat)
 Summary(ja):	GTK+ IRC (チャット) クライアント
 Summary(ko):	GTK+ IRC (辰特) 適虞戚情闘
-Summary(no):	En GTK+-basert IRC-klient
+Summary(nb):	En GTK+-basert IRC-klient
 Summary(pl):	Oparty na Gtk+ klient IRC
 Summary(pt):	Um cliente de IRC (chat) em GTK+
 Summary(pt_BR):	Cliente IRC GNOME
