@@ -3,7 +3,7 @@ Summary(de):	Gtk+ IRC-Client
 Summary(fr):	Client IRC Gtk+
 Summary(pl):	Oparty na Gtk+ klient IRC
 Name:		xchat
-Version:	1.7.1
+Version:	1.7.3
 Release:	1
 Epoch:		1
 License:	GPL
@@ -11,6 +11,8 @@ Group:		X11/Applications/Networking
 Group(de):	X11/Applikationen/Netzwerkwesen
 Group(pl):	X11/Aplikacje/Sieciowe
 Source0:	http://xchat.org/files/source/1.7/%{name}-%{version}.tar.bz2
+Patch0:		%{name}-po.patch
+Patch1:		%{name}-miscfix.patch
 Icon:		xchat.xpm
 URL:		http://xchat.org/
 BuildRequires:	gtk+-devel >= 1.2.5
@@ -19,9 +21,11 @@ BuildRequires:	gnome-libs-devel
 BuildRequires:	esound-devel
 BuildRequires:	audiofile-devel
 BuildRequires:	python-devel
+BuildRequires:	openssl-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define 	_prefix		/usr/X11R6
+%define		_mandir		%{_prefix}/man
 
 %description
 X-Chat is yet another IRC client for the X Window System, using the
@@ -44,16 +48,23 @@ jest dosyæ ³adnie zaprojektowany.
 
 %prep
 %setup -q
+%patch0 -p1
+%patch1 -p1
 
 %build
-rm -f config.status
+rm -f config.status missing
 gettextize --copy --force
+aclocal
+autoconf
+automake -a -c --foreign
 %configure \
 	--disable-gnome \
-	--disable-perl
+	--disable-perl \
+	--enable-openssl \
+	--enable-ipv6 \
+	--enable-japanese-conv
 
-(cd po; make update-po)
-
+%{__make} -C po update-po
 %{__make}
 
 %install
@@ -62,7 +73,7 @@ install -d $RPM_BUILD_ROOT%{_datadir}/pixmaps
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT \
-	utildir=%{_applnkdir}/Network/Communications
+	utildir=%{_applnkdir}/Network/IRC
 
 install xchat.desktop $RPM_BUILD_ROOT%{_applnkdir}/Network/IRC
 install xchat.png $RPM_BUILD_ROOT%{_datadir}/pixmaps/
