@@ -28,10 +28,6 @@ Group:		X11/Applications/Networking
 Source0:	http://xchat.org/files/source/1.9/%{name}-%{version}.tar.bz2
 Source1:	%{name}-pl.po
 Patch0:		%{name}-po.patch
-#Patch1:		%{name}-fix-USE_GNOME.patch
-#Patch2:		%{name}-fix-default-replace.patch
-#Patch3:		%{name}-UTF8_desktop.patch
-#Patch4:		%{name}-zh.patch
 Icon:		xchat.xpm
 URL:		http://xchat.org/
 BuildRequires:	autoconf
@@ -132,10 +128,6 @@ X-Chat - ще один IRC кл╕╓нт для X Window System, який використову╓
 %prep
 %setup -q
 %patch0 -p1
-#%patch1 -p1
-#%patch2 -p1
-#%patch3 -p1
-#%patch4 -p1
 
 cp %{SOURCE1} po/pl.po
 
@@ -176,5 +168,6 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README ChangeLog AUTHORS 
 %attr(755,root,root) %{_bindir}/*
+%attr(755,root,root) %{_libdir}/xchat/plugins/*
 %{_applnkdir}/Network/Communications/xchat.desktop
 %{_pixmapsdir}/xchat.png
