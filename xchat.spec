@@ -12,7 +12,7 @@ Summary(ko):	GTK+ IRC (Ã¤ÆÃ) Å¬¶óÀÌ¾ğÆ®
 Summary(no):	En GTK+-basert IRC-klient
 Summary(pl):	Oparty na Gtk+ klient IRC
 Summary(pt):	Um cliente de IRC (chat) em GTK+
-Summary(pt_BR):	Cliente IRC Gnome
+Summary(pt_BR):	Cliente IRC GNOME
 Summary(ru):	Gtk+ IRC ËÌÉÅÎÔ (chat)
 Summary(sk):	IRC klient zalo¾enı na GTK+
 Summary(sl):	Odjemnik v GTK+ za IRC (internetni klepet)
