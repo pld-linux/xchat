@@ -1,6 +1,6 @@
 --- xchat-1.8.8/src/common/xchat.c	Tue Feb 12 03:39:15 2002
-+++ xchat-1.8.8/src/common/xchat2.c	Fri Mar 15 17:40:01 2002
-@@ -911,11 +911,6 @@
++++ xchat-1.8.8/src/common/xchat.orig	Fri Mar 15 18:29:38 2002
+@@ -911,10 +911,7 @@
  	"NAME Ping\n"				"CMD /ping %s\n\n"\
  	"NAME Clear\n"				"CMD /clear\n\n")
  
@@ -8,7 +8,7 @@
 -	"NAME teh\n"				"CMD the\n\n"\
 -	"NAME r\n"					"CMD are\n\n"\
 -	"NAME u\n"					"CMD you\n\n"
--
++#define defaultconf_replace 
+ 
  #define defaultconf_commands \
     "NAME ACTION\n"		"CMD /me &2\n\n"\
- 	"NAME AME\n"			"CMD /allchan /me &2\n\n"\
