@@ -21,7 +21,7 @@ Summary(uk):	Gtk+ IRC ËÌ¦¤ÎÔ
 Summary(zh_CN):	GTK+ IRC (ÁÄÌì) ¿Í»§¡£
 Name:		xchat
 Version:	2.0.5
-Release:	1
+Release:	2
 Epoch:		1
 License:	GPL
 Group:		X11/Applications/Networking
@@ -38,7 +38,7 @@ BuildRequires:	gettext-devel
 BuildRequires:	glib2-devel >= 2.0.3
 BuildRequires:	gtk+2-devel >= 2.0.3
 BuildRequires:	libtool
-BuildRequires:	openssl-devel >= 0.9.7b
+BuildRequires:	openssl-devel >= 0.9.7c
 BuildRequires:	perl-devel
 BuildRequires:	python-devel >= 2.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
