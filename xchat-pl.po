@@ -845,31 +845,31 @@ msgstr "Pseudonim osoby, która usunê³a klucz"
 
 #: src/common/text.c:534
 msgid "The nick who removed the limit"
-msgstr "Osoba, która usunê³a limit"
+msgstr "Pseudonim osoby, która usunê³a limit"
 
 #: src/common/text.c:538
 msgid "The nick of the person of did the deop'ing"
-msgstr "Osoba, która zdjê³a status operatora"
+msgstr "Pseudonim osoba, która odebra³a status operatora"
 
 #: src/common/text.c:539
 msgid "The nick of the person who has been deop'ed"
-msgstr "Osoba, której zabrano status operatora"
+msgstr "Pseudonim osoby, której odebrano status operatora"
 
 #: src/common/text.c:542
 msgid "The nick of the person of did the dehalfop'ing"
-msgstr "Osoba, która zabra³a status pó³operatora"
+msgstr "Pseudonim osoby, która odebra³a status pó³operatora"
 
 #: src/common/text.c:543
 msgid "The nick of the person who has been dehalfop'ed"
-msgstr "Osoba, która straci³a status pó³operatora"
+msgstr "Pseudonim osoby, której odebrano status pó³operatora"
 
 #: src/common/text.c:547
 msgid "The nick of the person of did the devoice'ing"
-msgstr "Pseudonim osoby, która zabra³a prawo g³osu"
+msgstr "Pseudonim osoby, która odebra³a prawo g³osu"
 
 #: src/common/text.c:548
 msgid "The nick of the person who has been devoice'ed"
-msgstr "Pseudonim osoby, która straci³a prawo g³osu"
+msgstr "Pseudonim osoby, której odebrano prawo g³osu"
 
 #: src/common/text.c:552
 msgid "The nick of the person of did the unban'ing"
@@ -877,31 +877,31 @@ msgstr "Pseudonim osoby, która zdjê³a bana"
 
 #: src/common/text.c:557
 msgid "The nick of the person who did the exempt"
-msgstr "Osoba, która za³o¿y³a wyj±tek na bany"
+msgstr "Pseudonim osoby, która za³o¿y³a wyj±tek na bany"
 
 #: src/common/text.c:558 src/common/text.c:563
 msgid "The exempt mask"
-msgstr "Maska wyj±tku na bany"
+msgstr "Wzorzec wyj±tku na bany"
 
 #: src/common/text.c:562
 msgid "The nick of the person removed the exempt"
-msgstr "Osoba, która usunê³a wyj±tek na bany"
+msgstr "Pseudonim osoby, która usunê³a wyj±tek na bany"
 
 #: src/common/text.c:567
 msgid "The nick of the person who did the invite"
-msgstr "Osoba, która ustawi³a zaproszenie"
+msgstr "Pseudonim osoby, która ustawi³a zaproszenie"
 
 #: src/common/text.c:568 src/common/text.c:573
 msgid "The invite mask"
-msgstr "Maska zaproszenia"
+msgstr "Wzorzec zaproszenia"
 
 #: src/common/text.c:572
 msgid "The nick of the person removed the invite"
-msgstr "Osoba, która usunê³a zaproszenie"
+msgstr "Pseudonim osoby, która usunê³a zaproszenie"
 
 #: src/common/text.c:577
 msgid "The nick of the person setting the mode"
-msgstr "Osoba, która ustawi³a tryb"
+msgstr "Pseudonim osoby, która ustawi³a tryb"
 
 #: src/common/text.c:578
 msgid "The mode's sign (+/-)"
@@ -954,7 +954,7 @@ msgstr "Tekst"
 
 #: src/common/text.c:630
 msgid "Nick of person who invited you"
-msgstr "Osoba, która Ciê zaprosi³a"
+msgstr "Pseudonim osoby, która Ciê zaprosi³a"
 
 #: src/common/text.c:631 src/common/text.c:819
 msgid "Server Name"
