@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xchat 1.8.8\n"
 "POT-Creation-Date: 2002-03-06 13:06+1100\n"
-"PO-Revision-Date: 2002-04-29 17:20+02:00\n"
+"PO-Revision-Date: 2002-04-29 18:20+02:00\n"
 "Last-Translator: Micha³ Margula <alchemyx@pld.org.pl>\n"
 "Language-Team: Polish <pl@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -809,25 +809,22 @@ msgid "The limit"
 msgstr "Limit"
 
 #: src/common/text.c:510
-#, fuzzy
 msgid "The nick of the person who did the op'ing"
-msgstr "Pseudonim osoby, która da³a status operatora"
+msgstr "Pseudonim osoby, która nada³a status operatora"
 
 #: src/common/text.c:511
 msgid "The nick of the person who has been op'ed"
 msgstr "Pseudonim osoby, która otrzyma³a status operatora"
 
 #: src/common/text.c:515
-#, fuzzy
 msgid "The nick of the person who did the halfop'ing"
-msgstr "Pseudonim osoby, która da³a status pó³operatora"
+msgstr "Pseudonim osoby, która nada³a status pó³operatora"
 
 #: src/common/text.c:516
 msgid "The nick of the person who has been halfop'ed"
 msgstr "Pseudonim osoby, która otrzyma³a status pó³operatora"
 
 #: src/common/text.c:520
-#, fuzzy
 msgid "The nick of the person who did the voice'ing"
 msgstr "Pseudonim osoby, która udzieli³a prawa g³osu"
 
@@ -4316,6 +4313,13 @@ msgid ""
 "%t  =  time/date\n"
 "%v  =  x-chat version ("
 msgstr ""
+"Polecenia u¿ytkownika - kody specjalne:\n"
+"\n"
+"%c  =  aktualny kana³\n"
+"%m  =  informacje o komputerze\n"
+"%n  =  Twój pseudonim\n"
+"%t  =  data/czas\n"
+"%v  =  wersja x-chat ("
 
 #: src/fe-gtk/menu.c:1117
 msgid ""
@@ -4331,6 +4335,17 @@ msgid ""
 "%2 would be \"john\"\n"
 "&2 would be \"john hello\"."
 msgstr ""
+")\n"
+"%2  =  s³owo 2\n"
+"%3  =  s³owo 3\n"
+"&2  =  s³owo 2 do koñca linii\n"
+"&3  =  s³owo 3 do koñca linii\n"
+"\n"
+"np.:\n"
+"/cmd jasiu hej\n"
+"\n"
+"%2 da³oby w efekcie \"jasiu\"\n"
+"&2 da³oby w efekcie \"jasiu hej\"."
 
 #: src/fe-gtk/menu.c:1127
 msgid ""
@@ -4343,6 +4358,14 @@ msgid ""
 "%s  =  selected nick\n"
 "%t  =  time/date\n"
 msgstr ""
+"Menu podrêczne listy u¿ytkowników - kody specjalne::\n"
+"\n"
+"%c  =  aktualny kana³l\n"
+"%h  =  adres wybranego pseudonimu\n"
+"%m  =  informacje o komputerze\n"
+"%n  =  Twój pseudonim\n"
+"%s  =  wybrany pseudonim\n"
+"%t  =  data/czas\n"
 
 #: src/fe-gtk/menu.c:1135
 msgid ""
@@ -4356,6 +4379,15 @@ msgid ""
 "%s  =  selected nick\n"
 "%t  =  time/date\n"
 msgstr ""
+"Przyciski listy u¿ytkowników - kody specjalne:\n"
+"\n"
+"%a  =  wszystkie wybrane pseudonimy\n"
+"%c  =  aktualny kana³\n"
+"%h  =  adres wybranego pseudonimu\n"
+"%m  =  informacje o komputerze\n"
+"%n  =  Twój pseudonim\n"
+"%s  =  wybrany pseudonim\n"
+"%t  =  data/czas\n"
 
 #: src/fe-gtk/menu.c:1144
 msgid ""
@@ -4369,6 +4401,15 @@ msgid ""
 "%s  =  selected nick\n"
 "%t  =  time/date\n"
 msgstr ""
+"Przyciski okna rozmów - kody specjalne:\n"
+"\n"
+"%a  =  wzystkie wybrane pseudonimy\n"
+"%c  =  aktualny kana³\n"
+"%h  =  adres wybranego pseudonimu\n"
+"%m  =  informacje o komputerze\n"
+"%n  =  Twój pseudonim\n"
+"%s  =  wybrany pseudonim\n"
+"%t  =  data/czas\n"
 
 #: src/fe-gtk/menu.c:1153
 msgid ""
@@ -4384,6 +4425,17 @@ msgid ""
 "&3  =  word 3 to the end of line\n"
 "\n"
 msgstr ""
+"Odpowiedzi CTCP - kody specjalne:\n"
+"\n"
+"%d  =  dane (ca³a odpowied¼ CTCP)\n"
+"%m  =  informacje o komputerzeo\n"
+"%s  =  pseudonim osoby, która wys³a³a odpowied¼\n"
+"%t  =  data/czas\n"
+"%2  =  s³owo 2\n"
+"%3  =  s³owo 3\n"
+"&2  =  s³owo 2 do koñca linii\n"
+"&3  =  s³owo 3 do koñca linii\n"
+"\n"
 
 #: src/fe-gtk/menu.c:1163
 #, c-format
@@ -4396,6 +4448,13 @@ msgid ""
 "indicates it should be sent to a\n"
 "shell instead of X-Chat"
 msgstr ""
+"Obs³uga adresów URL - kody specjalne:\n"
+"\n"
+"%s  =  tre¶æ adresu\n"
+"\n"
+"Wstawienie ! przed poleceniem oznacza,\n"
+"¿e powinno ono zostaæ wykonane przez\n"
+"pow³okê systemow± a nie xchata."
 
 #: src/fe-gtk/menu.c:1172
 msgid "X-Chat: User Defined Commands"
