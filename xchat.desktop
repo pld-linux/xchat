@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=xchat IRC client
+Comment=IRC Client
+Comment[pl]=Klient IRC
+Exec=xchat
+Icon=xchat.png
+Terminal=0
+Type=Application

@@ -1,0 +1,20 @@
+diff -urN xchat-1.7.3.org/src/common/outbound.c xchat-1.7.3/src/common/outbound.c
+--- xchat-1.7.3.org/src/common/outbound.c	Mon Apr 30 20:09:47 2001
++++ xchat-1.7.3/src/common/outbound.c	Mon Apr 30 20:19:13 2001
+@@ -2706,6 +2706,7 @@
+ 	char *port = word[3];
+ 	char *accept_invalid_cert = word[4];
+ 	char *pass = word[5];
++	char *co;
+ 
+ 	if (*server)
+ 	{
+@@ -2717,7 +2718,7 @@
+ 			port = co + 1;
+ 			*co = 0;
+ 			pass = word[3];
+-			accept_invalid_cert = find_word (pdibuf, 4);
++			accept_invalid_cert = word[6];
+ 		}
+ 		sess->willjoinchannel[0] = 0;
+ 		sess->server->ai_family = AF_INET6;
