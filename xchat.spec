@@ -17,10 +17,9 @@ BuildRequires:	gtk+-devel >= 1.2.5
 BuildRequires:	imlib-devel
 BuildRequires:	gnome-libs-devel
 BuildRequires:	gnome-core-devel
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define 	_prefix		/usr/X11R6
-%define		_applnkdir	%{_datadir}/applnk
 
 %description
 X-Chat is yet another IRC client for the X Window System, using the Gtk+ 
