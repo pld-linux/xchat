@@ -6,25 +6,30 @@ Summary(pl):	Oparty na Gtk+ klient IRC
 Summary(pt_BR):	Cliente IRC Gnome
 Name:		xchat
 Version:	1.8.7
-Release:	2
+Release:	5
 Epoch:		1
 License:	GPL
 Group:		X11/Applications/Networking
 Group(de):	X11/Applikationen/Netzwerkwesen
+Group(es):	X11/Aplicaciones/Red
+Group(fr):	X11/Applications/Réseau
 Group(pl):	X11/Aplikacje/Sieciowe
+Group(pt_BR):	X11/Aplicações/Rede
+Group(pt):	X11/Aplicações/Rede
 Source0:	http://xchat.org/files/source/1.8/%{name}-%{version}.tar.bz2
 Source1:	%{name}-pl.po
 Patch0:		%{name}-ac.patch
 Patch1:		%{name}-pl.patch
+Patch2:		%{name}-fix-USE_GNOME.patch
 Icon:		xchat.xpm
 URL:		http://xchat.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	gettext-devel
-BuildRequires:	gtk+2-devel >= 1.2.5
+BuildRequires:	gtk+-devel >= 1.2.5
 BuildRequires:	openssl-devel >= 0.9.6a
 BuildRequires:	perl-devel
-BuildRequires:	python-devel
+BuildRequires:	python-devel >= 2.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define 	_prefix		/usr/X11R6
@@ -59,6 +64,7 @@ Cliente IRC Gnome.
 %setup -q
 %patch0 -p1
 %patch1 -p1
+%patch2 -p1
 cp %{SOURCE1} po/pl.po
 
 %build
