@@ -1,7 +1,7 @@
 Summary:	Gtk+ IRC client
 Summary(pl):	Oparty na Gtk+ klient IRC
 Name:		xchat
-Version:	1.0.0
+Version:	1.2.0
 Release:	1
 Group:		X11/Applications/Networking
 Group(pl):	X11/Aplikacje/Sieciowe
@@ -33,10 +33,14 @@ zaprojektowany.
 %setup -q
 
 %build
+rm -f config.status
 gettextize --copy --force
+LDFLAGS="-s"; export LDFLAGS
 %configure \
 	--disable-gnome \
 	--disable-perl
+
+(cd po; make update-po)
 
 make
 
@@ -59,7 +63,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f %{name}.lang
 %defattr(644,root,root,755)
-%doc {README,ChangeLog,AUTHORS}.gz doc/*.html
+%doc {README,ChangeLog,AUTHORS}.gz doc/*html
 %attr(755,root,root) %{_bindir}/%{name}
 /usr/X11R6/share/applnk/Networking/%{name}.desktop
 %{_datadir}/pixmaps/%{name}.png
