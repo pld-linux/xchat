@@ -8,7 +8,7 @@ Summary(ru):	Gtk+ IRC клиент
 Summary(uk):	Gtk+ IRC кл╕╓нт
 Name:		xchat
 Version:	1.8.8
-Release:	6
+Release:	7
 Epoch:		1
 License:	GPL
 Group:		X11/Applications/Networking
@@ -86,7 +86,8 @@ automake -a -c --foreign
 %configure \
 	--enable-perl \
 	--enable-openssl \
-	--enable-japanese-conv
+	--enable-japanese-conv \
+	--enable-ipv6
 
 %{__make} -C po update-po
 %{__make}
