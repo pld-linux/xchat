@@ -1,6 +1,6 @@
 --- xchat-2.0.10/xchat.desktop~	Fri Jul 23 11:18:07 2004
 +++ xchat-2.0.10/xchat.desktop	Fri Jul 23 11:18:07 2004
-@@ -6,14 +6,17 @@
+@@ -6,15 +6,18 @@
  Comment[fi]=IRC-sovellus
  Comment[fr]=Client IRC
  Comment[lt]=IRC klientas
@@ -12,6 +12,7 @@
  Comment[sl]=Odjemalec IRC
  Comment[sv]=IRC-klient
 -Comment[ro]=Client de IRC
+ Comment[zh_TW]=X-Chat 聊天程式
  Comment=IRC Client
  Exec=xchat
  Icon=xchat.png
