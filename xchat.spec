@@ -20,13 +20,13 @@ Summary(sv):	En GTK+-IRC- (chatt-)klient
 Summary(uk):	GTK+ IRC ËÌ¦¤ÎÔ
 Summary(zh_CN):	GTK+ IRC (ÁÄÌì) ¿Í»§¡£
 Name:		xchat
-Version:	2.4.5
+Version:	2.6.0
 Release:	1
 Epoch:		1
 License:	GPL v2
 Group:		X11/Applications/Networking
-Source0:	http://xchat.org/files/source/2.4/%{name}-%{version}.tar.bz2
-# Source0-md5:	9107a92693e6c62ff2008030e698b92b
+Source0:	http://xchat.org/files/source/2.6/%{name}-%{version}.tar.bz2
+# Source0-md5:	0c827bf6df0572231cbbb1e25965fb61
 Source1:	%{name}-pl.po
 Patch0:		%{name}-desktop.patch
 Patch1:		%{name}-locale_names.patch
@@ -44,6 +44,7 @@ BuildRequires:	openssl-devel >= 0.9.7d
 BuildRequires:	perl-devel
 BuildRequires:	pkgconfig
 BuildRequires:	python-devel >= 2.2
+Requires:	GConf2
 Requires:	perl(DynaLoader) = %(%{__perl} -MDynaLoader -e 'print DynaLoader->VERSION')
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -176,3 +177,4 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_libdir}/xchat/plugins/*
 %{_desktopdir}/%{name}.desktop
 %{_pixmapsdir}/%{name}.png
+%{_sysconfdir}/gconf/schemas/apps_xchat_url_handler.schemas
