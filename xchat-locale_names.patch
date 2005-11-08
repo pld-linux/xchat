@@ -1,12 +1,11 @@
-diff -urN xchat-2.4.2.orig/configure.in xchat-2.4.2/configure.in
---- xchat-2.4.2.orig/configure.in	2004-11-21 23:50:42.000000000 +0100
-+++ xchat-2.4.2/configure.in	2004-11-21 23:52:46.494380472 +0100
+--- xchat-2.6.0/configure.in~	2005-11-03 05:50:18.000000000 +0100
++++ xchat-2.6.0/configure.in	2005-11-08 14:34:39.748068816 +0100
 @@ -10,7 +10,7 @@
  AM_DISABLE_STATIC
  AM_PROG_LIBTOOL
  
--ALL_LINGUAS="am az bg ca cs de el en_GB es et eu fi fr hi it ja ko lt lv mk ms nb nl no pa pt pt_BR ru sk sl sq sr sv uk vi wa zh_CN zh_TW"
-+ALL_LINGUAS="am az bg ca cs de el en_GB es et eu fi fr hi it ja ko lt lv mk ms nb nl pa pl pt ru sk sl sq sr sv uk wa zh_CN zh_TW"
+-ALL_LINGUAS="nl zh_TW"
++ALL_LINGUAS="nl pl zh_TW"
  AM_GNU_GETTEXT
  
  dnl displaced from acconfig.h
