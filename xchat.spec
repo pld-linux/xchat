@@ -32,7 +32,6 @@ Patch0:		%{name}-desktop.patch
 Patch1:		%{name}-locale_names.patch
 Patch2:		%{name}-long-delimiter.patch
 Patch3:		%{name}-domains.patch
-Icon:		xchat.xpm
 URL:		http://www.xchat.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
