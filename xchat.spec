@@ -20,21 +20,23 @@ Summary(sv):	En GTK+-IRC- (chatt-)klient
 Summary(uk):	GTK+ IRC ËÌ¦¤ÎÔ
 Summary(zh_CN):	GTK+ IRC (ÁÄÌì) ¿Í»§¡£
 Name:		xchat
-Version:	2.6.2
+Version:	2.6.4
 Release:	1
 Epoch:		1
 License:	GPL v2
 Group:		X11/Applications/Networking
 Source0:	http://xchat.org/files/source/2.6/%{name}-%{version}.tar.bz2
-# Source0-md5:	6b534baf9a4df6bf23d7d16f7e4eb379
+# Source0-md5:	358f6cec635eab49fca99d324f76e065
 Source1:	%{name}-pl.po
 Patch0:		%{name}-desktop.patch
 Patch1:		%{name}-locale_names.patch
 Patch2:		%{name}-long-delimiter.patch
 Patch3:		%{name}-domains.patch
 URL:		http://www.xchat.org/
+BuildRequires:	GConf2-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	dbus-glib-devel
 BuildRequires:	gettext-devel
 BuildRequires:	glib2-devel >= 2.0.3
 BuildRequires:	gtk+2-devel >= 1:2.0.3
@@ -43,6 +45,7 @@ BuildRequires:	openssl-devel >= 0.9.7d
 BuildRequires:	perl-devel
 BuildRequires:	pkgconfig
 BuildRequires:	python-devel >= 2.2
+BuildRequires:	rpm-pythonprov
 Requires:	GConf2
 Requires:	perl(DynaLoader) = %(%{__perl} -MDynaLoader -e 'print DynaLoader->VERSION')
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -145,11 +148,12 @@ rm -f config.status missing
 %{__automake}
 %configure \
 	--enable-gnome \
+	--enable-ipv6 \
+	--enable-japanese-conv \
+	--enable-openssl \
 	--enable-panel \
 	--enable-perl \
-	--enable-openssl \
-	--enable-japanese-conv \
-	--enable-ipv6
+	--enable-shm
 
 %{__make} -C po update-po
 %{__make}
