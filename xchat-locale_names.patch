@@ -1,11 +1,11 @@
---- xchat-2.6.2/configure.in.orig	2006-03-27 08:14:54.000000000 +0200
-+++ xchat-2.6.2/configure.in	2006-04-11 17:39:13.072488250 +0200
-@@ -10,7 +10,7 @@
- AM_DISABLE_STATIC
- AM_PROG_LIBTOOL
+--- xchat-2.6.4/configure.in.orig	2006-06-05 16:06:22.000000000 +0200
++++ xchat-2.6.4/configure.in	2006-07-02 09:49:17.163860750 +0200
+@@ -25,7 +25,7 @@
+ AC_SUBST(GETTEXT_PACKAGE)
+ AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE",[Gettext package name])
  
--ALL_LINGUAS="de el fi fr gl hu ja ko nl pa sq sv vi zh_TW"
-+ALL_LINGUAS="de el fi fr gl hu ja ko nl pa pl sq sv vi zh_TW"
+-ALL_LINGUAS="de el es fi fr gl hu ja ko nl pa sq sr sv vi zh_TW"
++ALL_LINGUAS="de el es fi fr gl hu ja ko nl pa pl sq sr sv vi zh_TW"
  AM_GNU_GETTEXT
  
  dnl displaced from acconfig.h
