@@ -61,7 +61,7 @@ ovladatelný a na rozdíl od jiných GTK+ IRC klientù je jeho rozhraní
 velmi pìknì navr¾ené.
 
 %description -l da
-X-Chat er en IRC-klient for X11 og GTK+.  X-Chat er ganske enkelt at
+X-Chat er en IRC-klient for X11 og GTK+. X-Chat er ganske enkelt at
 bruge og har en pæn grænseflade.
 
 %description -l de
