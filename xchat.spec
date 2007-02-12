@@ -1,24 +1,24 @@
 Summary:	A GTK+ IRC (chat) client
-Summary(cs.UTF-8):   GTK+ IRC (chat) klient
-Summary(da.UTF-8):   En GTK+ IRC (Tjat) klient
-Summary(de.UTF-8):   GTK+ IRC-Client
-Summary(es.UTF-8):   Cliente GTK+ IRC (chat)
-Summary(fr.UTF-8):   Client IRC GTK+ (discussion)
-Summary(id.UTF-8):   Program GTK+ untuk chatting
-Summary(is.UTF-8):   IRC spjallforrit sem notar GTK+
-Summary(it.UTF-8):   Client GTK+ IRC (chat)
-Summary(ja.UTF-8):   GTK+ IRC (チャット) クライアント
-Summary(ko.UTF-8):   GTK+ IRC (채팅) 클라이언트
-Summary(nb.UTF-8):   En GTK+-basert IRC-klient
-Summary(pl.UTF-8):   Oparty na GTK+ klient IRC
-Summary(pt.UTF-8):   Um cliente de IRC (chat) em GTK+
-Summary(pt_BR.UTF-8):   Cliente IRC GNOME
-Summary(ru.UTF-8):   GTK+ IRC клиент (chat)
-Summary(sk.UTF-8):   IRC klient založený na GTK+
-Summary(sl.UTF-8):   Odjemnik v GTK+ za IRC (internetni klepet)
-Summary(sv.UTF-8):   En GTK+-IRC- (chatt-)klient
-Summary(uk.UTF-8):   GTK+ IRC клієнт
-Summary(zh_CN.UTF-8):   GTK+ IRC (聊天) 客户。
+Summary(cs.UTF-8):	GTK+ IRC (chat) klient
+Summary(da.UTF-8):	En GTK+ IRC (Tjat) klient
+Summary(de.UTF-8):	GTK+ IRC-Client
+Summary(es.UTF-8):	Cliente GTK+ IRC (chat)
+Summary(fr.UTF-8):	Client IRC GTK+ (discussion)
+Summary(id.UTF-8):	Program GTK+ untuk chatting
+Summary(is.UTF-8):	IRC spjallforrit sem notar GTK+
+Summary(it.UTF-8):	Client GTK+ IRC (chat)
+Summary(ja.UTF-8):	GTK+ IRC (チャット) クライアント
+Summary(ko.UTF-8):	GTK+ IRC (채팅) 클라이언트
+Summary(nb.UTF-8):	En GTK+-basert IRC-klient
+Summary(pl.UTF-8):	Oparty na GTK+ klient IRC
+Summary(pt.UTF-8):	Um cliente de IRC (chat) em GTK+
+Summary(pt_BR.UTF-8):	Cliente IRC GNOME
+Summary(ru.UTF-8):	GTK+ IRC клиент (chat)
+Summary(sk.UTF-8):	IRC klient založený na GTK+
+Summary(sl.UTF-8):	Odjemnik v GTK+ za IRC (internetni klepet)
+Summary(sv.UTF-8):	En GTK+-IRC- (chatt-)klient
+Summary(uk.UTF-8):	GTK+ IRC клієнт
+Summary(zh_CN.UTF-8):	GTK+ IRC (聊天) 客户。
 Name:		xchat
 Version:	2.6.4
 Release:	2
