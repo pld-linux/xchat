@@ -45,8 +45,9 @@ BuildRequires:	openssl-devel >= 0.9.7d
 BuildRequires:	perl-devel
 BuildRequires:	pkgconfig
 BuildRequires:	python-devel >= 2.2
+BuildRequires:	rpmbuild(macros) >= 1.198
 BuildRequires:	rpm-pythonprov
-Requires:	GConf2
+Requires(post,preun):	GConf2
 Requires:	perl(DynaLoader) = %(%{__perl} -MDynaLoader -e 'print DynaLoader->VERSION')
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -133,6 +134,7 @@ X-Chat - ще один IRC клієнт для X Window System, який вик�
 %prep
 %setup -q
 %patch0 -p1
+# xchat-pl.po needs update
 #%patch1 -p1
 %patch2 -p1
 %patch3 -p1
@@ -171,6 +173,12 @@ install -d $RPM_BUILD_ROOT%{_pixmapsdir}
 %clean
 rm -rf $RPM_BUILD_ROOT
 
+%post
+%gconf_schema_install apps_xchat_url_handler.schemas
+
+%preun
+%gconf_schema_uninstall apps_xchat_url_handler.schemas
+
 %files -f %{name}.lang
 %defattr(644,root,root,755)
 %doc ChangeLog faq.html HACKING README
@@ -178,6 +186,7 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{_libdir}/xchat
 %dir %{_libdir}/xchat/plugins
 %attr(755,root,root) %{_libdir}/xchat/plugins/*
+%{_datadir}/dbus-1/services/org.xchat.service.service
 %{_desktopdir}/%{name}.desktop
 %{_pixmapsdir}/%{name}.png
 %{_sysconfdir}/gconf/schemas/apps_xchat_url_handler.schemas
