@@ -20,13 +20,13 @@ Summary(sv.UTF-8):	En GTK+-IRC- (chatt-)klient
 Summary(uk.UTF-8):	GTK+ IRC клієнт
 Summary(zh_CN.UTF-8):	GTK+ IRC (聊天) 客户。
 Name:		xchat
-Version:	2.8.2
+Version:	2.8.4
 Release:	1
 Epoch:		1
 License:	GPL v2
 Group:		X11/Applications/Networking
 Source0:	http://xchat.org/files/source/2.8/%{name}-%{version}.tar.bz2
-# Source0-md5:	d87a93bcd39d96ff3a3d0f8199efcf12
+# Source0-md5:	66d60febc62a01bafac9bb3a35fb37ae
 Source1:	%{name}-pl.po
 Patch0:		%{name}-desktop.patch
 Patch1:		%{name}-locale_names.patch

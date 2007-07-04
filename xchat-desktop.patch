@@ -1,24 +1,25 @@
---- xchat-2.0.10/xchat.desktop~	Fri Jul 23 11:18:07 2004
-+++ xchat-2.0.10/xchat.desktop	Fri Jul 23 11:18:07 2004
-@@ -6,15 +6,18 @@
- Comment[fi]=IRC-sovellus
+diff -uNr xchat-2.8.4.orig/xchat.desktop xchat-2.8.4/xchat.desktop
+--- xchat-2.8.4.orig/xchat.desktop	2007-06-23 15:50:27.000000000 +0000
++++ xchat-2.8.4/xchat.desktop	2007-07-04 13:14:36.000000000 +0000
+@@ -8,16 +8,18 @@
  Comment[fr]=Client IRC
+ Comment[hu]=IRC-kliens
  Comment[lt]=IRC klientas
--Comment[no]=IRC-klient
 +Comment[nb]=IRC-klient
+ Comment[no]=IRC-klient
++Comment[ro]=Client de IRC
 +Comment[pl]=Klient IRC
  Comment[pt_BR]=Cliente de IRC
-+Comment[ro]=Client de IRC
  Comment[sl]=Odjemalec IRC
  Comment[sv]=IRC-klient
 -Comment[ro]=Client de IRC
  Comment[zh_TW]=X-Chat 聊天程式
- Comment=IRC Client
+ Comment=Chat with other people using Internet Relay Chat
  Exec=xchat
- Icon=xchat.png
+-Icon=xchat.png
++Icon=xchat
  Terminal=false
  Type=Application
 -Categories=Application;Network;
 +Categories=GTK;Network;IRCClient;
-+# vi: encoding=utf-8
-+
+ StartupNotify=true
