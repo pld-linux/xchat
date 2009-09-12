@@ -21,7 +21,7 @@ Summary(uk.UTF-8):	GTK+ IRC клієнт
 Summary(zh_CN.UTF-8):	GTK+ IRC (聊天) 客户。
 Name:		xchat
 Version:	2.8.6
-Release:	4
+Release:	5
 Epoch:		1
 License:	GPL v2
 Group:		X11/Applications/Networking
@@ -51,7 +51,6 @@ BuildRequires:	python-devel >= 2.2
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.198
 Requires(post,preun):	GConf2
-Requires:	perl(DynaLoader) = %(%{__perl} -MDynaLoader -e 'print DynaLoader->VERSION')
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
