@@ -39,7 +39,7 @@ BuildRequires:	GConf2-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	dbus-glib-devel
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	glib2-devel >= 1:2.10
 BuildRequires:	gtk+2-devel >= 2:2.10
 BuildRequires:	libsexy-devel
