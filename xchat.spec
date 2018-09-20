@@ -21,7 +21,7 @@ Summary(uk.UTF-8):	GTK+ IRC клієнт
 Summary(zh_CN.UTF-8):	GTK+ IRC (聊天) 客户。
 Name:		xchat
 Version:	2.8.8
-Release:	15
+Release:	16
 Epoch:		1
 License:	GPL v2
 Group:		X11/Applications/Networking
@@ -29,7 +29,7 @@ Source0:	http://xchat.org/files/source/2.8/%{name}-%{version}.tar.bz2
 # Source0-md5:	6775c44f38e84d06c06c336b32c4a452
 Source1:	%{name}-pl.po
 Patch0:		debian.patch
-# Patch0-md5:	8a418fa294887be910287d41a431e6ac
+# Patch0-md5:	229ed20530d7e126764e630faa991520
 Patch1:		%{name}-locale_names.patch
 Patch2:		%{name}-long-delimiter.patch
 Patch3:		%{name}-domains.patch
