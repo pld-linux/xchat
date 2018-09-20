@@ -1,7 +1,6 @@
-diff -uNr xchat-2.8.4.orig/xchat.desktop xchat-2.8.4/xchat.desktop
---- xchat-2.8.4.orig/xchat.desktop	2007-06-23 15:50:27.000000000 +0000
-+++ xchat-2.8.4/xchat.desktop	2007-07-04 13:14:36.000000000 +0000
-@@ -8,16 +8,18 @@
+--- xchat-2.8.8/xchat.desktop~	2018-09-20 18:51:46.000000000 +0200
++++ xchat-2.8.8/xchat.desktop	2018-09-20 18:52:51.804071052 +0200
+@@ -8,17 +8,19 @@ Comment[fi]=IRC-sovellus
  Comment[fr]=Client IRC
  Comment[hu]=IRC-kliens
  Comment[lt]=IRC klientas
@@ -15,10 +14,11 @@ diff -uNr xchat-2.8.4.orig/xchat.desktop xchat-2.8.4/xchat.desktop
 -Comment[ro]=Client de IRC
  Comment[zh_TW]=X-Chat 聊天程式
  Comment=Chat with other people using Internet Relay Chat
- Exec=xchat
+ Exec=sh -c "xchat --existing --url %U || exec xchat"
  Icon=xchat
  Terminal=false
  Type=Application
 -Categories=Network;
 +Categories=GTK;Network;IRCClient;
  StartupNotify=true
+ MimeType=x-scheme-handler/irc;x-scheme-handler/ircs;
