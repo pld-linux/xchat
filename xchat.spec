@@ -29,6 +29,7 @@ Source0:	http://xchat.org/files/source/2.8/%{name}-%{version}.tar.bz2
 # Source0-md5:	6775c44f38e84d06c06c336b32c4a452
 Source1:	%{name}-pl.po
 Patch0:		debian.patch
+# Patch0-md5:	8a418fa294887be910287d41a431e6ac
 Patch1:		%{name}-locale_names.patch
 Patch2:		%{name}-long-delimiter.patch
 Patch3:		%{name}-domains.patch
