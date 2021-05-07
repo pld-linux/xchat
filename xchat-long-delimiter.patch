@@ -1,7 +1,7 @@
-diff -ur o-xchat-2.4.0/src/fe-gtk/xtext.c xchat-2.4.0/src/fe-gtk/xtext.c
---- o-xchat-2.4.0/src/fe-gtk/xtext.c	2004-11-12 09:35:13.377815084 -0700
-+++ xchat-2.4.0/src/fe-gtk/xtext.c	2004-11-12 15:30:26.501404006 -0700
-@@ -72,9 +72,16 @@
+diff -urNp -x '*.orig' xchat-2.8.8.org/src/fe-gtk/xtext.c xchat-2.8.8/src/fe-gtk/xtext.c
+--- xchat-2.8.8.org/src/fe-gtk/xtext.c	2021-05-07 23:46:39.862941602 +0200
++++ xchat-2.8.8/src/fe-gtk/xtext.c	2021-05-07 23:46:40.166281587 +0200
+@@ -76,9 +76,16 @@
  #endif
  
  /* is delimiter */
@@ -21,7 +21,7 @@ diff -ur o-xchat-2.4.0/src/fe-gtk/xtext.c xchat-2.4.0/src/fe-gtk/xtext.c
  
  #ifdef SCROLL_HACK
  /* force scrolling off */
-@@ -1745,6 +1752,7 @@
+@@ -1836,6 +1843,7 @@ gtk_xtext_get_word (GtkXText * xtext, in
  	int offset;
  	unsigned char *str;
  	unsigned char *word;
@@ -29,7 +29,7 @@ diff -ur o-xchat-2.4.0/src/fe-gtk/xtext.c xchat-2.4.0/src/fe-gtk/xtext.c
  	int len;
  	int out_of_bounds = 0;
  
-@@ -1765,16 +1773,17 @@
+@@ -1856,16 +1864,17 @@ gtk_xtext_get_word (GtkXText * xtext, in
  
  	str = ent->str + offset;
  
@@ -52,8 +52,8 @@ diff -ur o-xchat-2.4.0/src/fe-gtk/xtext.c xchat-2.4.0/src/fe-gtk/xtext.c
 +		str = nstr;
  	}
  
- 	if (len > 0 && word[len-1]=='.')
-@@ -3777,7 +3786,7 @@
+ 	/* ignore trailing dots and commas. */
+@@ -3976,7 +3985,7 @@ find_next_wrap (GtkXText * xtext, texten
  				}
  
  				/* keep a record of the last space, for wordwrapping */
